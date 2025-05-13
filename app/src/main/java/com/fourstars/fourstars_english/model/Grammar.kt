@@ -10,6 +10,6 @@ data class Grammar(
     val structure: String,
     val meaning: String,
     val explanation: String,
-    val jlptLevel: String,
-    val examples: List<GrammarExample>
+    val examples: List<GrammarExample>,
+    val category: String
 )

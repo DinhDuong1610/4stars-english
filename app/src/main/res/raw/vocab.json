@@ -1,0 +1,1554 @@
+{
+  "airport": {
+    "word": "airport",
+    "ipa": "ˈɛərpɔːrt",
+    "part_of_speech": "noun",
+    "definition": "A place where aircraft regularly take off and land.",
+    "translation": "sân bay",
+    "examples": [
+      {
+        "en": "We arrived at the airport two hours early.",
+        "vi": "Chúng tôi đến sân bay sớm hai tiếng."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=airport&type=2",
+    "category": "Travel",
+    "image": "https://source.unsplash.com/600x400/?airport"
+  },
+  "animal": {
+    "word": "animal",
+    "ipa": "ˈænɪml",
+    "part_of_speech": "noun",
+    "definition": "A living organism that feeds on organic matter.",
+    "translation": "động vật",
+    "examples": [
+      {
+        "en": "The zoo has many exotic animals.",
+        "vi": "Sở thú có nhiều loài động vật kỳ lạ."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=animal&type=2",
+    "category": "Nature",
+    "image": "https://source.unsplash.com/600x400/?animal"
+  },
+  "apartment": {
+    "word": "apartment",
+    "ipa": "əˈpɑːtmənt",
+    "part_of_speech": "noun",
+    "definition": "A set of rooms forming a residence.",
+    "translation": "căn hộ",
+    "examples": [
+      {
+        "en": "She lives in a small apartment in the city.",
+        "vi": "Cô ấy sống trong một căn hộ nhỏ trong thành phố."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=apartment&type=2",
+    "category": "Housing",
+    "image": "https://source.unsplash.com/600x400/?apartment"
+  },
+  "ability": {
+    "word": "ability",
+    "ipa": "əˈbɪləti",
+    "part_of_speech": "noun",
+    "definition": "Possession of the means or skill to do something.",
+    "translation": "khả năng",
+    "examples": [
+      {
+        "en": "She has the ability to lead a team effectively.",
+        "vi": "Cô ấy có khả năng lãnh đạo một đội ngũ hiệu quả."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=ability&type=2",
+    "category": "Personality",
+    "image": "https://source.unsplash.com/600x400/?ability"
+  },
+  "advice": {
+    "word": "advice",
+    "ipa": "ədˈvaɪs",
+    "part_of_speech": "noun",
+    "definition": "Guidance or recommendations concerning prudent action.",
+    "translation": "lời khuyên",
+    "examples": [
+      {
+        "en": "He gave me good advice before the interview.",
+        "vi": "Anh ấy đã cho tôi lời khuyên tốt trước buổi phỏng vấn."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=advice&type=2",
+    "category": "Communication",
+    "image": "https://source.unsplash.com/600x400/?advice"
+  },
+  "abandon": {
+    "word": "abandon",
+    "ipa": "əˈbændən",
+    "part_of_speech": "verb",
+    "definition": "To leave someone or something behind.",
+    "translation": "từ bỏ, ruồng bỏ",
+    "examples": [
+      {
+        "en": "He abandoned his hometown after the war.",
+        "vi": "Anh ta đã từ bỏ quê hương sau chiến tranh."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=abandon&type=2",
+    "category": "Life",
+    "image": "https://source.unsplash.com/600x400/?abandon"
+  },
+  "accept": {
+    "word": "accept",
+    "ipa": "əkˈsept",
+    "part_of_speech": "verb",
+    "definition": "To agree to take something that is offered.",
+    "translation": "chấp nhận",
+    "examples": [
+      {
+        "en": "They accepted the invitation without hesitation.",
+        "vi": "Họ đã chấp nhận lời mời mà không do dự."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=accept&type=2",
+    "category": "Social",
+    "image": "https://source.unsplash.com/600x400/?accept"
+  },
+  "abandon10": {
+    "word": "abandon10",
+    "ipa": "əˈbændən",
+    "part_of_speech": "verb",
+    "definition": "To leave someone or something behind.",
+    "translation": "từ bỏ, ruồng bỏ",
+    "examples": [
+      {
+        "en": "He abandon10ed his hometown after the war.",
+        "vi": "Anh ta đã từ bỏ quê hương sau chiến tranh."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=abandon&type=2",
+    "category": "Life",
+    "image": "https://source.unsplash.com/600x400/?abandon10"
+  },
+  "account11": {
+    "word": "account11",
+    "ipa": "əˈkaʊnt",
+    "part_of_speech": "noun",
+    "definition": "A record or statement of financial expenditure or receipts.",
+    "translation": "tài khoản",
+    "examples": [
+      {
+        "en": "He opened a new bank account11.",
+        "vi": "Anh ấy đã mở một tài khoản ngân hàng mới."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=account&type=2",
+    "category": "Finance",
+    "image": "https://source.unsplash.com/600x400/?account11"
+  },
+  "activity12": {
+    "word": "activity12",
+    "ipa": "ækˈtɪvəti",
+    "part_of_speech": "noun",
+    "definition": "A situation in which a lot of things are happening.",
+    "translation": "hoạt động",
+    "examples": [
+      {
+        "en": "Outdoor activities are great for health.",
+        "vi": "Các hoạt động ngoài trời rất tốt cho sức khỏe."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=activity&type=2",
+    "category": "Daily Life",
+    "image": "https://source.unsplash.com/600x400/?activity12"
+  },
+  "abandon13": {
+    "word": "abandon13",
+    "ipa": "əˈbændən",
+    "part_of_speech": "verb",
+    "definition": "To leave someone or something behind.",
+    "translation": "từ bỏ, ruồng bỏ",
+    "examples": [
+      {
+        "en": "He abandon13ed his hometown after the war.",
+        "vi": "Anh ta đã từ bỏ quê hương sau chiến tranh."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=abandon&type=2",
+    "category": "Life",
+    "image": "https://source.unsplash.com/600x400/?abandon13"
+  },
+  "advice14": {
+    "word": "advice14",
+    "ipa": "ədˈvaɪs",
+    "part_of_speech": "noun",
+    "definition": "Guidance or recommendations concerning prudent action.",
+    "translation": "lời khuyên",
+    "examples": [
+      {
+        "en": "He gave me good advice14 before the interview.",
+        "vi": "Anh ấy đã cho tôi lời khuyên tốt trước buổi phỏng vấn."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=advice&type=2",
+    "category": "Communication",
+    "image": "https://source.unsplash.com/600x400/?advice14"
+  },
+  "animal15": {
+    "word": "animal15",
+    "ipa": "ˈænɪml",
+    "part_of_speech": "noun",
+    "definition": "A living organism that feeds on organic matter.",
+    "translation": "động vật",
+    "examples": [
+      {
+        "en": "The zoo has many exotic animal15s.",
+        "vi": "Sở thú có nhiều loài động vật kỳ lạ."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=animal&type=2",
+    "category": "Nature",
+    "image": "https://source.unsplash.com/600x400/?animal15"
+  },
+  "angry16": {
+    "word": "angry16",
+    "ipa": "ˈæŋɡri",
+    "part_of_speech": "adjective",
+    "definition": "Feeling or showing strong annoyance or displeasure.",
+    "translation": "tức giận",
+    "examples": [
+      {
+        "en": "She was angry16 about the delay.",
+        "vi": "Cô ấy tức giận vì sự chậm trễ."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=angry&type=2",
+    "category": "Emotion",
+    "image": "https://source.unsplash.com/600x400/?angry16"
+  },
+  "activity17": {
+    "word": "activity17",
+    "ipa": "ækˈtɪvəti",
+    "part_of_speech": "noun",
+    "definition": "A situation in which a lot of things are happening.",
+    "translation": "hoạt động",
+    "examples": [
+      {
+        "en": "Outdoor activities are great for health.",
+        "vi": "Các hoạt động ngoài trời rất tốt cho sức khỏe."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=activity&type=2",
+    "category": "Daily Life",
+    "image": "https://source.unsplash.com/600x400/?activity17"
+  },
+  "animal18": {
+    "word": "animal18",
+    "ipa": "ˈænɪml",
+    "part_of_speech": "noun",
+    "definition": "A living organism that feeds on organic matter.",
+    "translation": "động vật",
+    "examples": [
+      {
+        "en": "The zoo has many exotic animal18s.",
+        "vi": "Sở thú có nhiều loài động vật kỳ lạ."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=animal&type=2",
+    "category": "Nature",
+    "image": "https://source.unsplash.com/600x400/?animal18"
+  },
+  "activity19": {
+    "word": "activity19",
+    "ipa": "ækˈtɪvəti",
+    "part_of_speech": "noun",
+    "definition": "A situation in which a lot of things are happening.",
+    "translation": "hoạt động",
+    "examples": [
+      {
+        "en": "Outdoor activities are great for health.",
+        "vi": "Các hoạt động ngoài trời rất tốt cho sức khỏe."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=activity&type=2",
+    "category": "Daily Life",
+    "image": "https://source.unsplash.com/600x400/?activity19"
+  },
+  "airport20": {
+    "word": "airport20",
+    "ipa": "ˈɛərpɔːrt",
+    "part_of_speech": "noun",
+    "definition": "A place where aircraft regularly take off and land.",
+    "translation": "sân bay",
+    "examples": [
+      {
+        "en": "We arrived at the airport20 two hours early.",
+        "vi": "Chúng tôi đến sân bay sớm hai tiếng."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=airport&type=2",
+    "category": "Travel",
+    "image": "https://source.unsplash.com/600x400/?airport20"
+  },
+  "account21": {
+    "word": "account21",
+    "ipa": "əˈkaʊnt",
+    "part_of_speech": "noun",
+    "definition": "A record or statement of financial expenditure or receipts.",
+    "translation": "tài khoản",
+    "examples": [
+      {
+        "en": "He opened a new bank account21.",
+        "vi": "Anh ấy đã mở một tài khoản ngân hàng mới."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=account&type=2",
+    "category": "Finance",
+    "image": "https://source.unsplash.com/600x400/?account21"
+  },
+  "activity22": {
+    "word": "activity22",
+    "ipa": "ækˈtɪvəti",
+    "part_of_speech": "noun",
+    "definition": "A situation in which a lot of things are happening.",
+    "translation": "hoạt động",
+    "examples": [
+      {
+        "en": "Outdoor activities are great for health.",
+        "vi": "Các hoạt động ngoài trời rất tốt cho sức khỏe."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=activity&type=2",
+    "category": "Daily Life",
+    "image": "https://source.unsplash.com/600x400/?activity22"
+  },
+  "apartment23": {
+    "word": "apartment23",
+    "ipa": "əˈpɑːtmənt",
+    "part_of_speech": "noun",
+    "definition": "A set of rooms forming a residence.",
+    "translation": "căn hộ",
+    "examples": [
+      {
+        "en": "She lives in a small apartment23 in the city.",
+        "vi": "Cô ấy sống trong một căn hộ nhỏ trong thành phố."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=apartment&type=2",
+    "category": "Housing",
+    "image": "https://source.unsplash.com/600x400/?apartment23"
+  },
+  "abandon24": {
+    "word": "abandon24",
+    "ipa": "əˈbændən",
+    "part_of_speech": "verb",
+    "definition": "To leave someone or something behind.",
+    "translation": "từ bỏ, ruồng bỏ",
+    "examples": [
+      {
+        "en": "He abandon24ed his hometown after the war.",
+        "vi": "Anh ta đã từ bỏ quê hương sau chiến tranh."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=abandon&type=2",
+    "category": "Life",
+    "image": "https://source.unsplash.com/600x400/?abandon24"
+  },
+  "activity25": {
+    "word": "activity25",
+    "ipa": "ækˈtɪvəti",
+    "part_of_speech": "noun",
+    "definition": "A situation in which a lot of things are happening.",
+    "translation": "hoạt động",
+    "examples": [
+      {
+        "en": "Outdoor activities are great for health.",
+        "vi": "Các hoạt động ngoài trời rất tốt cho sức khỏe."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=activity&type=2",
+    "category": "Daily Life",
+    "image": "https://source.unsplash.com/600x400/?activity25"
+  },
+  "animal26": {
+    "word": "animal26",
+    "ipa": "ˈænɪml",
+    "part_of_speech": "noun",
+    "definition": "A living organism that feeds on organic matter.",
+    "translation": "động vật",
+    "examples": [
+      {
+        "en": "The zoo has many exotic animal26s.",
+        "vi": "Sở thú có nhiều loài động vật kỳ lạ."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=animal&type=2",
+    "category": "Nature",
+    "image": "https://source.unsplash.com/600x400/?animal26"
+  },
+  "activity27": {
+    "word": "activity27",
+    "ipa": "ækˈtɪvəti",
+    "part_of_speech": "noun",
+    "definition": "A situation in which a lot of things are happening.",
+    "translation": "hoạt động",
+    "examples": [
+      {
+        "en": "Outdoor activities are great for health.",
+        "vi": "Các hoạt động ngoài trời rất tốt cho sức khỏe."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=activity&type=2",
+    "category": "Daily Life",
+    "image": "https://source.unsplash.com/600x400/?activity27"
+  },
+  "abandon28": {
+    "word": "abandon28",
+    "ipa": "əˈbændən",
+    "part_of_speech": "verb",
+    "definition": "To leave someone or something behind.",
+    "translation": "từ bỏ, ruồng bỏ",
+    "examples": [
+      {
+        "en": "He abandon28ed his hometown after the war.",
+        "vi": "Anh ta đã từ bỏ quê hương sau chiến tranh."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=abandon&type=2",
+    "category": "Life",
+    "image": "https://source.unsplash.com/600x400/?abandon28"
+  },
+  "activity29": {
+    "word": "activity29",
+    "ipa": "ækˈtɪvəti",
+    "part_of_speech": "noun",
+    "definition": "A situation in which a lot of things are happening.",
+    "translation": "hoạt động",
+    "examples": [
+      {
+        "en": "Outdoor activities are great for health.",
+        "vi": "Các hoạt động ngoài trời rất tốt cho sức khỏe."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=activity&type=2",
+    "category": "Daily Life",
+    "image": "https://source.unsplash.com/600x400/?activity29"
+  },
+  "ability30": {
+    "word": "ability30",
+    "ipa": "əˈbɪləti",
+    "part_of_speech": "noun",
+    "definition": "Possession of the means or skill to do something.",
+    "translation": "khả năng",
+    "examples": [
+      {
+        "en": "She has the ability30 to lead a team effectively.",
+        "vi": "Cô ấy có khả năng lãnh đạo một đội ngũ hiệu quả."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=ability&type=2",
+    "category": "Personality",
+    "image": "https://source.unsplash.com/600x400/?ability30"
+  },
+  "accept31": {
+    "word": "accept31",
+    "ipa": "əkˈsept",
+    "part_of_speech": "verb",
+    "definition": "To agree to take something that is offered.",
+    "translation": "chấp nhận",
+    "examples": [
+      {
+        "en": "They accept31ed the invitation without hesitation.",
+        "vi": "Họ đã chấp nhận lời mời mà không do dự."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=accept&type=2",
+    "category": "Social",
+    "image": "https://source.unsplash.com/600x400/?accept31"
+  },
+  "account32": {
+    "word": "account32",
+    "ipa": "əˈkaʊnt",
+    "part_of_speech": "noun",
+    "definition": "A record or statement of financial expenditure or receipts.",
+    "translation": "tài khoản",
+    "examples": [
+      {
+        "en": "He opened a new bank account32.",
+        "vi": "Anh ấy đã mở một tài khoản ngân hàng mới."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=account&type=2",
+    "category": "Finance",
+    "image": "https://source.unsplash.com/600x400/?account32"
+  },
+  "apartment33": {
+    "word": "apartment33",
+    "ipa": "əˈpɑːtmənt",
+    "part_of_speech": "noun",
+    "definition": "A set of rooms forming a residence.",
+    "translation": "căn hộ",
+    "examples": [
+      {
+        "en": "She lives in a small apartment33 in the city.",
+        "vi": "Cô ấy sống trong một căn hộ nhỏ trong thành phố."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=apartment&type=2",
+    "category": "Housing",
+    "image": "https://source.unsplash.com/600x400/?apartment33"
+  },
+  "activity34": {
+    "word": "activity34",
+    "ipa": "ækˈtɪvəti",
+    "part_of_speech": "noun",
+    "definition": "A situation in which a lot of things are happening.",
+    "translation": "hoạt động",
+    "examples": [
+      {
+        "en": "Outdoor activities are great for health.",
+        "vi": "Các hoạt động ngoài trời rất tốt cho sức khỏe."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=activity&type=2",
+    "category": "Daily Life",
+    "image": "https://source.unsplash.com/600x400/?activity34"
+  },
+  "apartment35": {
+    "word": "apartment35",
+    "ipa": "əˈpɑːtmənt",
+    "part_of_speech": "noun",
+    "definition": "A set of rooms forming a residence.",
+    "translation": "căn hộ",
+    "examples": [
+      {
+        "en": "She lives in a small apartment35 in the city.",
+        "vi": "Cô ấy sống trong một căn hộ nhỏ trong thành phố."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=apartment&type=2",
+    "category": "Housing",
+    "image": "https://source.unsplash.com/600x400/?apartment35"
+  },
+  "advice36": {
+    "word": "advice36",
+    "ipa": "ədˈvaɪs",
+    "part_of_speech": "noun",
+    "definition": "Guidance or recommendations concerning prudent action.",
+    "translation": "lời khuyên",
+    "examples": [
+      {
+        "en": "He gave me good advice36 before the interview.",
+        "vi": "Anh ấy đã cho tôi lời khuyên tốt trước buổi phỏng vấn."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=advice&type=2",
+    "category": "Communication",
+    "image": "https://source.unsplash.com/600x400/?advice36"
+  },
+  "account37": {
+    "word": "account37",
+    "ipa": "əˈkaʊnt",
+    "part_of_speech": "noun",
+    "definition": "A record or statement of financial expenditure or receipts.",
+    "translation": "tài khoản",
+    "examples": [
+      {
+        "en": "He opened a new bank account37.",
+        "vi": "Anh ấy đã mở một tài khoản ngân hàng mới."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=account&type=2",
+    "category": "Finance",
+    "image": "https://source.unsplash.com/600x400/?account37"
+  },
+  "accept38": {
+    "word": "accept38",
+    "ipa": "əkˈsept",
+    "part_of_speech": "verb",
+    "definition": "To agree to take something that is offered.",
+    "translation": "chấp nhận",
+    "examples": [
+      {
+        "en": "They accept38ed the invitation without hesitation.",
+        "vi": "Họ đã chấp nhận lời mời mà không do dự."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=accept&type=2",
+    "category": "Social",
+    "image": "https://source.unsplash.com/600x400/?accept38"
+  },
+  "abandon39": {
+    "word": "abandon39",
+    "ipa": "əˈbændən",
+    "part_of_speech": "verb",
+    "definition": "To leave someone or something behind.",
+    "translation": "từ bỏ, ruồng bỏ",
+    "examples": [
+      {
+        "en": "He abandon39ed his hometown after the war.",
+        "vi": "Anh ta đã từ bỏ quê hương sau chiến tranh."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=abandon&type=2",
+    "category": "Life",
+    "image": "https://source.unsplash.com/600x400/?abandon39"
+  },
+  "apartment40": {
+    "word": "apartment40",
+    "ipa": "əˈpɑːtmənt",
+    "part_of_speech": "noun",
+    "definition": "A set of rooms forming a residence.",
+    "translation": "căn hộ",
+    "examples": [
+      {
+        "en": "She lives in a small apartment40 in the city.",
+        "vi": "Cô ấy sống trong một căn hộ nhỏ trong thành phố."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=apartment&type=2",
+    "category": "Housing",
+    "image": "https://source.unsplash.com/600x400/?apartment40"
+  },
+  "account41": {
+    "word": "account41",
+    "ipa": "əˈkaʊnt",
+    "part_of_speech": "noun",
+    "definition": "A record or statement of financial expenditure or receipts.",
+    "translation": "tài khoản",
+    "examples": [
+      {
+        "en": "He opened a new bank account41.",
+        "vi": "Anh ấy đã mở một tài khoản ngân hàng mới."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=account&type=2",
+    "category": "Finance",
+    "image": "https://source.unsplash.com/600x400/?account41"
+  },
+  "advice42": {
+    "word": "advice42",
+    "ipa": "ədˈvaɪs",
+    "part_of_speech": "noun",
+    "definition": "Guidance or recommendations concerning prudent action.",
+    "translation": "lời khuyên",
+    "examples": [
+      {
+        "en": "He gave me good advice42 before the interview.",
+        "vi": "Anh ấy đã cho tôi lời khuyên tốt trước buổi phỏng vấn."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=advice&type=2",
+    "category": "Communication",
+    "image": "https://source.unsplash.com/600x400/?advice42"
+  },
+  "activity43": {
+    "word": "activity43",
+    "ipa": "ækˈtɪvəti",
+    "part_of_speech": "noun",
+    "definition": "A situation in which a lot of things are happening.",
+    "translation": "hoạt động",
+    "examples": [
+      {
+        "en": "Outdoor activities are great for health.",
+        "vi": "Các hoạt động ngoài trời rất tốt cho sức khỏe."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=activity&type=2",
+    "category": "Daily Life",
+    "image": "https://source.unsplash.com/600x400/?activity43"
+  },
+  "abandon44": {
+    "word": "abandon44",
+    "ipa": "əˈbændən",
+    "part_of_speech": "verb",
+    "definition": "To leave someone or something behind.",
+    "translation": "từ bỏ, ruồng bỏ",
+    "examples": [
+      {
+        "en": "He abandon44ed his hometown after the war.",
+        "vi": "Anh ta đã từ bỏ quê hương sau chiến tranh."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=abandon&type=2",
+    "category": "Life",
+    "image": "https://source.unsplash.com/600x400/?abandon44"
+  },
+  "apartment45": {
+    "word": "apartment45",
+    "ipa": "əˈpɑːtmənt",
+    "part_of_speech": "noun",
+    "definition": "A set of rooms forming a residence.",
+    "translation": "căn hộ",
+    "examples": [
+      {
+        "en": "She lives in a small apartment45 in the city.",
+        "vi": "Cô ấy sống trong một căn hộ nhỏ trong thành phố."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=apartment&type=2",
+    "category": "Housing",
+    "image": "https://source.unsplash.com/600x400/?apartment45"
+  },
+  "animal46": {
+    "word": "animal46",
+    "ipa": "ˈænɪml",
+    "part_of_speech": "noun",
+    "definition": "A living organism that feeds on organic matter.",
+    "translation": "động vật",
+    "examples": [
+      {
+        "en": "The zoo has many exotic animal46s.",
+        "vi": "Sở thú có nhiều loài động vật kỳ lạ."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=animal&type=2",
+    "category": "Nature",
+    "image": "https://source.unsplash.com/600x400/?animal46"
+  },
+  "animal47": {
+    "word": "animal47",
+    "ipa": "ˈænɪml",
+    "part_of_speech": "noun",
+    "definition": "A living organism that feeds on organic matter.",
+    "translation": "động vật",
+    "examples": [
+      {
+        "en": "The zoo has many exotic animal47s.",
+        "vi": "Sở thú có nhiều loài động vật kỳ lạ."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=animal&type=2",
+    "category": "Nature",
+    "image": "https://source.unsplash.com/600x400/?animal47"
+  },
+  "account48": {
+    "word": "account48",
+    "ipa": "əˈkaʊnt",
+    "part_of_speech": "noun",
+    "definition": "A record or statement of financial expenditure or receipts.",
+    "translation": "tài khoản",
+    "examples": [
+      {
+        "en": "He opened a new bank account48.",
+        "vi": "Anh ấy đã mở một tài khoản ngân hàng mới."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=account&type=2",
+    "category": "Finance",
+    "image": "https://source.unsplash.com/600x400/?account48"
+  },
+  "accept49": {
+    "word": "accept49",
+    "ipa": "əkˈsept",
+    "part_of_speech": "verb",
+    "definition": "To agree to take something that is offered.",
+    "translation": "chấp nhận",
+    "examples": [
+      {
+        "en": "They accept49ed the invitation without hesitation.",
+        "vi": "Họ đã chấp nhận lời mời mà không do dự."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=accept&type=2",
+    "category": "Social",
+    "image": "https://source.unsplash.com/600x400/?accept49"
+  },
+  "account50": {
+    "word": "account50",
+    "ipa": "əˈkaʊnt",
+    "part_of_speech": "noun",
+    "definition": "A record or statement of financial expenditure or receipts.",
+    "translation": "tài khoản",
+    "examples": [
+      {
+        "en": "He opened a new bank account50.",
+        "vi": "Anh ấy đã mở một tài khoản ngân hàng mới."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=account&type=2",
+    "category": "Finance",
+    "image": "https://source.unsplash.com/600x400/?account50"
+  },
+  "account51": {
+    "word": "account51",
+    "ipa": "əˈkaʊnt",
+    "part_of_speech": "noun",
+    "definition": "A record or statement of financial expenditure or receipts.",
+    "translation": "tài khoản",
+    "examples": [
+      {
+        "en": "He opened a new bank account51.",
+        "vi": "Anh ấy đã mở một tài khoản ngân hàng mới."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=account&type=2",
+    "category": "Finance",
+    "image": "https://source.unsplash.com/600x400/?account51"
+  },
+  "angry52": {
+    "word": "angry52",
+    "ipa": "ˈæŋɡri",
+    "part_of_speech": "adjective",
+    "definition": "Feeling or showing strong annoyance or displeasure.",
+    "translation": "tức giận",
+    "examples": [
+      {
+        "en": "She was angry52 about the delay.",
+        "vi": "Cô ấy tức giận vì sự chậm trễ."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=angry&type=2",
+    "category": "Emotion",
+    "image": "https://source.unsplash.com/600x400/?angry52"
+  },
+  "account53": {
+    "word": "account53",
+    "ipa": "əˈkaʊnt",
+    "part_of_speech": "noun",
+    "definition": "A record or statement of financial expenditure or receipts.",
+    "translation": "tài khoản",
+    "examples": [
+      {
+        "en": "He opened a new bank account53.",
+        "vi": "Anh ấy đã mở một tài khoản ngân hàng mới."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=account&type=2",
+    "category": "Finance",
+    "image": "https://source.unsplash.com/600x400/?account53"
+  },
+  "animal54": {
+    "word": "animal54",
+    "ipa": "ˈænɪml",
+    "part_of_speech": "noun",
+    "definition": "A living organism that feeds on organic matter.",
+    "translation": "động vật",
+    "examples": [
+      {
+        "en": "The zoo has many exotic animal54s.",
+        "vi": "Sở thú có nhiều loài động vật kỳ lạ."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=animal&type=2",
+    "category": "Nature",
+    "image": "https://source.unsplash.com/600x400/?animal54"
+  },
+  "airport55": {
+    "word": "airport55",
+    "ipa": "ˈɛərpɔːrt",
+    "part_of_speech": "noun",
+    "definition": "A place where aircraft regularly take off and land.",
+    "translation": "sân bay",
+    "examples": [
+      {
+        "en": "We arrived at the airport55 two hours early.",
+        "vi": "Chúng tôi đến sân bay sớm hai tiếng."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=airport&type=2",
+    "category": "Travel",
+    "image": "https://source.unsplash.com/600x400/?airport55"
+  },
+  "abandon56": {
+    "word": "abandon56",
+    "ipa": "əˈbændən",
+    "part_of_speech": "verb",
+    "definition": "To leave someone or something behind.",
+    "translation": "từ bỏ, ruồng bỏ",
+    "examples": [
+      {
+        "en": "He abandon56ed his hometown after the war.",
+        "vi": "Anh ta đã từ bỏ quê hương sau chiến tranh."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=abandon&type=2",
+    "category": "Life",
+    "image": "https://source.unsplash.com/600x400/?abandon56"
+  },
+  "angry57": {
+    "word": "angry57",
+    "ipa": "ˈæŋɡri",
+    "part_of_speech": "adjective",
+    "definition": "Feeling or showing strong annoyance or displeasure.",
+    "translation": "tức giận",
+    "examples": [
+      {
+        "en": "She was angry57 about the delay.",
+        "vi": "Cô ấy tức giận vì sự chậm trễ."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=angry&type=2",
+    "category": "Emotion",
+    "image": "https://source.unsplash.com/600x400/?angry57"
+  },
+  "abandon58": {
+    "word": "abandon58",
+    "ipa": "əˈbændən",
+    "part_of_speech": "verb",
+    "definition": "To leave someone or something behind.",
+    "translation": "từ bỏ, ruồng bỏ",
+    "examples": [
+      {
+        "en": "He abandon58ed his hometown after the war.",
+        "vi": "Anh ta đã từ bỏ quê hương sau chiến tranh."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=abandon&type=2",
+    "category": "Life",
+    "image": "https://source.unsplash.com/600x400/?abandon58"
+  },
+  "abandon59": {
+    "word": "abandon59",
+    "ipa": "əˈbændən",
+    "part_of_speech": "verb",
+    "definition": "To leave someone or something behind.",
+    "translation": "từ bỏ, ruồng bỏ",
+    "examples": [
+      {
+        "en": "He abandon59ed his hometown after the war.",
+        "vi": "Anh ta đã từ bỏ quê hương sau chiến tranh."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=abandon&type=2",
+    "category": "Life",
+    "image": "https://source.unsplash.com/600x400/?abandon59"
+  },
+  "ability60": {
+    "word": "ability60",
+    "ipa": "əˈbɪləti",
+    "part_of_speech": "noun",
+    "definition": "Possession of the means or skill to do something.",
+    "translation": "khả năng",
+    "examples": [
+      {
+        "en": "She has the ability60 to lead a team effectively.",
+        "vi": "Cô ấy có khả năng lãnh đạo một đội ngũ hiệu quả."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=ability&type=2",
+    "category": "Personality",
+    "image": "https://source.unsplash.com/600x400/?ability60"
+  },
+  "accept61": {
+    "word": "accept61",
+    "ipa": "əkˈsept",
+    "part_of_speech": "verb",
+    "definition": "To agree to take something that is offered.",
+    "translation": "chấp nhận",
+    "examples": [
+      {
+        "en": "They accept61ed the invitation without hesitation.",
+        "vi": "Họ đã chấp nhận lời mời mà không do dự."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=accept&type=2",
+    "category": "Social",
+    "image": "https://source.unsplash.com/600x400/?accept61"
+  },
+  "account62": {
+    "word": "account62",
+    "ipa": "əˈkaʊnt",
+    "part_of_speech": "noun",
+    "definition": "A record or statement of financial expenditure or receipts.",
+    "translation": "tài khoản",
+    "examples": [
+      {
+        "en": "He opened a new bank account62.",
+        "vi": "Anh ấy đã mở một tài khoản ngân hàng mới."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=account&type=2",
+    "category": "Finance",
+    "image": "https://source.unsplash.com/600x400/?account62"
+  },
+  "animal63": {
+    "word": "animal63",
+    "ipa": "ˈænɪml",
+    "part_of_speech": "noun",
+    "definition": "A living organism that feeds on organic matter.",
+    "translation": "động vật",
+    "examples": [
+      {
+        "en": "The zoo has many exotic animal63s.",
+        "vi": "Sở thú có nhiều loài động vật kỳ lạ."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=animal&type=2",
+    "category": "Nature",
+    "image": "https://source.unsplash.com/600x400/?animal63"
+  },
+  "angry64": {
+    "word": "angry64",
+    "ipa": "ˈæŋɡri",
+    "part_of_speech": "adjective",
+    "definition": "Feeling or showing strong annoyance or displeasure.",
+    "translation": "tức giận",
+    "examples": [
+      {
+        "en": "She was angry64 about the delay.",
+        "vi": "Cô ấy tức giận vì sự chậm trễ."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=angry&type=2",
+    "category": "Emotion",
+    "image": "https://source.unsplash.com/600x400/?angry64"
+  },
+  "angry65": {
+    "word": "angry65",
+    "ipa": "ˈæŋɡri",
+    "part_of_speech": "adjective",
+    "definition": "Feeling or showing strong annoyance or displeasure.",
+    "translation": "tức giận",
+    "examples": [
+      {
+        "en": "She was angry65 about the delay.",
+        "vi": "Cô ấy tức giận vì sự chậm trễ."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=angry&type=2",
+    "category": "Emotion",
+    "image": "https://source.unsplash.com/600x400/?angry65"
+  },
+  "accept66": {
+    "word": "accept66",
+    "ipa": "əkˈsept",
+    "part_of_speech": "verb",
+    "definition": "To agree to take something that is offered.",
+    "translation": "chấp nhận",
+    "examples": [
+      {
+        "en": "They accept66ed the invitation without hesitation.",
+        "vi": "Họ đã chấp nhận lời mời mà không do dự."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=accept&type=2",
+    "category": "Social",
+    "image": "https://source.unsplash.com/600x400/?accept66"
+  },
+  "ability67": {
+    "word": "ability67",
+    "ipa": "əˈbɪləti",
+    "part_of_speech": "noun",
+    "definition": "Possession of the means or skill to do something.",
+    "translation": "khả năng",
+    "examples": [
+      {
+        "en": "She has the ability67 to lead a team effectively.",
+        "vi": "Cô ấy có khả năng lãnh đạo một đội ngũ hiệu quả."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=ability&type=2",
+    "category": "Personality",
+    "image": "https://source.unsplash.com/600x400/?ability67"
+  },
+  "ability68": {
+    "word": "ability68",
+    "ipa": "əˈbɪləti",
+    "part_of_speech": "noun",
+    "definition": "Possession of the means or skill to do something.",
+    "translation": "khả năng",
+    "examples": [
+      {
+        "en": "She has the ability68 to lead a team effectively.",
+        "vi": "Cô ấy có khả năng lãnh đạo một đội ngũ hiệu quả."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=ability&type=2",
+    "category": "Personality",
+    "image": "https://source.unsplash.com/600x400/?ability68"
+  },
+  "accept69": {
+    "word": "accept69",
+    "ipa": "əkˈsept",
+    "part_of_speech": "verb",
+    "definition": "To agree to take something that is offered.",
+    "translation": "chấp nhận",
+    "examples": [
+      {
+        "en": "They accept69ed the invitation without hesitation.",
+        "vi": "Họ đã chấp nhận lời mời mà không do dự."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=accept&type=2",
+    "category": "Social",
+    "image": "https://source.unsplash.com/600x400/?accept69"
+  },
+  "animal70": {
+    "word": "animal70",
+    "ipa": "ˈænɪml",
+    "part_of_speech": "noun",
+    "definition": "A living organism that feeds on organic matter.",
+    "translation": "động vật",
+    "examples": [
+      {
+        "en": "The zoo has many exotic animal70s.",
+        "vi": "Sở thú có nhiều loài động vật kỳ lạ."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=animal&type=2",
+    "category": "Nature",
+    "image": "https://source.unsplash.com/600x400/?animal70"
+  },
+  "abandon71": {
+    "word": "abandon71",
+    "ipa": "əˈbændən",
+    "part_of_speech": "verb",
+    "definition": "To leave someone or something behind.",
+    "translation": "từ bỏ, ruồng bỏ",
+    "examples": [
+      {
+        "en": "He abandon71ed his hometown after the war.",
+        "vi": "Anh ta đã từ bỏ quê hương sau chiến tranh."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=abandon&type=2",
+    "category": "Life",
+    "image": "https://source.unsplash.com/600x400/?abandon71"
+  },
+  "activity72": {
+    "word": "activity72",
+    "ipa": "ækˈtɪvəti",
+    "part_of_speech": "noun",
+    "definition": "A situation in which a lot of things are happening.",
+    "translation": "hoạt động",
+    "examples": [
+      {
+        "en": "Outdoor activities are great for health.",
+        "vi": "Các hoạt động ngoài trời rất tốt cho sức khỏe."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=activity&type=2",
+    "category": "Daily Life",
+    "image": "https://source.unsplash.com/600x400/?activity72"
+  },
+  "apartment73": {
+    "word": "apartment73",
+    "ipa": "əˈpɑːtmənt",
+    "part_of_speech": "noun",
+    "definition": "A set of rooms forming a residence.",
+    "translation": "căn hộ",
+    "examples": [
+      {
+        "en": "She lives in a small apartment73 in the city.",
+        "vi": "Cô ấy sống trong một căn hộ nhỏ trong thành phố."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=apartment&type=2",
+    "category": "Housing",
+    "image": "https://source.unsplash.com/600x400/?apartment73"
+  },
+  "airport74": {
+    "word": "airport74",
+    "ipa": "ˈɛərpɔːrt",
+    "part_of_speech": "noun",
+    "definition": "A place where aircraft regularly take off and land.",
+    "translation": "sân bay",
+    "examples": [
+      {
+        "en": "We arrived at the airport74 two hours early.",
+        "vi": "Chúng tôi đến sân bay sớm hai tiếng."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=airport&type=2",
+    "category": "Travel",
+    "image": "https://source.unsplash.com/600x400/?airport74"
+  },
+  "abandon75": {
+    "word": "abandon75",
+    "ipa": "əˈbændən",
+    "part_of_speech": "verb",
+    "definition": "To leave someone or something behind.",
+    "translation": "từ bỏ, ruồng bỏ",
+    "examples": [
+      {
+        "en": "He abandon75ed his hometown after the war.",
+        "vi": "Anh ta đã từ bỏ quê hương sau chiến tranh."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=abandon&type=2",
+    "category": "Life",
+    "image": "https://source.unsplash.com/600x400/?abandon75"
+  },
+  "advice76": {
+    "word": "advice76",
+    "ipa": "ədˈvaɪs",
+    "part_of_speech": "noun",
+    "definition": "Guidance or recommendations concerning prudent action.",
+    "translation": "lời khuyên",
+    "examples": [
+      {
+        "en": "He gave me good advice76 before the interview.",
+        "vi": "Anh ấy đã cho tôi lời khuyên tốt trước buổi phỏng vấn."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=advice&type=2",
+    "category": "Communication",
+    "image": "https://source.unsplash.com/600x400/?advice76"
+  },
+  "accept77": {
+    "word": "accept77",
+    "ipa": "əkˈsept",
+    "part_of_speech": "verb",
+    "definition": "To agree to take something that is offered.",
+    "translation": "chấp nhận",
+    "examples": [
+      {
+        "en": "They accept77ed the invitation without hesitation.",
+        "vi": "Họ đã chấp nhận lời mời mà không do dự."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=accept&type=2",
+    "category": "Social",
+    "image": "https://source.unsplash.com/600x400/?accept77"
+  },
+  "accept78": {
+    "word": "accept78",
+    "ipa": "əkˈsept",
+    "part_of_speech": "verb",
+    "definition": "To agree to take something that is offered.",
+    "translation": "chấp nhận",
+    "examples": [
+      {
+        "en": "They accept78ed the invitation without hesitation.",
+        "vi": "Họ đã chấp nhận lời mời mà không do dự."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=accept&type=2",
+    "category": "Social",
+    "image": "https://source.unsplash.com/600x400/?accept78"
+  },
+  "abandon79": {
+    "word": "abandon79",
+    "ipa": "əˈbændən",
+    "part_of_speech": "verb",
+    "definition": "To leave someone or something behind.",
+    "translation": "từ bỏ, ruồng bỏ",
+    "examples": [
+      {
+        "en": "He abandon79ed his hometown after the war.",
+        "vi": "Anh ta đã từ bỏ quê hương sau chiến tranh."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=abandon&type=2",
+    "category": "Life",
+    "image": "https://source.unsplash.com/600x400/?abandon79"
+  },
+  "ability80": {
+    "word": "ability80",
+    "ipa": "əˈbɪləti",
+    "part_of_speech": "noun",
+    "definition": "Possession of the means or skill to do something.",
+    "translation": "khả năng",
+    "examples": [
+      {
+        "en": "She has the ability80 to lead a team effectively.",
+        "vi": "Cô ấy có khả năng lãnh đạo một đội ngũ hiệu quả."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=ability&type=2",
+    "category": "Personality",
+    "image": "https://source.unsplash.com/600x400/?ability80"
+  },
+  "airport81": {
+    "word": "airport81",
+    "ipa": "ˈɛərpɔːrt",
+    "part_of_speech": "noun",
+    "definition": "A place where aircraft regularly take off and land.",
+    "translation": "sân bay",
+    "examples": [
+      {
+        "en": "We arrived at the airport81 two hours early.",
+        "vi": "Chúng tôi đến sân bay sớm hai tiếng."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=airport&type=2",
+    "category": "Travel",
+    "image": "https://source.unsplash.com/600x400/?airport81"
+  },
+  "apartment82": {
+    "word": "apartment82",
+    "ipa": "əˈpɑːtmənt",
+    "part_of_speech": "noun",
+    "definition": "A set of rooms forming a residence.",
+    "translation": "căn hộ",
+    "examples": [
+      {
+        "en": "She lives in a small apartment82 in the city.",
+        "vi": "Cô ấy sống trong một căn hộ nhỏ trong thành phố."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=apartment&type=2",
+    "category": "Housing",
+    "image": "https://source.unsplash.com/600x400/?apartment82"
+  },
+  "apartment83": {
+    "word": "apartment83",
+    "ipa": "əˈpɑːtmənt",
+    "part_of_speech": "noun",
+    "definition": "A set of rooms forming a residence.",
+    "translation": "căn hộ",
+    "examples": [
+      {
+        "en": "She lives in a small apartment83 in the city.",
+        "vi": "Cô ấy sống trong một căn hộ nhỏ trong thành phố."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=apartment&type=2",
+    "category": "Housing",
+    "image": "https://source.unsplash.com/600x400/?apartment83"
+  },
+  "angry84": {
+    "word": "angry84",
+    "ipa": "ˈæŋɡri",
+    "part_of_speech": "adjective",
+    "definition": "Feeling or showing strong annoyance or displeasure.",
+    "translation": "tức giận",
+    "examples": [
+      {
+        "en": "She was angry84 about the delay.",
+        "vi": "Cô ấy tức giận vì sự chậm trễ."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=angry&type=2",
+    "category": "Emotion",
+    "image": "https://source.unsplash.com/600x400/?angry84"
+  },
+  "abandon85": {
+    "word": "abandon85",
+    "ipa": "əˈbændən",
+    "part_of_speech": "verb",
+    "definition": "To leave someone or something behind.",
+    "translation": "từ bỏ, ruồng bỏ",
+    "examples": [
+      {
+        "en": "He abandon85ed his hometown after the war.",
+        "vi": "Anh ta đã từ bỏ quê hương sau chiến tranh."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=abandon&type=2",
+    "category": "Life",
+    "image": "https://source.unsplash.com/600x400/?abandon85"
+  },
+  "accept86": {
+    "word": "accept86",
+    "ipa": "əkˈsept",
+    "part_of_speech": "verb",
+    "definition": "To agree to take something that is offered.",
+    "translation": "chấp nhận",
+    "examples": [
+      {
+        "en": "They accept86ed the invitation without hesitation.",
+        "vi": "Họ đã chấp nhận lời mời mà không do dự."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=accept&type=2",
+    "category": "Social",
+    "image": "https://source.unsplash.com/600x400/?accept86"
+  },
+  "accept87": {
+    "word": "accept87",
+    "ipa": "əkˈsept",
+    "part_of_speech": "verb",
+    "definition": "To agree to take something that is offered.",
+    "translation": "chấp nhận",
+    "examples": [
+      {
+        "en": "They accept87ed the invitation without hesitation.",
+        "vi": "Họ đã chấp nhận lời mời mà không do dự."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=accept&type=2",
+    "category": "Social",
+    "image": "https://source.unsplash.com/600x400/?accept87"
+  },
+  "angry88": {
+    "word": "angry88",
+    "ipa": "ˈæŋɡri",
+    "part_of_speech": "adjective",
+    "definition": "Feeling or showing strong annoyance or displeasure.",
+    "translation": "tức giận",
+    "examples": [
+      {
+        "en": "She was angry88 about the delay.",
+        "vi": "Cô ấy tức giận vì sự chậm trễ."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=angry&type=2",
+    "category": "Emotion",
+    "image": "https://source.unsplash.com/600x400/?angry88"
+  },
+  "account89": {
+    "word": "account89",
+    "ipa": "əˈkaʊnt",
+    "part_of_speech": "noun",
+    "definition": "A record or statement of financial expenditure or receipts.",
+    "translation": "tài khoản",
+    "examples": [
+      {
+        "en": "He opened a new bank account89.",
+        "vi": "Anh ấy đã mở một tài khoản ngân hàng mới."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=account&type=2",
+    "category": "Finance",
+    "image": "https://source.unsplash.com/600x400/?account89"
+  },
+  "animal90": {
+    "word": "animal90",
+    "ipa": "ˈænɪml",
+    "part_of_speech": "noun",
+    "definition": "A living organism that feeds on organic matter.",
+    "translation": "động vật",
+    "examples": [
+      {
+        "en": "The zoo has many exotic animal90s.",
+        "vi": "Sở thú có nhiều loài động vật kỳ lạ."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=animal&type=2",
+    "category": "Nature",
+    "image": "https://source.unsplash.com/600x400/?animal90"
+  },
+  "accept91": {
+    "word": "accept91",
+    "ipa": "əkˈsept",
+    "part_of_speech": "verb",
+    "definition": "To agree to take something that is offered.",
+    "translation": "chấp nhận",
+    "examples": [
+      {
+        "en": "They accept91ed the invitation without hesitation.",
+        "vi": "Họ đã chấp nhận lời mời mà không do dự."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=accept&type=2",
+    "category": "Social",
+    "image": "https://source.unsplash.com/600x400/?accept91"
+  },
+  "animal92": {
+    "word": "animal92",
+    "ipa": "ˈænɪml",
+    "part_of_speech": "noun",
+    "definition": "A living organism that feeds on organic matter.",
+    "translation": "động vật",
+    "examples": [
+      {
+        "en": "The zoo has many exotic animal92s.",
+        "vi": "Sở thú có nhiều loài động vật kỳ lạ."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=animal&type=2",
+    "category": "Nature",
+    "image": "https://source.unsplash.com/600x400/?animal92"
+  },
+  "apartment93": {
+    "word": "apartment93",
+    "ipa": "əˈpɑːtmənt",
+    "part_of_speech": "noun",
+    "definition": "A set of rooms forming a residence.",
+    "translation": "căn hộ",
+    "examples": [
+      {
+        "en": "She lives in a small apartment93 in the city.",
+        "vi": "Cô ấy sống trong một căn hộ nhỏ trong thành phố."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=apartment&type=2",
+    "category": "Housing",
+    "image": "https://source.unsplash.com/600x400/?apartment93"
+  },
+  "accept94": {
+    "word": "accept94",
+    "ipa": "əkˈsept",
+    "part_of_speech": "verb",
+    "definition": "To agree to take something that is offered.",
+    "translation": "chấp nhận",
+    "examples": [
+      {
+        "en": "They accept94ed the invitation without hesitation.",
+        "vi": "Họ đã chấp nhận lời mời mà không do dự."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=accept&type=2",
+    "category": "Social",
+    "image": "https://source.unsplash.com/600x400/?accept94"
+  },
+  "abandon95": {
+    "word": "abandon95",
+    "ipa": "əˈbændən",
+    "part_of_speech": "verb",
+    "definition": "To leave someone or something behind.",
+    "translation": "từ bỏ, ruồng bỏ",
+    "examples": [
+      {
+        "en": "He abandon95ed his hometown after the war.",
+        "vi": "Anh ta đã từ bỏ quê hương sau chiến tranh."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=abandon&type=2",
+    "category": "Life",
+    "image": "https://source.unsplash.com/600x400/?abandon95"
+  },
+  "angry96": {
+    "word": "angry96",
+    "ipa": "ˈæŋɡri",
+    "part_of_speech": "adjective",
+    "definition": "Feeling or showing strong annoyance or displeasure.",
+    "translation": "tức giận",
+    "examples": [
+      {
+        "en": "She was angry96 about the delay.",
+        "vi": "Cô ấy tức giận vì sự chậm trễ."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=angry&type=2",
+    "category": "Emotion",
+    "image": "https://source.unsplash.com/600x400/?angry96"
+  },
+  "accept97": {
+    "word": "accept97",
+    "ipa": "əkˈsept",
+    "part_of_speech": "verb",
+    "definition": "To agree to take something that is offered.",
+    "translation": "chấp nhận",
+    "examples": [
+      {
+        "en": "They accept97ed the invitation without hesitation.",
+        "vi": "Họ đã chấp nhận lời mời mà không do dự."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=accept&type=2",
+    "category": "Social",
+    "image": "https://source.unsplash.com/600x400/?accept97"
+  },
+  "advice98": {
+    "word": "advice98",
+    "ipa": "ədˈvaɪs",
+    "part_of_speech": "noun",
+    "definition": "Guidance or recommendations concerning prudent action.",
+    "translation": "lời khuyên",
+    "examples": [
+      {
+        "en": "He gave me good advice98 before the interview.",
+        "vi": "Anh ấy đã cho tôi lời khuyên tốt trước buổi phỏng vấn."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=advice&type=2",
+    "category": "Communication",
+    "image": "https://source.unsplash.com/600x400/?advice98"
+  },
+  "accept99": {
+    "word": "accept99",
+    "ipa": "əkˈsept",
+    "part_of_speech": "verb",
+    "definition": "To agree to take something that is offered.",
+    "translation": "chấp nhận",
+    "examples": [
+      {
+        "en": "They accept99ed the invitation without hesitation.",
+        "vi": "Họ đã chấp nhận lời mời mà không do dự."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=accept&type=2",
+    "category": "Social",
+    "image": "https://source.unsplash.com/600x400/?accept99"
+  }
+}
