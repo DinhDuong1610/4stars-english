@@ -1,6 +1,6 @@
 package com.fourstars.fourstars_english.model
 
-data class VocabEntry(
+data class Vocabulary(
     val word: String,
     val ipa: String,
     val part_of_speech: String,

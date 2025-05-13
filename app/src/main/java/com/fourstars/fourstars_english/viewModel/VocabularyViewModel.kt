@@ -7,7 +7,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import com.fourstars.fourstars_english.R
-import com.fourstars.fourstars_english.model.VocabEntry
+import com.fourstars.fourstars_english.model.Vocabulary
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import kotlinx.coroutines.Dispatchers
@@ -17,10 +17,10 @@ import java.io.InputStreamReader
 
 class EnglishVocabularyViewModel(application: Application) : AndroidViewModel(application) {
 
-    private val _vocabList = MutableLiveData<List<VocabEntry>>()
-    val vocabList: LiveData<List<VocabEntry>> = _vocabList
+    private val _vocabList = MutableLiveData<List<Vocabulary>>()
+    val vocabList: LiveData<List<Vocabulary>> = _vocabList
 
-    private lateinit var fullList: List<VocabEntry>
+    private lateinit var fullList: List<Vocabulary>
 
     fun loadAllVocabulary(onLoaded: () -> Unit = {}) {
         viewModelScope.launch(Dispatchers.IO) {
@@ -28,8 +28,8 @@ class EnglishVocabularyViewModel(application: Application) : AndroidViewModel(ap
                 try {
                     val inputStream = getApplication<Application>().resources.openRawResource(R.raw.vocab)
                     val reader = InputStreamReader(inputStream)
-                    val type = object : TypeToken<Map<String, VocabEntry>>() {}.type
-                    val vocabMap: Map<String, VocabEntry> = Gson().fromJson(reader, type)
+                    val type = object : TypeToken<Map<String, Vocabulary>>() {}.type
+                    val vocabMap: Map<String, Vocabulary> = Gson().fromJson(reader, type)
 
                     fullList = vocabMap.values.toList()
 
@@ -55,7 +55,7 @@ class EnglishVocabularyViewModel(application: Application) : AndroidViewModel(ap
         }
     }
 
-    fun searchVocabulary(keyword: String): VocabEntry? {
+    fun searchVocabulary(keyword: String): Vocabulary? {
         if (!::fullList.isInitialized) {
             println("Warning: Vocabulary not loaded!")
             return null
@@ -70,7 +70,7 @@ class EnglishVocabularyViewModel(application: Application) : AndroidViewModel(ap
         }
     }
 
-    fun filterByCategory(category: String): List<VocabEntry> {
+    fun filterByCategory(category: String): List<Vocabulary> {
         return if (::fullList.isInitialized) {
             fullList.filter { it.category.equals(category, ignoreCase = true) }
         } else {
