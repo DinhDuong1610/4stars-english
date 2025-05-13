@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "314263344073",
+    "project_id": "fourstars-english-app",
+    "storage_bucket": "fourstars-english-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314263344073:android:627755d6790b6a33438e18",
+        "android_client_info": {
+          "package_name": "com.fourstars.fourstars_english"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYkkazu_LYYs72XMi9_8z2WW74Ii1WgcQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
