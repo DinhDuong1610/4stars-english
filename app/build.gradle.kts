@@ -104,6 +104,7 @@ dependencies {
     implementation(libs.androidx.credentials)
     implementation(libs.androidx.credentials.play.services.auth)
     implementation(libs.googleid)
+    implementation(libs.androidx.room.runtime.android)
 
     debugImplementation("androidx.compose.ui:ui-tooling:1.6.1")
 
