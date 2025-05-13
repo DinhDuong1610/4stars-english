@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.google.gms.google.services)
 }
 
 android {
@@ -100,6 +101,9 @@ dependencies {
 
     // Flow Row
     implementation("com.google.accompanist:accompanist-flowlayout:0.31.6-rc")
+    implementation(libs.androidx.credentials)
+    implementation(libs.androidx.credentials.play.services.auth)
+    implementation(libs.googleid)
 
     debugImplementation("androidx.compose.ui:ui-tooling:1.6.1")
 
