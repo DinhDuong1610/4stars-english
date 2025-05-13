@@ -3,15 +3,15 @@ package com.fourstars.fourstars_english.viewModel
 import android.app.Application
 import android.util.Log
 import androidx.lifecycle.AndroidViewModel
-import androidx.room.util.copy
 import com.fourstars.fourstars_english.model.NotebookVocabulary
+import com.fourstars.fourstars_english.model.Notebook
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import java.util.UUID
 
-class NotebookViewModel<Notebook>(application: Application) : AndroidViewModel(application) {
+class NotebookViewModel(application: Application) : AndroidViewModel(application) {
 
     private val _notebooks = MutableStateFlow<List<Notebook>>(emptyList())
     val notebooks: StateFlow<List<Notebook>> = _notebooks
