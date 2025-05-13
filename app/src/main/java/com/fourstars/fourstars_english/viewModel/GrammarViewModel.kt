@@ -93,4 +93,8 @@ class GrammarViewModel(application: Application) : AndroidViewModel(application)
             _filteredGrammar.value = filteredList
         }
     }
+
+    fun getAllCategories(): List<String> {
+        return _allGrammar.value.map { it.category }.distinct().sorted()
+    }
 }
