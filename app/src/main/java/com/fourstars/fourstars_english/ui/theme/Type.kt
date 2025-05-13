@@ -2,9 +2,11 @@ package com.fourstars.fourstars_english.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
+import com.fourstars.fourstars_english.R
 
 // Set of Material typography styles to start with
 val Typography = Typography(
@@ -31,4 +33,21 @@ val Typography = Typography(
         letterSpacing = 0.5.sp
     )
     */
+)
+
+val BeVietnamPro = FontFamily(
+    Font(R.font.bevietnampro_medium, FontWeight.Normal)
+)
+
+val Feather = FontFamily(
+    Font(R.font.featherbold, FontWeight.Normal)
+)
+
+val Nunito = FontFamily(
+    Font(R.font.nunito, FontWeight.Normal)
+)
+
+val NotoSansJP = FontFamily(
+    Font(R.font.jp_medium, FontWeight.Normal),
+    Font(R.font.jp_bold, FontWeight.Bold)
 )
