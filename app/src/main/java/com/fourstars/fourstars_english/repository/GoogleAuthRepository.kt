@@ -1,4 +1,4 @@
-package com.example.torii.auth
+package com.fourstars.fourstars_english.repository
 
 import android.content.Context
 import android.content.Intent

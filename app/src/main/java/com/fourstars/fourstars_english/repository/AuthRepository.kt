@@ -1,4 +1,4 @@
-package com.example.torii.repository
+package com.fourstars.fourstars_english.repository
 
 import android.util.Log
 import com.google.firebase.auth.FirebaseAuth
