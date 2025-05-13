@@ -15,7 +15,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import java.io.InputStreamReader
 
-class EnglishVocabularyViewModel(application: Application) : AndroidViewModel(application) {
+class VocabularyViewModel(application: Application) : AndroidViewModel(application) {
 
     private val _vocabList = MutableLiveData<List<Vocabulary>>()
     val vocabList: LiveData<List<Vocabulary>> = _vocabList
