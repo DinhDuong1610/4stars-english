@@ -158,11 +158,18 @@ fun NewWordCard(word: Vocabulary) {
 
                 Spacer(modifier = Modifier.height(10.dp))
 
-                // Ví dụ sử dụng
-                Text(
-                    text = word.part_of_speech.toString(),
-                    style = TextStyle(fontSize = 15.sp, fontStyle = FontStyle.Normal, color = Color.Gray, fontFamily = BeVietnamPro),
-                )
+                // Từ loại
+                Box(
+                    modifier = Modifier
+                        .background(Color(0xFF03A9F4), shape = RoundedCornerShape(20.dp))
+                        .padding(horizontal = 8.dp, vertical = 4.dp)
+                ) {
+                    Text(
+                        text = word.part_of_speech.toString(),
+                        style = TextStyle(fontSize = 15.sp, fontStyle = FontStyle.Normal, color = Color.White, fontFamily = BeVietnamPro),
+                    )
+                }
+
             }
         }
     }

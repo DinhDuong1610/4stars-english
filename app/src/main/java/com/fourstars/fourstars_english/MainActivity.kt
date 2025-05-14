@@ -133,8 +133,8 @@ fun GreetingScreen(navController: NavHostController) {
         Spacer(modifier = Modifier.height(40.dp))
 
         Text(
-            text = "Learn Japanese easily and effectively with Torii!",
-            fontSize = 34.sp,
+            text = "Learn English easily and effectively with 4Stars!",
+            fontSize = 30.sp,
             fontWeight = FontWeight.Bold,
             fontFamily = Nunito,
             textAlign = TextAlign.Center,

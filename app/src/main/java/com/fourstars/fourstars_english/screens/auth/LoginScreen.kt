@@ -135,7 +135,7 @@ fun LoginScreen(navController: NavController, authRepo: AuthRepository, googleAu
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Image(
-                painter = painterResource(id = R.drawable.kaonashi),
+                painter = painterResource(id = R.drawable.logo),
                 contentDescription = "Facebook Sign-In",
                 modifier = Modifier.size(170.dp) // Kích thước logo nhỏ hơn trong vòng tròn
             )

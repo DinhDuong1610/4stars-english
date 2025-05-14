@@ -97,7 +97,7 @@ fun HomeScreen(navController: NavHostController, authRepo: AuthRepository,
                     .background(Color.White) // Màu nền áp dụng cho cả padding
             ) {
                 TopAppBar(
-                    title = { Text("Torii", fontWeight = FontWeight.Bold, fontFamily = Feather) },
+                    title = { Text("4Stars", fontWeight = FontWeight.Bold, fontFamily = Feather) },
                     modifier = Modifier.padding(end = 12.dp),
                     colors = TopAppBarDefaults.topAppBarColors(
                         containerColor = Color.Transparent, // Để màu nền của Box hiển thị
@@ -156,11 +156,11 @@ fun HomeScreen(navController: NavHostController, authRepo: AuthRepository,
                     Spacer(modifier = Modifier.height(10.dp))
 
                     val userName = user.displayName
-                    val streak = remember { (1..50).random() }         // Ngẫu nhiên từ 1 đến 50 ngày
+                    val streak = remember { (1..20).random() }         // Ngẫu nhiên từ 1 đến 50 ngày
                     val xp = remember { (100..1000).random() }         // Ngẫu nhiên từ 100 đến 1000 XP
                     val rank = "Silver"
 
-                    WelcomeCard(userName = userName.toString(), streakDays = streak, xpPoints = xp, rank = rank)
+                    WelcomeCard("Dinh Duong", streakDays = streak, xpPoints = xp, rank = rank)
 
                     Spacer(modifier = Modifier.height(20.dp))
                 }

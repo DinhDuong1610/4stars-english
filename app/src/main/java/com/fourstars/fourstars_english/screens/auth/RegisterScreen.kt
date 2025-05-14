@@ -135,7 +135,7 @@ fun RegisterScreen(navController: NavController, authRepo: AuthRepository, googl
 
         Spacer(modifier = Modifier.height(12.dp))
 
-        Text(text = "Sign up and let start learning Japanese", fontFamily = Nunito, color = Color.Gray, fontSize = 17.sp)
+        Text(text = "Sign up and let start learning English", fontFamily = Nunito, color = Color.Gray, fontSize = 17.sp)
 
         Spacer(modifier = Modifier.height(16.dp))
 
