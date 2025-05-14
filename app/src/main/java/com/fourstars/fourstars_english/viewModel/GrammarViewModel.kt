@@ -66,6 +66,13 @@ class GrammarViewModel(application: Application) : AndroidViewModel(application)
 
     private fun getAllGrammar(): List<Grammar> = _allGrammar.value
 
+    fun loadRandomFive() {
+        viewModelScope.launch {
+            val list = _allGrammar.value.shuffled().take(5)
+            _filteredGrammar.value = list
+        }
+    }
+
     private fun getGrammarByCategory(category: String): List<Grammar> {
         return _allGrammar.value.filter { it.category.equals(category, ignoreCase = true) }
     }
@@ -97,4 +104,6 @@ class GrammarViewModel(application: Application) : AndroidViewModel(application)
     fun getAllCategories(): List<String> {
         return _allGrammar.value.map { it.category }.distinct().sorted()
     }
+
+
 }

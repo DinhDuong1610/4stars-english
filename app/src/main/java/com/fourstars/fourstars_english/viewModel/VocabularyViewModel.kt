@@ -55,19 +55,20 @@ class VocabularyViewModel(application: Application) : AndroidViewModel(applicati
         }
     }
 
-    fun searchVocabulary(keyword: String): Vocabulary? {
+    fun searchVocabulary(keyword: String) {
         if (!::fullList.isInitialized) {
             println("Warning: Vocabulary not loaded!")
-            return null
+            _vocabList.value = emptyList()
+            return
         }
 
-        return fullList.firstOrNull { entry ->
-            entry.word.equals(keyword.trim(), ignoreCase = true)
-        }.also {
-            if (it == null) {
-                println("[DEBUG] Word '$keyword' not found in list.")
-            }
+        val result = fullList.filter { entry ->
+            entry.word.contains(keyword.trim(), ignoreCase = true) ||
+                    entry.definition.contains(keyword.trim(), ignoreCase = true)
         }
+
+        println("[DEBUG] Found ${result.size} results for keyword '$keyword'")
+        _vocabList.value = result
     }
 
     fun filterByCategory(category: String): List<Vocabulary> {

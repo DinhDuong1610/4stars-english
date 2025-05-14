@@ -85,6 +85,8 @@ fun SearchScreen(navController: NavController, vocabularyViewModel: VocabularyVi
     var selectedCategory by remember { mutableStateOf("Vocabulary") }
 
     val vocabList = vocabularyViewModel.vocabList.observeAsState(emptyList())
+    val randomGrammar by GrammarViewModel.filteredGrammarList.collectAsState()
+
     val grammarList by GrammarViewModel.filteredGrammarList.collectAsState()
 
     val userId = FirebaseAuth.getInstance().currentUser?.uid
@@ -102,8 +104,20 @@ fun SearchScreen(navController: NavController, vocabularyViewModel: VocabularyVi
         )
     )
 
+    LaunchedEffect(Unit) {
+        if (vocabList.value.isEmpty()) {
+            vocabularyViewModel.loadAllVocabulary {
+                vocabularyViewModel.loadRandomFive()
+            }
+        } else {
+            vocabularyViewModel.loadRandomFive()
+        }
+
+        GrammarViewModel.loadRandomFive()
+    }
+
     // Fake data
-    val history = listOf("水", "いま", "に", "そうです")
+    val history = listOf("fire", "noddles", "rice", "travel")
 
     Scaffold(
         topBar = {
@@ -113,7 +127,7 @@ fun SearchScreen(navController: NavController, vocabularyViewModel: VocabularyVi
                     .background(Color.White) // Màu nền áp dụng cho cả padding
             ) {
                 TopAppBar(
-                    title = { Text("Search", fontWeight = Bold, fontFamily = Feather) },
+                    title = { Text("Dictionary", fontWeight = Bold, fontFamily = Feather) },
                     modifier = Modifier.padding(end = 12.dp),
                     colors = TopAppBarDefaults.topAppBarColors(
                         containerColor = Color.Transparent, // Để màu nền của Box hiển thị
@@ -185,8 +199,8 @@ fun SearchScreen(navController: NavController, vocabularyViewModel: VocabularyVi
                         },
                         placeholder = {
                             if (selectedCategory == "Vocabulary")
-                                Text("金, キン, かね, gold", fontSize = 16.sp, fontFamily = Nunito)
-                            else (Text("いつも, always", fontSize = 16.sp, fontFamily = Nunito)) },
+                                Text("gold, rice,...", fontSize = 16.sp, fontFamily = Nunito)
+                            else (Text("present, always,...", fontSize = 16.sp, fontFamily = Nunito)) },
                         modifier = Modifier
                             .fillMaxWidth(),
                         leadingIcon = {
@@ -206,13 +220,11 @@ fun SearchScreen(navController: NavController, vocabularyViewModel: VocabularyVi
                     Spacer(modifier = Modifier.height(16.dp))
 
                     if (selectedCategory == "Vocabulary" && vocabList.value.isNotEmpty() && searchQuery.isNotEmpty()) {
-                        LazyVerticalGrid(
-                            columns = GridCells.Fixed(2),
+                        LazyColumn(
+                            verticalArrangement = Arrangement.spacedBy(10.dp),
                             modifier = Modifier
                                 .height(600.dp)
-                                .fillMaxWidth(),
-                            verticalArrangement = Arrangement.spacedBy(12.dp),
-                            horizontalArrangement = Arrangement.spacedBy(12.dp),
+                                .fillMaxWidth()
                         ) {
                             items(vocabList.value) { vocab ->
                                 NewWordCard(vocab)
@@ -294,69 +306,67 @@ fun SearchScreen(navController: NavController, vocabularyViewModel: VocabularyVi
                     }
                 }
 
-                item {
-                    // Kanji
-                    Row(
-                        modifier = Modifier
-                            .fillMaxWidth(),
-                        horizontalArrangement = Arrangement.SpaceBetween,
-                        verticalAlignment = Alignment.CenterVertically
-                    ) {
-                        Text("Vocabulary", fontWeight = Bold, fontFamily = Feather, fontSize = 25.sp)
-
-                        Text(
-                            text = "See All",
-                            color = Color(0xFF007BFF), // Màu xanh nước biển
-                            fontSize = 16.sp, // Nhỏ hơn tiêu đề
-                            fontFamily = Feather,
-                            fontWeight = Bold,
+                if(selectedCategory == "Vocabulary") {
+                    item {
+                        // New Words - Từ vựng mới
+                        Row(
                             modifier = Modifier
-                                .clickable { navController.navigate("Vocabulary") }
-                                .padding(4.dp) // Khoảng cách để dễ nhấn
-                        )
+                                .fillMaxWidth(),
+                            horizontalArrangement = Arrangement.SpaceBetween,
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            Text(
+                                text = "Vocabulary",
+                                style = TextStyle(fontFamily = Feather, fontSize = 25.sp, fontWeight = FontWeight.Bold)
+                            )
+
+                            Text(
+                                text = "See All",
+                                color = Color(0xFF007BFF), // Màu xanh nước biển
+                                fontSize = 16.sp, // Nhỏ hơn tiêu đề
+                                fontFamily = Feather,
+                                fontWeight = FontWeight.Bold,
+                                modifier = Modifier
+                                    .clickable { navController.navigate("vocabulary/${"All"}") }
+                                    .padding(4.dp) // Khoảng cách để dễ nhấn
+                            )
+                        }
+                        Spacer(modifier = Modifier.height(5.dp))
                     }
-                    Spacer(modifier = Modifier.height(8.dp))
-//                    LazyVerticalGrid(
-//                        columns = GridCells.Fixed(2),
-//                        verticalArrangement = Arrangement.spacedBy(12.dp),
-//                        horizontalArrangement = Arrangement.spacedBy(12.dp),
-//                        modifier = Modifier
-//                            .fillMaxWidth()
-//                            .heightIn(max = 520.dp)
-//                    ) {
-//                        items(popularKanjis) { kanji ->
-//                            KanjiCard(kanji)
-//                        }
-//                    }
 
-                    Spacer(modifier = Modifier.height(20.dp))
-
-                    // Grammar
-                    Row(
-                        modifier = Modifier
-                            .fillMaxWidth(),
-                        horizontalArrangement = Arrangement.SpaceBetween,
-                        verticalAlignment = Alignment.CenterVertically
-                    ) {
-                        Text("Grammar", fontWeight = Bold, fontFamily = Feather, fontSize = 25.sp)
-
-                        Text(
-                            text = "See All",
-                            color = Color(0xFF007BFF), // Màu xanh nước biển
-                            fontSize = 16.sp, // Nhỏ hơn tiêu đề
-                            fontFamily = Feather,
-                            fontWeight = Bold,
+                    // Danh sách từ vựng
+                    items(vocabList.value) { vocab ->
+                        NewWordCard(vocab)
+                    }
+                } else {
+                    item {
+                        // Grammar
+                        Row(
                             modifier = Modifier
-                                .clickable { navController.navigate("grammar") }
-                                .padding(4.dp) // Khoảng cách để dễ nhấn
-                        )
+                                .fillMaxWidth(),
+                            horizontalArrangement = Arrangement.SpaceBetween,
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            Text("Grammar", fontWeight = Bold, fontFamily = Feather, fontSize = 25.sp)
+
+                            Text(
+                                text = "See All",
+                                color = Color(0xFF007BFF), // Màu xanh nước biển
+                                fontSize = 16.sp, // Nhỏ hơn tiêu đề
+                                fontFamily = Feather,
+                                fontWeight = Bold,
+                                modifier = Modifier
+                                    .clickable { navController.navigate("grammar") }
+                                    .padding(4.dp) // Khoảng cách để dễ nhấn
+                            )
+                        }
+                        Spacer(modifier = Modifier.height(8.dp))
+                        Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+                            randomGrammar.forEach { grammar ->
+                                GrammarCard(grammar)
+                            }
+                        }
                     }
-                    Spacer(modifier = Modifier.height(8.dp))
-//                    Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
-//                        popularGrammar.forEach { grammar ->
-//                            GrammarCard(grammar)
-//                        }
-//                    }
                 }
             }
         }
@@ -402,7 +412,7 @@ fun ChoiceChip(
             .clip(RoundedCornerShape(50.dp))
             .background(backgroundColor)
             .clickable { onSelected() }
-            .width(120.dp)
+            .width(140.dp)
             .padding(horizontal = 16.dp, vertical = 8.dp),
         contentAlignment = Alignment.Center,
     ) {

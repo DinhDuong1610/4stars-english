@@ -350,7 +350,7 @@ fun WordDialog(
     if (vocabulary != null) {
         AlertDialog(
             onDismissRequest = onDismiss,
-            content = { NewWordCard(word = vocabulary!!) },
+            content = {  },
             properties = DialogProperties(
                 dismissOnBackPress = true,
                 dismissOnClickOutside = true
