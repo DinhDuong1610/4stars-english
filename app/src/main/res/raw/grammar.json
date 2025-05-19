@@ -1,308 +1,546 @@
 [
   {
-    "phrase": "at least it's better than",
-    "structure": "It + be + adjective/noun + but + still acceptable",
-    "meaning": "Ít nhất thì vẫn còn tốt hơn",
-    "explanation": "Cấu trúc này dùng để diễn tả tình huống không tốt, nhưng vẫn chưa phải tệ nhất. Nó khuyến khích người nói suy nghĩ tích cực, biết ơn vì điều vẫn còn.",
+    "phrase": "Present Perfect Continuous",
+    "structure": "have/has + been + V-ing",
+    "meaning": "Đã và đang làm gì đó",
+    "explanation": "Diễn tả hành động bắt đầu trong quá khứ và vẫn còn tiếp diễn ở hiện tại, thường nhấn mạnh đến tính liên tục.",
     "examples": [
       {
-        "sentence": "It's very hot today, but at least it's not humid.",
-        "translation": "Trời hôm nay rất nóng, nhưng ít ra thì không ẩm."
+        "sentence": "She has been studying English for 3 years.",
+        "translation": "Cô ấy đã học tiếng Anh được 3 năm rồi."
       },
       {
-        "sentence": "You still have a job. That's better than being unemployed.",
-        "translation": "Bạn vẫn còn việc làm. Thế là còn may hơn bị thất nghiệp."
+        "sentence": "I’ve been waiting here for an hour.",
+        "translation": "Tôi đã đợi ở đây một tiếng đồng hồ."
       }
     ],
-    "category": "Comparison"
+    "category": "Verb tenses"
   },
   {
-    "phrase": "try doing something",
-    "structure": "try + V-ing",
-    "meaning": "Thử làm gì đó",
-    "explanation": "Cấu trúc này dùng để nói về việc thử làm điều gì đó để xem kết quả ra sao. Thường dùng khi khuyến khích ai đó thử một điều gì mới.",
+    "phrase": "Used to",
+    "structure": "used to + V",
+    "meaning": "Đã từng làm gì trong quá khứ",
+    "explanation": "Dùng để mô tả thói quen hoặc trạng thái thường xuyên xảy ra trong quá khứ nhưng không còn ở hiện tại.",
     "examples": [
       {
-        "sentence": "I'll try calling her again.",
-        "translation": "Tôi sẽ thử gọi lại cho cô ấy."
+        "sentence": "I used to play soccer when I was a kid.",
+        "translation": "Tôi đã từng chơi bóng đá khi còn nhỏ."
       },
       {
-        "sentence": "I'd like to try your cooking.",
-        "translation": "Tôi muốn thử món ăn bạn nấu."
+        "sentence": "She used to live in London.",
+        "translation": "Cô ấy từng sống ở London."
       }
     ],
-    "category": "Advice / Attempt"
+    "category": "Verb tenses"
   },
   {
-    "phrase": "hard to (emotionally/mentally)",
-    "structure": "hard/difficult + to + verb",
-    "meaning": "Khó làm (về mặt cảm xúc/tinh thần)",
-    "explanation": "Dùng để nói rằng việc làm gì đó khó khăn không phải vì thể chất mà là do cảm xúc như tha thứ, nói thật, buông bỏ.",
+    "phrase": "Future Perfect",
+    "structure": "will + have + V3",
+    "meaning": "Sẽ đã hoàn thành gì đó vào thời điểm nhất định trong tương lai",
+    "explanation": "Diễn tả hành động sẽ hoàn tất trước một thời điểm hoặc sự kiện cụ thể trong tương lai.",
     "examples": [
       {
-        "sentence": "It's hard to throw away something you love.",
-        "translation": "Thật khó để vứt đi một thứ mà bạn yêu quý."
+        "sentence": "By next year, I will have graduated.",
+        "translation": "Đến năm sau, tôi sẽ đã tốt nghiệp."
       },
       {
-        "sentence": "It's difficult to believe what he said.",
-        "translation": "Thật khó để tin những gì anh ấy nói."
+        "sentence": "She will have finished the report by 5 p.m.",
+        "translation": "Cô ấy sẽ đã hoàn thành báo cáo trước 5 giờ chiều."
       }
     ],
-    "category": "Difficulty"
+    "category": "Verb tenses"
   },
   {
-    "phrase": "even though (spoken/casual)",
-    "structure": "even though + clause",
-    "meaning": "Mặc dù (cách nói thân mật)",
-    "explanation": "Dùng để diễn đạt sự mâu thuẫn giữa hai vế câu, thường mang ý chỉ trích hoặc không hài lòng, và phổ biến trong hội thoại thân mật.",
+    "phrase": "Past Continuous",
+    "structure": "was/were + V-ing",
+    "meaning": "Đang làm gì đó ở một thời điểm trong quá khứ",
+    "explanation": "Dùng để mô tả hành động đang diễn ra tại một thời điểm xác định trong quá khứ hoặc khi một hành động khác xen vào.",
     "examples": [
       {
-        "sentence": "Don't act like you know everything even though you don't.",
-        "translation": "Đừng làm như bạn biết mọi thứ trong khi bạn không biết."
+        "sentence": "I was reading when she came in.",
+        "translation": "Tôi đang đọc sách thì cô ấy bước vào."
       },
       {
-        "sentence": "Even though he's a college student, he doesn't know that?",
-        "translation": "Dù là sinh viên đại học mà cái đó cũng không biết sao?"
+        "sentence": "They were watching TV at 8 last night.",
+        "translation": "Họ đang xem TV lúc 8 giờ tối qua."
       }
     ],
-    "category": "Contrast"
+    "category": "Verb tenses"
   },
   {
-    "phrase": "do something in advance (casual)",
-    "structure": "verb + in advance / prepare + for",
-    "meaning": "Làm gì đó trước (thân mật)",
-    "explanation": "Dùng khi muốn nói về hành động được thực hiện để chuẩn bị trước cho điều gì đó, thường là để tiết kiệm thời gian hoặc thuận tiện hơn.",
+    "phrase": "Past Perfect",
+    "structure": "had + V3",
+    "meaning": "Đã làm gì đó trước một hành động khác trong quá khứ",
+    "explanation": "Dùng để nhấn mạnh hành động đã hoàn tất trước một hành động khác trong quá khứ.",
     "examples": [
       {
-        "sentence": "Please wash this in advance.",
-        "translation": "Làm ơn giặt cái này trước nhé."
+        "sentence": "He had left before I arrived.",
+        "translation": "Anh ấy đã rời đi trước khi tôi đến."
       },
       {
-        "sentence": "I'll write down my mistakes from the test to review later.",
-        "translation": "Tôi sẽ ghi lại những lỗi sai trong bài kiểm tra để ôn lại sau."
+        "sentence": "She had finished her homework before dinner.",
+        "translation": "Cô ấy đã làm xong bài tập trước bữa tối."
       }
     ],
-    "category": "Preparation"
+    "category": "Verb tenses"
+  },
+  {
+    "phrase": "Present Simple",
+    "structure": "V (s/es)",
+    "meaning": "Thói quen, sự thật hiển nhiên, lịch trình",
+    "explanation": "Thì hiện tại đơn diễn tả các hành động lặp lại, thói quen hoặc sự thật chung.",
+    "examples": [
+      {
+        "sentence": "He goes to school every day.",
+        "translation": "Anh ấy đi học mỗi ngày."
+      },
+      {
+        "sentence": "The sun rises in the east.",
+        "translation": "Mặt trời mọc ở hướng đông."
+      }
+    ],
+    "category": "Verb tenses"
+  },
+  {
+    "phrase": "Present Continuous",
+    "structure": "am/is/are + V-ing",
+    "meaning": "Đang diễn ra ở hiện tại",
+    "explanation": "Dùng để diễn tả hành động đang xảy ra ngay lúc nói hoặc quanh thời điểm nói.",
+    "examples": [
+      {
+        "sentence": "I am studying English now.",
+        "translation": "Tôi đang học tiếng Anh ngay bây giờ."
+      },
+      {
+        "sentence": "She is working on a new project.",
+        "translation": "Cô ấy đang làm việc trong một dự án mới."
+      }
+    ],
+    "category": "Verb tenses"
+  },
+  {
+    "phrase": "Present Perfect",
+    "structure": "have/has + V3",
+    "meaning": "Đã từng làm gì cho đến hiện tại",
+    "explanation": "Diễn tả hành động đã xảy ra trong quá khứ nhưng vẫn liên quan hoặc ảnh hưởng đến hiện tại.",
+    "examples": [
+      {
+        "sentence": "I have seen that movie before.",
+        "translation": "Tôi đã từng xem bộ phim đó rồi."
+      },
+      {
+        "sentence": "She has visited Japan twice.",
+        "translation": "Cô ấy đã đến Nhật hai lần."
+      }
+    ],
+    "category": "Verb tenses"
+  },
+  {
+    "phrase": "Past Simple",
+    "structure": "V2 (Ved/irregular verb)",
+    "meaning": "Đã làm gì trong quá khứ",
+    "explanation": "Dùng để diễn tả hành động đã xảy ra và kết thúc trong quá khứ, có thời gian xác định.",
+    "examples": [
+      {
+        "sentence": "I watched that movie last night.",
+        "translation": "Tôi đã xem bộ phim đó tối qua."
+      },
+      {
+        "sentence": "She went to Paris in 2020.",
+        "translation": "Cô ấy đã đến Paris vào năm 2020."
+      }
+    ],
+    "category": "Verb tenses"
+  },
+  {
+    "phrase": "Future Simple",
+    "structure": "will + V",
+    "meaning": "Sẽ làm gì trong tương lai",
+    "explanation": "Diễn tả hành động hoặc quyết định sẽ xảy ra trong tương lai, thường không có kế hoạch trước.",
+    "examples": [
+      {
+        "sentence": "I will call you later.",
+        "translation": "Tôi sẽ gọi bạn sau."
+      },
+      {
+        "sentence": "She will travel to Canada next year.",
+        "translation": "Cô ấy sẽ đi Canada vào năm sau."
+      }
+    ],
+    "category": "Verb tenses"
+  },
+  {
+    "phrase": "Future Continuous",
+    "structure": "will be + V-ing",
+    "meaning": "Sẽ đang làm gì tại một thời điểm trong tương lai",
+    "explanation": "Diễn tả hành động đang xảy ra tại một thời điểm xác định trong tương lai.",
+    "examples": [
+      {
+        "sentence": "This time tomorrow, I will be flying to New York.",
+        "translation": "Vào giờ này ngày mai, tôi sẽ đang bay đến New York."
+      },
+      {
+        "sentence": "They will be studying at 8 p.m.",
+        "translation": "Họ sẽ đang học vào lúc 8 giờ tối."
+      }
+    ],
+    "category": "Verb tenses"
+  },
+  {
+    "phrase": "Future Perfect Continuous",
+    "structure": "will have been + V-ing",
+    "meaning": "Sẽ đã và đang làm gì đó đến một thời điểm trong tương lai",
+    "explanation": "Nhấn mạnh độ dài thời gian của hành động tính đến một mốc cụ thể trong tương lai.",
+    "examples": [
+      {
+        "sentence": "By December, I will have been working here for 5 years.",
+        "translation": "Đến tháng 12, tôi sẽ đã làm việc ở đây được 5 năm."
+      },
+      {
+        "sentence": "She will have been studying all night.",
+        "translation": "Cô ấy sẽ đã học suốt cả đêm."
+      }
+    ],
+    "category": "Verb tenses"
+  },
+  {
+    "phrase": "can / could",
+    "structure": "can / could + V",
+    "meaning": "Có thể làm gì",
+    "explanation": "`Can` dùng để chỉ khả năng hiện tại; `Could` là quá khứ của `Can` hoặc dùng để diễn đạt lời đề nghị lịch sự.",
+    "examples": [
+      {
+        "sentence": "I can swim.",
+        "translation": "Tôi có thể bơi."
+      },
+      {
+        "sentence": "Could you help me with this?",
+        "translation": "Bạn có thể giúp tôi việc này không?"
+      }
+    ],
+    "category": "Modal verbs"
+  },
+  {
+    "phrase": "should / ought to",
+    "structure": "should / ought to + V",
+    "meaning": "Nên làm gì",
+    "explanation": "Dùng để đưa ra lời khuyên hoặc chỉ điều nên làm.",
+    "examples": [
+      {
+        "sentence": "You should drink more water.",
+        "translation": "Bạn nên uống nhiều nước hơn."
+      },
+      {
+        "sentence": "He ought to see a doctor.",
+        "translation": "Anh ấy nên đi khám bác sĩ."
+      }
+    ],
+    "category": "Modal verbs"
+  },
+  {
+    "phrase": "must",
+    "structure": "must + V",
+    "meaning": "Phải làm gì",
+    "explanation": "Diễn tả sự bắt buộc hoặc cần thiết mạnh mẽ.",
+    "examples": [
+      {
+        "sentence": "You must wear a seatbelt.",
+        "translation": "Bạn phải thắt dây an toàn."
+      },
+      {
+        "sentence": "Students must submit homework on time.",
+        "translation": "Học sinh phải nộp bài đúng hạn."
+      }
+    ],
+    "category": "Modal verbs"
+  },
+  {
+    "phrase": "may / might",
+    "structure": "may / might + V",
+    "meaning": "Có thể xảy ra (khả năng)",
+    "explanation": "`May` và `Might` diễn tả khả năng có thể xảy ra ở hiện tại hoặc tương lai. `Might` thường mang tính không chắc chắn hơn.",
+    "examples": [
+      {
+        "sentence": "It may rain later.",
+        "translation": "Trời có thể sẽ mưa sau."
+      },
+      {
+        "sentence": "He might come to the party.",
+        "translation": "Anh ấy có thể đến buổi tiệc."
+      }
+    ],
+    "category": "Modal verbs"
+  },
+  {
+    "phrase": "have to",
+    "structure": "have to + V",
+    "meaning": "Phải làm gì (do hoàn cảnh yêu cầu)",
+    "explanation": "Khác với `must` (do người nói yêu cầu), `have to` là nghĩa vụ đến từ bên ngoài (luật lệ, quy định...).",
+    "examples": [
+      {
+        "sentence": "I have to go to work early tomorrow.",
+        "translation": "Tôi phải đi làm sớm ngày mai."
+      },
+      {
+        "sentence": "You have to wear a uniform at school.",
+        "translation": "Bạn phải mặc đồng phục ở trường."
+      }
+    ],
+    "category": "Modal verbs"
   },
   {
     "phrase": "as...as",
     "structure": "as + adjective/adverb + as",
     "meaning": "So sánh bằng",
-    "explanation": "Dùng để so sánh hai thứ có mức độ bằng nhau về một tính chất nào đó.",
+    "explanation": "Dùng để so sánh hai đối tượng có tính chất hoặc hành động ngang bằng nhau.",
     "examples": [
       {
-        "sentence": "She's as tall as her brother.",
-        "translation": "Cô ấy cao bằng anh trai mình."
+        "sentence": "She is as tall as her brother.",
+        "translation": "Cô ấy cao bằng anh trai của mình."
+      },
+      {
+        "sentence": "This book is as interesting as the last one.",
+        "translation": "Cuốn sách này thú vị như cuốn trước."
       }
     ],
     "category": "Comparison"
   },
   {
-    "phrase": "more...than",
-    "structure": "more + adjective + than",
+    "phrase": "comparative adjectives",
+    "structure": "adjective + -er / more + adjective + than",
     "meaning": "So sánh hơn",
-    "explanation": "Dùng để nói rằng một điều gì đó có tính chất cao hơn so với điều khác.",
+    "explanation": "Dùng để so sánh hai đối tượng, trong đó một đối tượng có tính chất vượt trội hơn.",
     "examples": [
       {
-        "sentence": "This book is more interesting than that one.",
-        "translation": "Cuốn sách này thú vị hơn cuốn kia."
+        "sentence": "This car is faster than that one.",
+        "translation": "Chiếc xe này nhanh hơn chiếc kia."
+      },
+      {
+        "sentence": "She is more intelligent than her classmates.",
+        "translation": "Cô ấy thông minh hơn các bạn cùng lớp."
       }
     ],
     "category": "Comparison"
   },
   {
-    "phrase": "if",
-    "structure": "if + subject + verb, subject + verb",
-    "meaning": "Nếu",
-    "explanation": "Dùng để nói về điều kiện cần xảy ra để điều khác xảy ra.",
+    "phrase": "superlative adjectives",
+    "structure": "the + adjective + -est / the most + adjective",
+    "meaning": "So sánh nhất",
+    "explanation": "Dùng để so sánh một đối tượng với tất cả những đối tượng còn lại trong cùng nhóm.",
     "examples": [
       {
-        "sentence": "If it rains, we'll stay at home.",
-        "translation": "Nếu trời mưa, chúng tôi sẽ ở nhà."
+        "sentence": "He is the tallest student in the class.",
+        "translation": "Cậu ấy là học sinh cao nhất lớp."
+      },
+      {
+        "sentence": "This is the most beautiful place I’ve ever seen.",
+        "translation": "Đây là nơi đẹp nhất tôi từng thấy."
       }
     ],
-    "category": "Condition"
+    "category": "Comparison"
   },
   {
-    "phrase": "unless",
-    "structure": "unless + subject + verb",
-    "meaning": "Trừ khi",
-    "explanation": "Diễn tả điều trái ngược với điều kiện; giống như 'if... not'.",
+    "phrase": "the more...the more...",
+    "structure": "the more + clause, the more + clause",
+    "meaning": "Càng... càng...",
+    "explanation": "Dùng để thể hiện mối quan hệ tỷ lệ thuận giữa hai hành động hoặc trạng thái.",
     "examples": [
       {
-        "sentence": "You won’t pass unless you study.",
-        "translation": "Bạn sẽ không đậu trừ khi bạn học."
+        "sentence": "The more you practice, the better you become.",
+        "translation": "Bạn càng luyện tập, bạn càng giỏi."
+      },
+      {
+        "sentence": "The more he eats, the fatter he gets.",
+        "translation": "Anh ấy càng ăn nhiều thì càng béo."
       }
     ],
-    "category": "Condition"
+    "category": "Comparison"
   },
   {
-    "phrase": "because",
-    "structure": "main clause + because + reason",
-    "meaning": "Bởi vì",
-    "explanation": "Dùng để đưa ra lý do cho hành động hoặc sự việc.",
+    "phrase": "not as...as",
+    "structure": "not as + adjective/adverb + as",
+    "meaning": "Không bằng",
+    "explanation": "Dùng để nhấn mạnh sự khác biệt về mức độ giữa hai đối tượng.",
     "examples": [
       {
-        "sentence": "He was late because of traffic.",
-        "translation": "Anh ấy đến trễ vì kẹt xe."
+        "sentence": "This movie is not as good as the previous one.",
+        "translation": "Bộ phim này không hay bằng bộ trước."
+      },
+      {
+        "sentence": "He doesn't drive as carefully as his father.",
+        "translation": "Anh ấy không lái xe cẩn thận bằng cha mình."
       }
     ],
-    "category": "Cause and Effect"
+    "category": "Comparison"
   },
   {
-    "phrase": "so",
-    "structure": "clause + so + clause",
-    "meaning": "Vì vậy",
-    "explanation": "Dùng để chỉ kết quả của một hành động hoặc tình huống.",
+    "phrase": "Stress in two-syllable nouns and adjectives",
+    "structure": "Stress on the first syllable",
+    "meaning": "Trọng âm thường rơi vào âm tiết đầu tiên",
+    "explanation": "Với danh từ và tính từ có 2 âm tiết, trọng âm thường rơi vào âm đầu tiên.",
     "examples": [
       {
-        "sentence": "It rained, so we canceled the picnic.",
-        "translation": "Trời mưa nên chúng tôi huỷ chuyến picnic."
+        "sentence": "TAble, DOCtor, HAPpy",
+        "translation": "Bàn, bác sĩ, vui vẻ"
+      },
+      {
+        "sentence": "CLEver, WINdow",
+        "translation": "Thông minh, cửa sổ"
       }
     ],
-    "category": "Cause and Effect"
+    "category": "Stress"
   },
   {
-    "phrase": "when",
-    "structure": "when + subject + verb",
-    "meaning": "Khi",
-    "explanation": "Dùng để chỉ thời gian một sự việc xảy ra.",
+    "phrase": "Stress in two-syllable verbs and prepositions",
+    "structure": "Stress on the second syllable",
+    "meaning": "Động từ và giới từ có 2 âm tiết thường có trọng âm ở âm thứ hai",
+    "explanation": "Khác với danh từ/tính từ, động từ và giới từ có 2 âm tiết thường nhấn ở âm cuối.",
     "examples": [
       {
-        "sentence": "Call me when you arrive.",
-        "translation": "Gọi tôi khi bạn đến nơi."
+        "sentence": "reLAX, reQUIRE, beGIN",
+        "translation": "Thư giãn, yêu cầu, bắt đầu"
+      },
+      {
+        "sentence": "aROUND, aSIDE",
+        "translation": "Xung quanh, sang bên"
       }
     ],
-    "category": "Time"
+    "category": "Stress"
   },
   {
-    "phrase": "while",
-    "structure": "while + subject + verb",
-    "meaning": "Trong khi",
-    "explanation": "Diễn tả hai hành động xảy ra đồng thời.",
+    "phrase": "Stress in words ending with -ic, -sion, -tion",
+    "structure": "Stress on the second-to-last syllable",
+    "meaning": "Trọng âm thường rơi vào âm tiết trước đuôi -ic, -sion, -tion",
+    "explanation": "Các từ có các đuôi này thường đặt trọng âm ở âm trước đuôi.",
     "examples": [
       {
-        "sentence": "She was reading while he was cooking.",
-        "translation": "Cô ấy đang đọc sách trong khi anh ấy đang nấu ăn."
+        "sentence": "geoGRAPHic, eLECtric, opTIcian, comPUter",
+        "translation": "Thuộc địa lý, điện, bác sĩ nhãn khoa, máy tính"
+      },
+      {
+        "sentence": "eduCAtion, deciSION",
+        "translation": "Giáo dục, quyết định"
       }
     ],
-    "category": "Time"
+    "category": "Stress"
   },
   {
-    "phrase": "so that",
-    "structure": "clause + so that + subject + can/could + verb",
-    "meaning": "Để mà",
-    "explanation": "Dùng để nói về mục đích của hành động.",
+    "phrase": "Stress in compound nouns",
+    "structure": "Stress on the first word",
+    "meaning": "Danh từ ghép thường nhấn ở từ đầu",
+    "explanation": "Trong danh từ ghép (compound nouns), từ đầu tiên thường được nhấn mạnh.",
     "examples": [
       {
-        "sentence": "I studied hard so that I could pass the exam.",
-        "translation": "Tôi học chăm để có thể vượt qua kỳ thi."
+        "sentence": "BLACKboard, TOOTHbrush, AIRport",
+        "translation": "Bảng đen, bàn chải đánh răng, sân bay"
+      },
+      {
+        "sentence": "HAIRcut, FOOTball",
+        "translation": "Cắt tóc, bóng đá"
       }
     ],
-    "category": "Purpose"
+    "category": "Stress"
   },
   {
-    "phrase": "in order to",
-    "structure": "in order to + verb",
-    "meaning": "Để làm gì đó",
-    "explanation": "Một cách trang trọng để diễn đạt mục đích.",
+    "phrase": "Stress shift in noun-verb pairs",
+    "structure": "Noun: stress on 1st syllable | Verb: stress on 2nd",
+    "meaning": "Một số từ có thể là danh từ hoặc động từ, thay đổi trọng âm",
+    "explanation": "Một số từ có cùng cách viết nhưng là danh từ hoặc động từ tùy theo vị trí trọng âm.",
     "examples": [
       {
-        "sentence": "She exercises in order to stay healthy.",
-        "translation": "Cô ấy tập thể dục để giữ sức khoẻ."
+        "sentence": "Noun: `REcord`, Verb: `reCORD`",
+        "translation": "Danh từ: bản ghi, Động từ: ghi lại"
+      },
+      {
+        "sentence": "Noun: `PREsent`, Verb: `preSENT`",
+        "translation": "Danh từ: món quà, Động từ: trình bày"
       }
     ],
-    "category": "Purpose"
+    "category": "Stress"
   },
   {
-    "phrase": "a few / a little",
-    "structure": "a few + plural noun / a little + uncountable noun",
-    "meaning": "Một ít",
-    "explanation": "Dùng để nói có một lượng nhỏ nhưng đủ dùng.",
+    "phrase": "give up",
+    "structure": "give up + something / doing something",
+    "meaning": "Từ bỏ",
+    "explanation": "Dùng để nói về việc dừng làm điều gì đó (thường là thói quen xấu hoặc việc khó khăn).",
     "examples": [
       {
-        "sentence": "We have a few apples left.",
-        "translation": "Chúng ta còn một ít táo."
+        "sentence": "He gave up smoking two years ago.",
+        "translation": "Anh ấy đã bỏ thuốc lá cách đây hai năm."
+      },
+      {
+        "sentence": "Don’t give up! Keep trying.",
+        "translation": "Đừng bỏ cuộc! Hãy tiếp tục cố gắng."
       }
     ],
-    "category": "Quantity"
+    "category": "Phrasal verbs"
   },
   {
-    "phrase": "many / much",
-    "structure": "many + plural noun / much + uncountable noun",
-    "meaning": "Nhiều",
-    "explanation": "Dùng để diễn tả số lượng lớn.",
+    "phrase": "look after",
+    "structure": "look after + someone/something",
+    "meaning": "Chăm sóc",
+    "explanation": "Dùng khi bạn chịu trách nhiệm chăm sóc ai đó hoặc cái gì đó.",
     "examples": [
       {
-        "sentence": "She doesn’t have much time.",
-        "translation": "Cô ấy không có nhiều thời gian."
+        "sentence": "She looks after her younger brother.",
+        "translation": "Cô ấy chăm sóc em trai mình."
+      },
+      {
+        "sentence": "Can you look after the dog while I’m away?",
+        "translation": "Bạn có thể trông chó giúp tôi khi tôi đi vắng không?"
       }
     ],
-    "category": "Quantity"
+    "category": "Phrasal verbs"
   },
   {
-    "phrase": "can / could",
-    "structure": "can/could + verb",
-    "meaning": "Có thể",
-    "explanation": "Dùng để diễn tả khả năng hoặc sự cho phép.",
+    "phrase": "run out of",
+    "structure": "run out of + something",
+    "meaning": "Hết, cạn kiệt",
+    "explanation": "Dùng khi thứ gì đó đã sử dụng hết và không còn nữa.",
     "examples": [
       {
-        "sentence": "Can I go to the bathroom?",
-        "translation": "Tôi có thể đi vệ sinh không?"
+        "sentence": "We ran out of milk this morning.",
+        "translation": "Chúng tôi đã hết sữa sáng nay."
+      },
+      {
+        "sentence": "I ran out of time before I could finish the test.",
+        "translation": "Tôi hết thời gian trước khi làm xong bài kiểm tra."
       }
     ],
-    "category": "Modality"
+    "category": "Phrasal verbs"
   },
   {
-    "phrase": "should",
-    "structure": "should + verb",
-    "meaning": "Nên",
-    "explanation": "Dùng để đưa ra lời khuyên.",
+    "phrase": "turn down",
+    "structure": "turn down + something / someone",
+    "meaning": "Từ chối",
+    "explanation": "Dùng để từ chối một lời mời, đề nghị hoặc cơ hội.",
     "examples": [
       {
-        "sentence": "You should see a doctor.",
-        "translation": "Bạn nên đi khám bác sĩ."
+        "sentence": "She turned down the job offer.",
+        "translation": "Cô ấy từ chối lời mời làm việc."
+      },
+      {
+        "sentence": "He turned down my invitation to dinner.",
+        "translation": "Anh ấy đã từ chối lời mời ăn tối của tôi."
       }
     ],
-    "category": "Modality"
+    "category": "Phrasal verbs"
   },
   {
-    "phrase": "be + past participle",
-    "structure": "be + V3",
-    "meaning": "Bị / được (bị động)",
-    "explanation": "Dùng khi hành động xảy ra với chủ ngữ, không quan trọng ai làm.",
+    "phrase": "come up with",
+    "structure": "come up with + an idea/plan/solution",
+    "meaning": "Nghĩ ra",
+    "explanation": "Dùng để nói ai đó đã nghĩ ra được một ý tưởng, giải pháp hoặc kế hoạch.",
     "examples": [
       {
-        "sentence": "The cake was made by my mom.",
-        "translation": "Chiếc bánh được làm bởi mẹ tôi."
-      }
-    ],
-    "category": "Passive"
-  },
-  {
-    "phrase": "said that",
-    "structure": "subject + said (that) + clause",
-    "meaning": "Tường thuật lời nói",
-    "explanation": "Dùng để thuật lại điều ai đó đã nói.",
-    "examples": [
+        "sentence": "She came up with a brilliant idea.",
+        "translation": "Cô ấy nghĩ ra một ý tưởng tuyệt vời."
+      },
       {
-        "sentence": "He said that he was tired.",
-        "translation": "Anh ấy nói rằng anh ấy mệt."
+        "sentence": "We need to come up with a solution quickly.",
+        "translation": "Chúng ta cần nghĩ ra giải pháp nhanh chóng."
       }
     ],
-    "category": "Reported Speech"
-  },
-  {
-    "phrase": "although",
-    "structure": "although + clause",
-    "meaning": "Mặc dù",
-    "explanation": "Dùng để diễn tả sự trái ngược giữa hai mệnh đề.",
-    "examples": [
-      {
-        "sentence": "Although it was raining, they went out.",
-        "translation": "Dù trời mưa, họ vẫn ra ngoài."
-      }
-    ],
-    "category": "Contrast"
+    "category": "Phrasal verbs"
   }
 ]

@@ -82,7 +82,8 @@ class GoogleAuthRepository(private val context: Context) {
             "name" to (user.displayName ?: ""),
             "email" to (user.email ?: ""),
             "photoUrl" to (user.photoUrl?.toString() ?: ""),
-            "provider" to "google"
+            "provider" to "google",
+            "role" to "user"
         )
 
         firestore.collection("users")
