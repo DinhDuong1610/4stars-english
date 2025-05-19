@@ -14,6 +14,8 @@ import com.cloudinary.Cloudinary
 import com.cloudinary.utils.ObjectUtils
 import com.fourstars.fourstars_english.model.Comment
 import com.fourstars.fourstars_english.model.Post
+import com.fourstars.fourstars_english.notification.showCommentNotification
+import com.fourstars.fourstars_english.notification.showLikeNotification
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FieldValue
 import com.google.firebase.firestore.FirebaseFirestore
@@ -45,11 +47,16 @@ class CommunityViewModel : ViewModel() {
 
     val timestamp = System.currentTimeMillis()
 
+    var isLoading by mutableStateOf(false)
+
+    private val _userPosts = mutableStateOf<List<Post>>(emptyList())
+    val userPosts: State<List<Post>> = _userPosts
+
     private val cloudinary = Cloudinary(
         ObjectUtils.asMap(
-            "cloud_name", "de1h8i6eu",
-            "api_key", "559964571347292",
-            "api_secret", "2S57O46YGR0lEKKjM-9vFn0j-X8"
+            "cloud_name", "dml7vsbx7",
+            "api_key", "115634565249752",
+            "api_secret", "sBxxXvCAeXJD7z5tx1hu0DYgzto"
         )
     )
 
@@ -66,7 +73,7 @@ class CommunityViewModel : ViewModel() {
         val postId = UUID.randomUUID().toString()
         val tag = "General"
         val datePosted = SimpleDateFormat("HH:mm dd-MM-yyyy", Locale.getDefault()).format(Date())
-
+        isLoading = true
         db.collection("users").document(user.uid).get()
             .addOnSuccessListener { snapshot ->
                 val userName = snapshot.getString("name") ?: "Unknown"
@@ -87,6 +94,7 @@ class CommunityViewModel : ViewModel() {
                     resetPostForm()
                 }
             }
+        isLoading = false
     }
 
     private fun resetPostForm() {
@@ -146,13 +154,14 @@ class CommunityViewModel : ViewModel() {
         }
     }
 
-    fun toggleLike(post: Post) {
+    fun toggleLike(post: Post, context: Context) {
         val docRef = db.collection("posts").document(post.postId)
         val isLiked = post.likedBy.contains(currentUserId)
 
         val updatedLikes = if (isLiked) {
             FieldValue.arrayRemove(currentUserId)
         } else {
+            showLikeNotification(context, post.userName)
             FieldValue.arrayUnion(currentUserId)
         }
 
@@ -171,7 +180,7 @@ class CommunityViewModel : ViewModel() {
             }
     }
 
-    fun addCommentToPost(postId: String, text: String, onSuccess: () -> Unit) {
+    fun addCommentToPost(postId: String, text: String, context: Context, onSuccess: () -> Unit) {
         val user = FirebaseAuth.getInstance().currentUser ?: return
         val comment = Comment(
             userId = user.uid,
@@ -187,6 +196,12 @@ class CommunityViewModel : ViewModel() {
             .addOnSuccessListener {
                 onSuccess()
                 loadComments(postId)
+
+                // ✅ Hiển thị thông báo
+                db.collection("posts").document(postId).get().addOnSuccessListener { snapshot ->
+                    val ownerName = snapshot.getString("userName") ?: "người dùng"
+                    showCommentNotification(context, ownerName, text)
+                }
             }
             .addOnFailureListener {
                 Log.e("CommunityViewModel", "Thêm bình luận thất bại: ${it.message}")
@@ -207,6 +222,74 @@ class CommunityViewModel : ViewModel() {
                             }
                         }
                 }
+            }
+    }
+
+    fun deletePost(post: Post) {
+        viewModelScope.launch(Dispatchers.IO) {
+            isLoading = true
+            try {
+                post.imageUrl?.let { imageUrl ->
+                    val publicId = extractPublicIdFromUrl(imageUrl)
+                    if (publicId != null) {
+                        cloudinary.uploader().destroy(publicId, ObjectUtils.emptyMap())
+                    }
+                }
+
+                db.collection("posts").document(post.postId).delete()
+            } catch (e: Exception) {
+                Log.e("CommunityViewModel", "Xoá bài viết thất bại: ${e.message}")
+            }
+            isLoading = false
+        }
+    }
+
+    fun extractPublicIdFromUrl(url: String): String? {
+        val lastPart = url.substringAfterLast('/')
+
+        return lastPart.substringBeforeLast('.')
+    }
+
+    fun editPost(post: Post, updatedText: String) {
+        val postRef = db.collection("posts").document(post.postId)
+        postRef.update("text", updatedText)
+            .addOnSuccessListener {
+                Log.d("EditPost", "Post updated successfully")
+            }
+            .addOnFailureListener { e ->
+                Log.e("EditPost", "Failed to update post", e)
+            }
+    }
+
+    fun loadPostsByUser(userId: String) {
+        db.collection("posts")
+            .whereEqualTo("userId", userId)
+            .orderBy("timestamp", Query.Direction.DESCENDING)
+            .addSnapshotListener { snapshot, e ->
+                if (e != null) {
+                    Log.e("CommunityVM", "Lỗi khi lấy bài viết người dùng", e)
+                    return@addSnapshotListener
+                }
+                val posts = snapshot?.documents?.mapNotNull { it.toObject(Post::class.java) } ?: emptyList()
+                _userPosts.value = posts
+            }
+    }
+
+    fun updateUserName(newName: String) {
+        val userId = FirebaseAuth.getInstance().currentUser?.uid ?: return
+        val db = FirebaseFirestore.getInstance()
+        db.collection("users").document(userId)
+            .update("name", newName)
+            .addOnSuccessListener {
+                // Cập nhật tên trong bài viết
+                db.collection("posts")
+                    .whereEqualTo("userId", userId)
+                    .get()
+                    .addOnSuccessListener { snapshot ->
+                        for (doc in snapshot.documents) {
+                            doc.reference.update("userName", newName)
+                        }
+                    }
             }
     }
 }
