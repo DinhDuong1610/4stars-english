@@ -24,6 +24,10 @@ import androidx.compose.material.icons.filled.People
 import androidx.compose.material.icons.filled.School
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material.icons.filled.Translate
+import androidx.compose.material.icons.outlined.Home
+import androidx.compose.material.icons.outlined.People
+import androidx.compose.material.icons.outlined.School
+import androidx.compose.material.icons.outlined.Translate
 import androidx.compose.material3.Badge
 import androidx.compose.material3.BadgedBox
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -64,6 +68,7 @@ import com.fourstars.fourstars_english.card.WelcomeCard
 import com.fourstars.fourstars_english.model.BottomNavItem
 import com.fourstars.fourstars_english.model.Category
 import com.fourstars.fourstars_english.ui.theme.Feather
+import com.fourstars.fourstars_english.ui.theme.Nunito
 import com.fourstars.fourstars_english.viewModel.VideoViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -72,11 +77,8 @@ fun HomeScreen(navController: NavHostController, authRepo: AuthRepository,
                viewModel: ArticleViewModel = viewModel(), viewModel1: VocabularyViewModel = viewModel(), videoViewModel: VideoViewModel = viewModel()) {
 
     val user = authRepo.getCurrentUser()
-
     val articles = viewModel.articles.collectAsState()
-
     val vocabList = viewModel1.vocabList.observeAsState(emptyList())
-
     val videos = videoViewModel.videoList
 
     LaunchedEffect(Unit) {
@@ -97,7 +99,7 @@ fun HomeScreen(navController: NavHostController, authRepo: AuthRepository,
                     .background(Color.White) // Màu nền áp dụng cho cả padding
             ) {
                 TopAppBar(
-                    title = { Text("4Stars", fontWeight = FontWeight.Bold, fontFamily = Feather) },
+                    title = { Text("Torii", fontWeight = FontWeight.Bold, fontFamily = Feather) },
                     modifier = Modifier.padding(end = 12.dp),
                     colors = TopAppBarDefaults.topAppBarColors(
                         containerColor = Color.Transparent, // Để màu nền của Box hiển thị
@@ -114,14 +116,18 @@ fun HomeScreen(navController: NavHostController, authRepo: AuthRepository,
                                 }
                             }
                         ) {
-                            IconButton(onClick = { /* Xử lý mở thông báo */ }) {
+                            IconButton(onClick = {
+                                navController.navigate("notification")
+                            }) {
                                 Icon(Icons.Default.Notifications, contentDescription = "Thông báo")
                             }
                         }
 
                         Spacer(modifier = Modifier.width(4.dp)) // Tạo khoảng cách giữa các icon
 
-                        IconButton(onClick = { /* Xử lý cài đặt */ }) {
+                        IconButton(onClick = {
+                            navController.navigate("settings")
+                        }) {
                             Icon(Icons.Default.Settings, contentDescription = "Cài đặt")
                         }
 
@@ -134,6 +140,7 @@ fun HomeScreen(navController: NavHostController, authRepo: AuthRepository,
                                 modifier = Modifier
                                     .size(35.dp)
                                     .clip(CircleShape)
+                                    .clickable { navController.navigate("profile") }
                             )
                         }
                     }
@@ -156,11 +163,11 @@ fun HomeScreen(navController: NavHostController, authRepo: AuthRepository,
                     Spacer(modifier = Modifier.height(10.dp))
 
                     val userName = user.displayName
-                    val streak = remember { (1..20).random() }         // Ngẫu nhiên từ 1 đến 50 ngày
+                    val streak = remember { (1..50).random() }         // Ngẫu nhiên từ 1 đến 50 ngày
                     val xp = remember { (100..1000).random() }         // Ngẫu nhiên từ 100 đến 1000 XP
                     val rank = "Silver"
 
-                    WelcomeCard("Dinh Duong", streakDays = streak, xpPoints = xp, rank = rank)
+                    WelcomeCard(userName = userName.toString(), streakDays = streak, xpPoints = xp, rank = rank)
 
                     Spacer(modifier = Modifier.height(20.dp))
                 }
@@ -341,21 +348,35 @@ fun BottomNavigationBar(navController: NavController) {
     )
 
     NavigationBar(
-        containerColor = Color.White,
+        containerColor = Color(0x8BF5F5F5),
     ) {
         val currentRoute = navController.currentDestination?.route
         items.forEach { item ->
+            val selected = currentRoute == item.route
             NavigationBarItem(
-                icon = { Icon(item.icon, contentDescription = item.label) },
-                label = { Text(item.label, fontFamily = Feather) },
-                selected = currentRoute == item.route,
-                onClick = { navController.navigate(item.route) },
+                icon = {
+//                    Icon(
+//                        imageVector = if (selected) item.selectedIcon else item.unselectedIcon,
+//                        contentDescription = item.label
+//                    )
+                },
+                label = { Text(item.label, fontFamily = Nunito) },
+                selected = selected,
+                onClick = {
+                    if (!selected) {
+                        navController.navigate(item.route) {
+                            launchSingleTop = true
+                            restoreState = true
+                        }
+                    }
+                },
                 colors = NavigationBarItemDefaults.colors(
-                    indicatorColor = Color(0xFFE8F5E9),
+                    indicatorColor = Color(0xB4B3E5FC),
                 ),
             )
         }
     }
 }
+
 
 

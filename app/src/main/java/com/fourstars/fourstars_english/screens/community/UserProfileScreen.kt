@@ -70,6 +70,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.fourstars.fourstars_english.model.Post
+import com.fourstars.fourstars_english.screens.main.EditPostDialog
 import com.fourstars.fourstars_english.screens.main.getRelativeTime
 import com.fourstars.fourstars_english.ui.theme.BeVietnamPro
 import com.fourstars.fourstars_english.ui.theme.Feather
