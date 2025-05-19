@@ -63,12 +63,27 @@ class VocabularyViewModel(application: Application) : AndroidViewModel(applicati
         }
 
         val result = fullList.filter { entry ->
-            entry.word.contains(keyword.trim(), ignoreCase = true) ||
-                    entry.definition.contains(keyword.trim(), ignoreCase = true)
+            entry.word.contains(keyword.trim(), ignoreCase = true)
         }
 
         println("[DEBUG] Found ${result.size} results for keyword '$keyword'")
         _vocabList.value = result
+    }
+
+    fun searchWord(keyword: String): Vocabulary? {
+        if (!::fullList.isInitialized) {
+            println("Warning: Vocabulary not loaded!")
+            _vocabList.value = emptyList()
+            return null
+        }
+
+        val result = fullList.filter { entry ->
+            entry.word.contains(keyword.trim(), ignoreCase = true)
+        }
+
+        println("[DEBUG] Found ${result.size} results for keyword '$keyword'")
+        _vocabList.value = result
+        return result.firstOrNull()
     }
 
     fun filterByCategory(category: String): List<Vocabulary> {

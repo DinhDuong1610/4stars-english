@@ -59,7 +59,10 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import coil.compose.AsyncImage
 import com.fourstars.fourstars_english.card.NewWordCard
+import com.fourstars.fourstars_english.card.VocabularyDetail
+import com.fourstars.fourstars_english.card.VocabularyDetailCard
 import com.fourstars.fourstars_english.model.Article
+import com.fourstars.fourstars_english.model.Vocabulary
 import com.fourstars.fourstars_english.ui.theme.Feather
 import com.fourstars.fourstars_english.ui.theme.NotoSansJP
 import com.fourstars.fourstars_english.viewModel.VocabularyViewModel
@@ -283,27 +286,21 @@ fun formatTime(milliseconds: Long): String {
 
 @Composable
 fun ArticleContent(content: String, onWordClick: (String) -> Unit) {
-    val katakanaKanjiRegex = remember { Regex("[\\p{Script=Katakana}\\p{Script=Han}ー]+") }
-    val matches = remember(content) { katakanaKanjiRegex.findAll(content).toList() }
+    val wordRegex = remember { Regex("\\b\\w+\\b") }
+    val matches = remember(content) { wordRegex.findAll(content).toList() }
 
     val annotatedString = remember(content) {
         buildAnnotatedString {
             var lastIndex = 0
             for (match in matches) {
-                // Append content before the match
                 append(content.substring(lastIndex, match.range.first))
 
                 val word = match.value
-                // Add clickable annotation for the word
                 pushStringAnnotation(tag = "WORD", annotation = word)
                 withStyle(
                     style = SpanStyle(
-                        textDecoration = TextDecoration.Underline,
-                        shadow = Shadow(
-                            color = Color.LightGray, // Màu "giả lập" cho gạch chân
-                            offset = Offset(0f, 0f),
-                            blurRadius = 0f
-                        ),
+                        color = Color.Black,
+                        fontWeight = FontWeight.Normal,
                     )
                 ) {
                     append(word)
@@ -311,7 +308,6 @@ fun ArticleContent(content: String, onWordClick: (String) -> Unit) {
                 pop()
                 lastIndex = match.range.last + 1
             }
-            // Append any remaining content
             if (lastIndex < content.length) {
                 append(content.substring(lastIndex))
             }
@@ -329,12 +325,13 @@ fun ArticleContent(content: String, onWordClick: (String) -> Unit) {
         modifier = Modifier.fillMaxWidth(),
         style = TextStyle(
             fontSize = 20.sp,
-            color = Color.Black,  // Màu chữ bình thường
+            color = Color.Black,
             lineHeight = 36.sp,
             textAlign = TextAlign.Justify,
         )
     )
 }
+
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -344,13 +341,13 @@ fun WordDialog(
     viewModel: VocabularyViewModel
 ) {
     val vocabulary by remember(word) {
-        derivedStateOf { viewModel.searchVocabulary(word) }
+        derivedStateOf { viewModel.searchWord(word) }
     }
 
     if (vocabulary != null) {
         AlertDialog(
             onDismissRequest = onDismiss,
-            content = {  },
+            content = { VocabularyDetailCard(vocabulary as Vocabulary) },
             properties = DialogProperties(
                 dismissOnBackPress = true,
                 dismissOnClickOutside = true
