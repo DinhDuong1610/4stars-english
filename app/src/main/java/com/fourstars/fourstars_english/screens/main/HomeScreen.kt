@@ -73,6 +73,7 @@ import com.fourstars.fourstars_english.model.BottomNavItem
 import com.fourstars.fourstars_english.model.Category
 import com.fourstars.fourstars_english.ui.theme.Feather
 import com.fourstars.fourstars_english.ui.theme.Nunito
+import com.fourstars.fourstars_english.viewModel.CategoryViewModel
 import com.fourstars.fourstars_english.viewModel.VideoViewModel
 import com.google.firebase.auth.FirebaseAuth
 
@@ -82,10 +83,12 @@ fun HomeScreen(navController: NavHostController, authRepo: AuthRepository,
                viewModel: ArticleViewModel = viewModel(), viewModel1: VocabularyViewModel = viewModel(), videoViewModel: VideoViewModel = viewModel()) {
 
     val user = authRepo.getCurrentUser()
-
     val articles = viewModel.articles.collectAsState()
     val vocabList = viewModel1.vocabList.observeAsState(emptyList())
     val videos = videoViewModel.videoList
+
+    val categoryViewModel: CategoryViewModel = viewModel()
+    val categories = categoryViewModel.categories.collectAsState()
 
 
 
@@ -104,20 +107,20 @@ fun HomeScreen(navController: NavHostController, authRepo: AuthRepository,
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .background(Color.White) // Màu nền áp dụng cho cả padding
+                    .background(Color.White)
             ) {
                 TopAppBar(
                     title = { Text("4Stars", fontWeight = FontWeight.Bold, fontFamily = Feather) },
                     modifier = Modifier.padding(end = 12.dp),
                     colors = TopAppBarDefaults.topAppBarColors(
-                        containerColor = Color.Transparent, // Để màu nền của Box hiển thị
-                        titleContentColor = Color.Black // Màu chữ tiêu đề
+                        containerColor = Color.Transparent,
+                        titleContentColor = Color.Black
                     ),
                     actions = {
                         BadgedBox(
                             badge = {
                                 val notificationCount = 3
-                                if (notificationCount > 0) { // Chỉ hiển thị khi có thông báo
+                                if (notificationCount > 0) {
                                     Badge(
                                         modifier = Modifier.offset(x = (-16).dp, y = 7.dp),
                                     ) { Text(notificationCount.toString()) }
@@ -131,7 +134,7 @@ fun HomeScreen(navController: NavHostController, authRepo: AuthRepository,
                             }
                         }
 
-                        Spacer(modifier = Modifier.width(4.dp)) // Tạo khoảng cách giữa các icon
+                        Spacer(modifier = Modifier.width(4.dp))
 
                         IconButton(onClick = {
                             navController.navigate("settings")
@@ -140,7 +143,7 @@ fun HomeScreen(navController: NavHostController, authRepo: AuthRepository,
                         }
 
 
-                        Spacer(modifier = Modifier.width(15.dp)) // Tạo khoảng cách trước avatar
+                        Spacer(modifier = Modifier.width(15.dp))
 
 
                         user?.photoUrl?.let { avatarUrl ->
@@ -173,8 +176,8 @@ fun HomeScreen(navController: NavHostController, authRepo: AuthRepository,
                     Spacer(modifier = Modifier.height(10.dp))
 
                     val userName = user.displayName
-                    val streak = remember { (1..50).random() }         // Ngẫu nhiên từ 1 đến 50 ngày
-                    val xp = remember { (100..1000).random() }         // Ngẫu nhiên từ 100 đến 1000 XP
+                    val streak = remember { (1..30).random() }
+                    val xp = remember { (100..1000).random() }
                     val rank = "Silver"
 
                     WelcomeCard(userName = userName.toString(), streakDays = streak, xpPoints = xp, rank = rank)
@@ -197,34 +200,23 @@ fun HomeScreen(navController: NavHostController, authRepo: AuthRepository,
 
                         Text(
                             text = "See All",
-                            color = Color(0xFF007BFF), // Màu xanh nước biển
-                            fontSize = 16.sp, // Nhỏ hơn tiêu đề
+                            color = Color(0xFF007BFF),
+                            fontSize = 16.sp,
                             fontFamily = Feather,
                             fontWeight = FontWeight.Bold,
                             modifier = Modifier
                                 .clickable { navController.navigate("category") }
-                                .padding(4.dp) // Khoảng cách để dễ nhấn
+                                .padding(4.dp)
                         )
                     }
                     Spacer(modifier = Modifier.height(10.dp))
                 }
 
                 item {
-                    val categories = listOf(
-                        Category("Animal", 120, "\uD83D\uDC18"), // 🐘
-                        Category("Food", 95, "\uD83C\uDF55"), // 🍕
-                        Category("Technology", 80, "\uD83D\uDDA5\uFE0F"), // 🖥️
-                        Category("Travel", 60, "✈\uFE0F"), // ✈️
-                        Category("Nature", 45, "\uD83C\uDF3F"), // 🌿
-                        Category("Space", 30, "\uD83C\uDF0C"), // 🌌
-                        Category("Geography", 50, "\uD83C\uDF0D"), // 🌍
-                        Category("Jobs", 70, "\uD83D\uDCBC"), // 💼
-                        Category("Sports", 65, "\uD83C\uDFC0"), // 🏀
-                    )
-                    LazyRow (
+                    LazyRow(
                         Modifier.height(150.dp)
                     ) {
-                        items(categories) { category ->
+                        items(categories.value) { category ->
                             CategoryCard(navController, category)
                         }
                     }
