@@ -4,6 +4,8 @@ import android.os.Build
 import android.window.SplashScreen
 import androidx.annotation.RequiresApi
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.produceState
 import androidx.compose.ui.platform.LocalContext
 import androidx.navigation.NavHostController
 import androidx.navigation.NavType
@@ -15,6 +17,9 @@ import com.fourstars.fourstars_english.repository.AuthRepository
 import com.fourstars.fourstars_english.repository.GoogleAuthRepository
 import com.fourstars.fourstars_english.screens.auth.LoginScreen
 import com.fourstars.fourstars_english.screens.auth.RegisterScreen
+import com.fourstars.fourstars_english.screens.community.UserProfileScreen
+import com.fourstars.fourstars_english.screens.home.NotificationScreen
+import com.fourstars.fourstars_english.screens.home.SettingsScreen
 import com.fourstars.fourstars_english.screens.home.articles.ArticleDetailScreen
 import com.fourstars.fourstars_english.screens.home.articles.ArticlesScreen
 import com.fourstars.fourstars_english.screens.home.video.VideoScreen
@@ -28,24 +33,28 @@ import com.fourstars.fourstars_english.screens.search.GrammarScreen
 import com.fourstars.fourstars_english.screens.study.FlashcardScreen
 import com.fourstars.fourstars_english.screens.study.NotebookDetailScreen
 import com.fourstars.fourstars_english.screens.study.QuizScreen
+import com.google.firebase.auth.FirebaseAuth
+import kotlinx.coroutines.delay
 
 @RequiresApi(Build.VERSION_CODES.O)
 @Composable
 fun AppNavGraph(navController: NavHostController) {
-    val navController = rememberNavController()
     val authRepo = AuthRepository()
     val context = LocalContext.current
     val googleAuthRepo = GoogleAuthRepository(context)
 
-    NavHost(navController = navController, startDestination = "splash") {
+    // ✅ Trì hoãn xác định startDestination để chờ Firebase đồng bộ
+    val startDestination by produceState(initialValue = "splash") {
+        delay(500) // Chờ FirebaseAuth cập nhật
+        value = if (FirebaseAuth.getInstance().currentUser != null) "home" else "splash"
+    }
+
+    NavHost(navController = navController, startDestination = startDestination) {
         composable("login") { LoginScreen(navController, authRepo, googleAuthRepo) }
         composable("register") { RegisterScreen(navController, authRepo, googleAuthRepo) }
         composable("splash") { SplashScreen(navController) }
         composable("greeting") { GreetingScreen(navController) }
-        composable("home") { HomeScreen(
-            navController,
-            authRepo
-        ) }
+        composable("home") { HomeScreen(navController, authRepo) }
         composable("search") { SearchScreen(navController) }
         composable("learning") { LearningScreen(navController) }
         composable("community") { CommunityScreen(navController) }
@@ -104,5 +113,17 @@ fun AppNavGraph(navController: NavHostController) {
                 onBack = { navController.popBackStack() }
             )
         }
+        composable("profile") { UserProfileScreen(navController) }
+        composable("settings") {
+            SettingsScreen(
+                navController = navController,
+                onLogout = {
+                    navController.navigate("login") {
+                        popUpTo("home") { inclusive = true }
+                    }
+                }
+            )
+        }
+        composable("notification") { NotificationScreen(navController) }
     }
 }

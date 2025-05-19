@@ -66,8 +66,6 @@ class MainActivity() : ComponentActivity() {
 
         textToSpeechViewModel = ViewModelProvider(this).get(TextToSpeechViewModel::class.java)
 
-        FirebaseApp.initializeApp(this)
-
         setContent {
             navController = rememberNavController() // ✅ Khởi tạo đúng cách
             MyApp(navController)
@@ -104,7 +102,7 @@ fun SplashScreen(navController: NavHostController) {
     ) {
         // Ảnh nền
         Image(
-            painter = painterResource(id = com.fourstars.fourstars_english.R.drawable.logo),
+            painter = painterResource(id = R.drawable.logo), // Thay bằng ảnh của bạn
             contentDescription = "App Logo",
             contentScale = ContentScale.Crop,
             modifier = Modifier.size(250.dp)

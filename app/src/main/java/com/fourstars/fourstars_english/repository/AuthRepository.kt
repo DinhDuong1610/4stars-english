@@ -3,6 +3,7 @@ package com.fourstars.fourstars_english.repository
 import android.util.Log
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
+import com.google.firebase.auth.userProfileChangeRequest
 import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.coroutines.tasks.await
 
@@ -18,6 +19,11 @@ open class AuthRepository {
             val result = auth.createUserWithEmailAndPassword(email, password).await()
             val user = result.user
             user?.let {
+                val profileUpdates = userProfileChangeRequest {
+                    displayName = name
+                }
+                user.updateProfile(profileUpdates).await()
+
                 val userData = hashMapOf(
                     "uid" to user.uid,
                     "name" to name,

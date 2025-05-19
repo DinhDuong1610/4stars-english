@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "314263344073",
+    "firebase_url": "https://fourstars-english-app-default-rtdb.firebaseio.com",
     "project_id": "fourstars-english-app",
     "storage_bucket": "fourstars-english-app.firebasestorage.app"
   },
@@ -12,7 +13,20 @@
           "package_name": "com.fourstars.fourstars_english"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "314263344073-7c2hl3l2n4lsf6b08k484ghbvpq0dl15.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fourstars.fourstars_english",
+            "certificate_hash": "da4aeec72b27a43cffbd3dd5e85d352fd8e93064"
+          }
+        },
+        {
+          "client_id": "314263344073-qp53dm9v72pennniies2qvvs57lm6e8t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyAYkkazu_LYYs72XMi9_8z2WW74Ii1WgcQ"
@@ -20,7 +34,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314263344073-qp53dm9v72pennniies2qvvs57lm6e8t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

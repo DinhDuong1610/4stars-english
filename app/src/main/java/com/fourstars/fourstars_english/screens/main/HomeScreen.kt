@@ -18,6 +18,7 @@ import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ExitToApp
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Notifications
 import androidx.compose.material.icons.filled.People
@@ -28,6 +29,7 @@ import androidx.compose.material.icons.outlined.Home
 import androidx.compose.material.icons.outlined.People
 import androidx.compose.material.icons.outlined.School
 import androidx.compose.material.icons.outlined.Translate
+import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Badge
 import androidx.compose.material3.BadgedBox
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -38,12 +40,14 @@ import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.NavigationBarItemDefaults
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.livedata.observeAsState
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -70,6 +74,7 @@ import com.fourstars.fourstars_english.model.Category
 import com.fourstars.fourstars_english.ui.theme.Feather
 import com.fourstars.fourstars_english.ui.theme.Nunito
 import com.fourstars.fourstars_english.viewModel.VideoViewModel
+import com.google.firebase.auth.FirebaseAuth
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -77,9 +82,12 @@ fun HomeScreen(navController: NavHostController, authRepo: AuthRepository,
                viewModel: ArticleViewModel = viewModel(), viewModel1: VocabularyViewModel = viewModel(), videoViewModel: VideoViewModel = viewModel()) {
 
     val user = authRepo.getCurrentUser()
+
     val articles = viewModel.articles.collectAsState()
     val vocabList = viewModel1.vocabList.observeAsState(emptyList())
     val videos = videoViewModel.videoList
+
+
 
     LaunchedEffect(Unit) {
         if (vocabList.value.isEmpty()) {
@@ -99,7 +107,7 @@ fun HomeScreen(navController: NavHostController, authRepo: AuthRepository,
                     .background(Color.White) // Màu nền áp dụng cho cả padding
             ) {
                 TopAppBar(
-                    title = { Text("Torii", fontWeight = FontWeight.Bold, fontFamily = Feather) },
+                    title = { Text("4Stars", fontWeight = FontWeight.Bold, fontFamily = Feather) },
                     modifier = Modifier.padding(end = 12.dp),
                     colors = TopAppBarDefaults.topAppBarColors(
                         containerColor = Color.Transparent, // Để màu nền của Box hiển thị
@@ -131,7 +139,9 @@ fun HomeScreen(navController: NavHostController, authRepo: AuthRepository,
                             Icon(Icons.Default.Settings, contentDescription = "Cài đặt")
                         }
 
+
                         Spacer(modifier = Modifier.width(15.dp)) // Tạo khoảng cách trước avatar
+
 
                         user?.photoUrl?.let { avatarUrl ->
                             AsyncImage(
@@ -341,10 +351,10 @@ fun HomeScreen(navController: NavHostController, authRepo: AuthRepository,
 @Composable
 fun BottomNavigationBar(navController: NavController) {
     val items = listOf(
-        BottomNavItem("home", "Home", Icons.Default.Home),
-        BottomNavItem("search", "Search", Icons.Default.Translate),
-        BottomNavItem("learning", "Study", Icons.Default.School),
-        BottomNavItem("community", "Community", Icons.Default.People)
+        BottomNavItem("home", "Home", Icons.Default.Home, Icons.Outlined.Home),
+        BottomNavItem("search", "Search", Icons.Default.Translate, Icons.Outlined.Translate),
+        BottomNavItem("learning", "Study", Icons.Default.School, Icons.Outlined.School),
+        BottomNavItem("community", "Community", Icons.Default.People, Icons.Outlined.People)
     )
 
     NavigationBar(
@@ -355,10 +365,10 @@ fun BottomNavigationBar(navController: NavController) {
             val selected = currentRoute == item.route
             NavigationBarItem(
                 icon = {
-//                    Icon(
-//                        imageVector = if (selected) item.selectedIcon else item.unselectedIcon,
-//                        contentDescription = item.label
-//                    )
+                    Icon(
+                        imageVector = if (selected) item.selectedIcon else item.unselectedIcon,
+                        contentDescription = item.label
+                    )
                 },
                 label = { Text(item.label, fontFamily = Nunito) },
                 selected = selected,
