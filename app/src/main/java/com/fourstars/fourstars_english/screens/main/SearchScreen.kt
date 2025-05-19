@@ -1,6 +1,7 @@
 package com.fourstars.fourstars_english.screens.main
 
 import android.os.Build
+import android.util.Log
 import androidx.annotation.RequiresApi
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.Spring
@@ -71,8 +72,11 @@ import com.fourstars.fourstars_english.viewModel.GrammarViewModel
 import com.fourstars.fourstars_english.viewModel.SearchViewModel
 import com.fourstars.fourstars_english.viewModel.VocabularyViewModel
 import com.google.firebase.auth.FirebaseAuth
+import com.google.gson.Gson
 import kotlinx.coroutines.FlowPreview
 import kotlinx.coroutines.flow.debounce
+import java.net.URLEncoder
+import java.nio.charset.StandardCharsets
 
 @RequiresApi(Build.VERSION_CODES.O)
 @OptIn(ExperimentalMaterial3Api::class, FlowPreview::class, ExperimentalLayoutApi::class)
@@ -226,8 +230,16 @@ fun SearchScreen(navController: NavController, vocabularyViewModel: VocabularyVi
                                 .height(600.dp)
                                 .fillMaxWidth()
                         ) {
-                            items(vocabList.value) { vocab ->
-                                NewWordCard(vocab)
+                            items(vocabList.value) { word ->
+//                                NewWordCard(vocab)
+                                val json = Gson().toJson(word)
+                                val encoded = URLEncoder.encode(json, StandardCharsets.UTF_8.toString())
+
+                                NewWordCard(word = word, modifier = Modifier
+                                    .clickable {
+                                        Log.d("NewWordCard", "Clicked: ${word.word}")
+                                        navController.navigate("vocab_detail/$encoded")
+                                    })
                             }
                         }
                     }

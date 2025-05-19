@@ -42,7 +42,7 @@ import com.fourstars.fourstars_english.ui.theme.NotoSansJP
 import com.fourstars.fourstars_english.viewModel.TextToSpeechViewModel
 
 @Composable
-fun NewWordCard(word: Vocabulary) {
+fun NewWordCard(word: Vocabulary, modifier: Modifier = Modifier) {
 
     val context = LocalContext.current
 
@@ -50,7 +50,7 @@ fun NewWordCard(word: Vocabulary) {
     val textToSpeechViewModel: TextToSpeechViewModel = viewModel()
 
     Card(
-        modifier = Modifier
+        modifier = modifier
             .fillMaxWidth()
             .padding(8.dp),
         shape = RoundedCornerShape(20.dp),
@@ -59,7 +59,6 @@ fun NewWordCard(word: Vocabulary) {
         elevation = CardDefaults.cardElevation(defaultElevation = 3.dp)
     ) {
         Column(modifier = Modifier.padding(16.dp)) {
-            // Hình ảnh, Chủ đề, Từ vựng và IPA nằm cùng một row
             Row(modifier = Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
                 // Hình ảnh minh họa
                 AsyncImage(
@@ -129,13 +128,13 @@ fun NewWordCard(word: Vocabulary) {
                 // Nút phát âm với nền hình tròn
                 Box(
                     modifier = Modifier
-                        .size(40.dp)  // Kích thước của nút
-                        .clip(CircleShape)  // Hình dạng tròn
-                        .background(Color(0xFFEFEFEF))  // Màu nền (màu xám nhạt)
+                        .size(40.dp)
+                        .clip(CircleShape)
+                        .background(Color(0xFFEFEFEF))
                         .clickable(onClick = {
                             textToSpeechViewModel.speak(word.word)
-                        })  // Xử lý sự kiện click
-                        .padding(8.dp),  // Khoảng cách giữa icon và viền
+                        })
+                        .padding(8.dp),
                 ) {
                     Icon(
                         imageVector = Icons.Outlined.VolumeUp,

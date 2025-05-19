@@ -1,514 +1,962 @@
 {
-  "airport": {
-    "word": "airport",
-    "ipa": "ˈɛərpɔːrt",
+  "doctor": {
+    "word": "doctor",
+    "ipa": "ˈdɒktər",
     "part_of_speech": "noun",
-    "definition": "A place where aircraft regularly take off and land.",
-    "translation": "sân bay",
+    "definition": "A person who is qualified to treat people who are ill.",
+    "translation": "bác sĩ",
     "examples": [
       {
-        "en": "We arrived at the airport two hours early.",
-        "vi": "Chúng tôi đến sân bay sớm hai tiếng."
+        "en": "The doctor prescribed me some antibiotics.",
+        "vi": "Bác sĩ đã kê cho tôi một số thuốc kháng sinh."
       }
     ],
-    "audio": "https://dict.youdao.com/dictvoice?audio=airport&type=2",
-    "category": "Travel",
-    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fairports&psig=AOvVaw3FuBp0ZieNrjItNhW2AsK7&ust=1747297559441000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMi5iYbFoo0DFQAAAAAdAAAAABAE"
+    "audio": "https://dict.youdao.com/dictvoice?audio=doctor&type=2",
+    "category": "Health",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFbrv1B1gcDTJPPZJArFwE5OyRp-5bqvqdgQ&s"
   },
-  "animal": {
-    "word": "animal",
-    "ipa": "ˈænɪml",
+  "hospital": {
+    "word": "hospital",
+    "ipa": "ˈhɒspɪtəl",
     "part_of_speech": "noun",
-    "definition": "A living organism that feeds on organic matter.",
-    "translation": "động vật",
+    "definition": "An institution providing medical and surgical treatment and nursing care.",
+    "translation": "bệnh viện",
     "examples": [
       {
-        "en": "The zoo has many exotic animals.",
-        "vi": "Sở thú có nhiều loài động vật kỳ lạ."
+        "en": "He was taken to the hospital after the accident.",
+        "vi": "Anh ấy được đưa đến bệnh viện sau tai nạn."
       }
     ],
-    "audio": "https://dict.youdao.com/dictvoice?audio=animal&type=2",
-    "category": "Nature",
-    "image": "https://motherspet.com/blogs/wp-content/uploads/2024/07/100-wild-animals.jpg"
+    "audio": "https://dict.youdao.com/dictvoice?audio=hospital&type=2",
+    "category": "Health",
+    "image": "https://media.istockphoto.com/id/1524913019/vi/vec-to/minh-h%E1%BB%8Da-vector-t%C3%B2a-nh%C3%A0-b%E1%BB%87nh-vi%E1%BB%87n-trong-thi%E1%BA%BFt-k%E1%BA%BF-ki%E1%BB%83u-ph%E1%BA%B3ng.jpg?s=612x612&w=0&k=20&c=4KInQFvN68BmQ2DgjDlvWfsed49_oDKtRNAlKBziKRY="
   },
-  "apartment": {
-    "word": "apartment",
-    "ipa": "əˈpɑːtmənt",
+  "medicine": {
+    "word": "medicine",
+    "ipa": "ˈmɛdɪsɪn",
     "part_of_speech": "noun",
-    "definition": "A set of rooms forming a residence.",
-    "translation": "căn hộ",
+    "definition": "A substance used for treating illness or pain.",
+    "translation": "thuốc",
     "examples": [
       {
-        "en": "She lives in a small apartment in the city.",
-        "vi": "Cô ấy sống trong một căn hộ nhỏ trong thành phố."
+        "en": "Take this medicine three times a day.",
+        "vi": "Hãy uống thuốc này ba lần một ngày."
       }
     ],
-    "audio": "https://dict.youdao.com/dictvoice?audio=apartment&type=2",
-    "category": "Housing",
-    "image": "https://archipro.com.au/images/cdn-images/width%3D3840%2Cquality%3D80/images/s1/article/building/Form-Apartments-Port-Coogee-by-Stiebel-Eltron--v2.jpg/eyJlZGl0cyI6W3sidHlwZSI6InpwY2YiLCJvcHRpb25zIjp7ImJveFdpZHRoIjoyODgwLCJib3hIZWlnaHQiOjE4NTYsImNvdmVyIjp0cnVlLCJ6b29tV2lkdGgiOjI4ODAsInNjcm9sbFBvc1giOjUwLCJzY3JvbGxQb3NZIjo1MCwiYmFja2dyb3VuZCI6InJnYigxMTUsMTQwLDE5NCkiLCJmaWx0ZXIiOjB9fSx7InR5cGUiOiJmbGF0dGVuIiwib3B0aW9ucyI6eyJiYWNrZ3JvdW5kIjoiI2ZmZmZmZiJ9fV0sInF1YWxpdHkiOjg3LCJ0b0Zvcm1hdCI6ImpwZyJ9"
+    "audio": "https://dict.youdao.com/dictvoice?audio=medicine&type=2",
+    "category": "Health",
+    "image": "https://assets.nst.com.my/images/articles/ondontmiss1_1589162412.jpg"
   },
-  "ability": {
-    "word": "ability",
-    "ipa": "əˈbɪləti",
+  "nurse": {
+    "word": "nurse",
+    "ipa": "nɜːs",
     "part_of_speech": "noun",
-    "definition": "Possession of the means or skill to do something.",
-    "translation": "khả năng",
+    "definition": "A person trained to care for the sick or infirm.",
+    "translation": "y tá",
     "examples": [
       {
-        "en": "She has the ability to lead a team effectively.",
-        "vi": "Cô ấy có khả năng lãnh đạo một đội ngũ hiệu quả."
+        "en": "The nurse helped me change my bandages.",
+        "vi": "Y tá đã giúp tôi thay băng."
       }
     ],
-    "audio": "https://dict.youdao.com/dictvoice?audio=ability&type=2",
-    "category": "Personality",
-    "image": "https://t3.ftcdn.net/jpg/02/11/03/78/360_F_211037870_JWg2xOPiu0Ud3C1UJHDjVNwKSH4X6cyG.jpg"
+    "audio": "https://dict.youdao.com/dictvoice?audio=nurse&type=2",
+    "category": "Health",
+    "image": "https://glints.com/vn/blog/wp-content/uploads/2022/12/registered-nurse.jpg"
   },
-  "advice": {
-    "word": "advice",
-    "ipa": "ədˈvaɪs",
+  "fever": {
+    "word": "fever",
+    "ipa": "ˈfiːvər",
     "part_of_speech": "noun",
-    "definition": "Guidance or recommendations concerning prudent action.",
-    "translation": "lời khuyên",
+    "definition": "An abnormally high body temperature, usually accompanied by shivering and headache.",
+    "translation": "sốt",
     "examples": [
       {
-        "en": "He gave me good advice before the interview.",
-        "vi": "Anh ấy đã cho tôi lời khuyên tốt trước buổi phỏng vấn."
+        "en": "He has a high fever and needs rest.",
+        "vi": "Anh ấy bị sốt cao và cần nghỉ ngơi."
       }
     ],
-    "audio": "https://dict.youdao.com/dictvoice?audio=advice&type=2",
-    "category": "Communication",
-    "image": "https://media.dolenglish.vn/PUBLIC/MEDIA/when-to-use-advise-or-advice.jpg"
+    "audio": "https://dict.youdao.com/dictvoice?audio=fever&type=2",
+    "category": "Health",
+    "image": "https://static.vecteezy.com/system/resources/thumbnails/027/705/202/small_2x/sick-kids-has-fever-and-take-thermometer-in-mouth-vector.jpg"
   },
-  "abandon": {
-    "word": "abandon",
-    "ipa": "əˈbændən",
-    "part_of_speech": "verb",
-    "definition": "To leave someone or something behind.",
-    "translation": "từ bỏ, ruồng bỏ",
-    "examples": [
-      {
-        "en": "He abandoned his hometown after the war.",
-        "vi": "Anh ta đã từ bỏ quê hương sau chiến tranh."
-      }
-    ],
-    "audio": "https://dict.youdao.com/dictvoice?audio=abandon&type=2",
-    "category": "Life",
-    "image": "https://cdn.langeek.co/photo/20327/original/leave?type=jpeg"
-  },
-  "accept": {
-    "word": "accept",
-    "ipa": "əkˈsept",
-    "part_of_speech": "verb",
-    "definition": "To agree to take something that is offered.",
-    "translation": "chấp nhận",
-    "examples": [
-      {
-        "en": "They accepted the invitation without hesitation.",
-        "vi": "Họ đã chấp nhận lời mời mà không do dự."
-      }
-    ],
-    "audio": "https://dict.youdao.com/dictvoice?audio=accept&type=2",
-    "category": "Social",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Accept.svg/2048px-Accept.svg.png"
-  },
-  "forest": {
-    "word": "forest",
-    "ipa": "ˈfɔːr.ɪst",
+  "painkiller": {
+    "word": "painkiller",
+    "ipa": "ˈpeɪnˌkɪlər",
     "part_of_speech": "noun",
-    "definition": "A large area covered chiefly with trees and undergrowth.",
-    "translation": "",
+    "definition": "A drug or medicine for relieving pain.",
+    "translation": "thuốc giảm đau",
     "examples": [
       {
-        "en": "I saw a forest during my trip.",
-        "vi": "Tôi đã nhìn thấy một forest trong chuyến đi của mình."
+        "en": "I took a painkiller to relieve the headache.",
+        "vi": "Tôi đã uống thuốc giảm đau để giảm đau đầu."
       }
     ],
-    "audio": "https://dict.youdao.com/dictvoice?audio=forest&type=2",
-    "category": "Nature",
-    "image": "https://e31fdd26.rocketcdn.me/wp-content/uploads/2023/08/forest1.jpg"
+    "audio": "https://dict.youdao.com/dictvoice?audio=painkiller&type=2",
+    "category": "Health",
+    "image": "https://www.flushinghospital.org/newsletter/wp-content/uploads/2018/04/painkillers-518092940.jpg"
   },
-  "river": {
-    "word": "river",
-    "ipa": "ˈrɪv.ɚ",
+  "infection": {
+    "word": "infection",
+    "ipa": "ɪnˈfɛkʃən",
     "part_of_speech": "noun",
-    "definition": "A large natural stream of water flowing in a channel to the sea.",
-    "translation": "",
+    "definition": "The invasion and multiplication of microorganisms in body tissues.",
+    "translation": "nhiễm trùng",
     "examples": [
       {
-        "en": "I saw a river during my trip.",
-        "vi": "Tôi đã nhìn thấy một river trong chuyến đi của mình."
+        "en": "The wound became infected due to poor hygiene.",
+        "vi": "Vết thương bị nhiễm trùng do vệ sinh kém."
       }
     ],
-    "audio": "https://dict.youdao.com/dictvoice?audio=river&type=2",
-    "category": "Nature",
-    "image": "https://i0.wp.com/geologyscience.com/wp-content/uploads/2023/01/rural-summer-sunset-landscape-with-river-dramatic-colorful-sky-natural-background-aerial-view_548832-2395.jpg?fit=2000%2C1332&ssl=1"
+    "audio": "https://dict.youdao.com/dictvoice?audio=infection&type=2",
+    "category": "Health",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGAhpfkaG3H1yWL4bY7uoXoQBupYkpYxUK-Q&s"
   },
-  "mountain": {
-    "word": "mountain",
-    "ipa": "ˈmaʊn.tən",
+  "vaccine": {
+    "word": "vaccine",
+    "ipa": "ˈvæksiːn",
     "part_of_speech": "noun",
-    "definition": "A large natural elevation of the earth's surface.",
-    "translation": "",
+    "definition": "A substance used to stimulate the production of antibodies and provide immunity.",
+    "translation": "vắc xin",
     "examples": [
       {
-        "en": "I saw a mountain during my trip.",
-        "vi": "Tôi đã nhìn thấy một mountain trong chuyến đi của mình."
+        "en": "The vaccine helps protect against the flu virus.",
+        "vi": "Vắc xin giúp bảo vệ khỏi virus cúm."
       }
     ],
-    "audio": "https://dict.youdao.com/dictvoice?audio=mountain&type=2",
-    "category": "Nature",
-    "image": "https://hips.hearstapps.com/hmg-prod/images/alpe-di-siusi-sunrise-with-sassolungo-or-langkofel-royalty-free-image-1623254127.jpg?crop=1xw:1xh;center,top&resize=980:*"
+    "audio": "https://dict.youdao.com/dictvoice?audio=vaccine&type=2",
+    "category": "Health",
+    "image": "https://bcp.cdnchinhphu.vn/334894974524682240/2024/5/3/546a9a80eb981c7f0aabcaeb34d9514e-1714725364437568154831.jpg"
   },
-  "ocean": {
-    "word": "ocean",
-    "ipa": "ˈoʊ.ʃən",
+  "thermometer": {
+    "word": "thermometer",
+    "ipa": "θərˈmɑːmɪtər",
     "part_of_speech": "noun",
-    "definition": "A very large expanse of sea.",
-    "translation": "",
+    "definition": "An instrument for measuring and indicating temperature.",
+    "translation": "nhiệt kế",
     "examples": [
       {
-        "en": "I saw a ocean during my trip.",
-        "vi": "Tôi đã nhìn thấy một ocean trong chuyến đi của mình."
+        "en": "Use a thermometer to check your body temperature.",
+        "vi": "Dùng nhiệt kế để kiểm tra nhiệt độ cơ thể bạn."
       }
     ],
-    "audio": "https://dict.youdao.com/dictvoice?audio=ocean&type=2",
-    "category": "Nature",
-    "image": "https://news.clemson.edu/wp-content/uploads/2023/06/ocean.jpg"
+    "audio": "https://dict.youdao.com/dictvoice?audio=thermometer&type=2",
+    "category": "Health",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61dtpnsDXcL.jpg"
   },
-  "desert": {
-    "word": "desert",
-    "ipa": "ˈdez.ɚt",
+  "bandage": {
+    "word": "bandage",
+    "ipa": "ˈbændɪdʒ",
     "part_of_speech": "noun",
-    "definition": "A dry, barren area of land with little rainfall.",
-    "translation": "",
+    "definition": "A strip of cloth used to bind up wounds.",
+    "translation": "băng gạc",
     "examples": [
       {
-        "en": "I saw a desert during my trip.",
-        "vi": "Tôi đã nhìn thấy một desert trong chuyến đi của mình."
+        "en": "She wrapped a bandage around his injured arm.",
+        "vi": "Cô ấy quấn băng quanh cánh tay bị thương của anh ấy."
       }
     ],
-    "audio": "https://dict.youdao.com/dictvoice?audio=desert&type=2",
-    "category": "Nature",
-    "image": "https://nativespeaker.vn/uploaded/page_1184_1688762960_1694670949.jpg"
+    "audio": "https://dict.youdao.com/dictvoice?audio=bandage&type=2",
+    "category": "Health",
+    "image": "https://phabcart.imgix.net/cdn/scdn/images/uploads/white-open-weave-bandages_web_600.jpg?auto=compress&lossless=1&w=500"
   },
   "bread": {
     "word": "bread",
-    "ipa": "bred",
+    "ipa": "brɛd",
     "part_of_speech": "noun",
-    "definition": "A staple food made of flour and water.",
-    "translation": "",
+    "definition": "A staple food made from flour and water, usually by baking.",
+    "translation": "bánh mì",
     "examples": [
       {
-        "en": "I saw a bread during my trip.",
-        "vi": "Tôi đã nhìn thấy một bread trong chuyến đi của mình."
+        "en": "She bought a loaf of bread from the bakery.",
+        "vi": "Cô ấy đã mua một ổ bánh mì từ tiệm bánh."
       }
     ],
     "audio": "https://dict.youdao.com/dictvoice?audio=bread&type=2",
     "category": "Food",
     "image": "https://assets.bonappetit.com/photos/5c62e4a3e81bbf522a9579ce/16:9/w_4000,h_2250,c_limit/milk-bread.jpg"
   },
-  "noodles": {
-    "word": "noodles",
-    "ipa": "ˈnuː.dəl",
+  "apple": {
+    "word": "apple",
+    "ipa": "ˈæpl",
     "part_of_speech": "noun",
-    "definition": "Thin strips of pasta.",
-    "translation": "",
+    "definition": "A round fruit with red, green, or yellow skin and sweet flesh.",
+    "translation": "táo",
     "examples": [
       {
-        "en": "I saw a noodles during my trip.",
-        "vi": "Tôi đã nhìn thấy một noodles trong chuyến đi của mình."
+        "en": "He ate an apple after lunch.",
+        "vi": "Anh ấy đã ăn một quả táo sau bữa trưa."
       }
     ],
-    "audio": "https://dict.youdao.com/dictvoice?audio=noodles&type=2",
+    "audio": "https://dict.youdao.com/dictvoice?audio=apple&type=2",
     "category": "Food",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs_uOGOqS3I4XRnWJhCnBWgiBmNKi-NalvXg&s"
-  },
-  "soup": {
-    "word": "soup",
-    "ipa": "suːp",
-    "part_of_speech": "noun",
-    "definition": "A liquid dish, typically savory.",
-    "translation": "",
-    "examples": [
-      {
-        "en": "I saw a soup during my trip.",
-        "vi": "Tôi đã nhìn thấy một soup trong chuyến đi của mình."
-      }
-    ],
-    "audio": "https://dict.youdao.com/dictvoice?audio=soup&type=2",
-    "category": "Food",
-    "image": "https://www.thespruceeats.com/thmb/lko3xX8clhOrC894t9Drb6MoiX0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/easy-and-hearty-vegetable-soup-99538-hero-01-1d3b936ff03144af95ddca7640259c11.jpg"
+    "image": "https://assets.clevelandclinic.org/transform/cd71f4bd-81d4-45d8-a450-74df78e4477a/Apples-184940975-770x533-1_jpg"
   },
   "rice": {
     "word": "rice",
     "ipa": "raɪs",
     "part_of_speech": "noun",
-    "definition": "A cereal grain.",
-    "translation": "",
+    "definition": "A staple food grain consumed widely in Asia.",
+    "translation": "cơm, gạo",
     "examples": [
       {
-        "en": "I saw a rice during my trip.",
-        "vi": "Tôi đã nhìn thấy một rice trong chuyến đi của mình."
+        "en": "We had rice and vegetables for dinner.",
+        "vi": "Chúng tôi ăn cơm với rau cho bữa tối."
       }
     ],
     "audio": "https://dict.youdao.com/dictvoice?audio=rice&type=2",
     "category": "Food",
-    "image": "https://thewanderlustkitchen.com/wp-content/uploads/2013/12/Perfect-White-Rice-Recipe-17-2.jpg"
+    "image": "https://static01.nyt.com/images/2018/02/21/dining/00RICEGUIDE8/00RICEGUIDE8-jumbo.jpg"
   },
-  "fruit": {
-    "word": "fruit",
-    "ipa": "fruːt",
+  "chicken": {
+    "word": "chicken",
+    "ipa": "ˈtʃɪkən",
     "part_of_speech": "noun",
-    "definition": "The sweet and fleshy product of a tree or plant.",
-    "translation": "",
+    "definition": "A common type of poultry meat.",
+    "translation": "thịt gà",
     "examples": [
       {
-        "en": "I saw a fruit during my trip.",
-        "vi": "Tôi đã nhìn thấy một fruit trong chuyến đi của mình."
+        "en": "They ordered fried chicken for lunch.",
+        "vi": "Họ gọi gà rán cho bữa trưa."
       }
     ],
-    "audio": "https://dict.youdao.com/dictvoice?audio=fruit&type=2",
+    "audio": "https://dict.youdao.com/dictvoice?audio=chicken&type=2",
     "category": "Food",
-    "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2021/09/27/all-the-fruits-cut-whole.jpg.rend.hgtvcom.1280.1280.85.suffix/1632778035320.webp"
+    "image": "https://www.allrecipes.com/thmb/SoBuPU73KcbYHl3Kp3j8Xx4A3fc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8805-CrispyFriedChicken-mfs-3x2-072-d55b8406d4ae45709fcdeb58a04143c2.jpg"
   },
-  "bus": {
-    "word": "bus",
-    "ipa": "bʌs",
+  "noodles": {
+    "word": "noodles",
+    "ipa": "ˈnuːdəlz",
     "part_of_speech": "noun",
-    "definition": "A large vehicle carrying passengers.",
-    "translation": "",
+    "definition": "Long, thin strips of pasta or a similar flour-based food.",
+    "translation": "mì",
     "examples": [
       {
-        "en": "I saw a bus during my trip.",
-        "vi": "Tôi đã nhìn thấy một bus trong chuyến đi của mình."
+        "en": "She cooked a bowl of noodles for dinner.",
+        "vi": "Cô ấy nấu một tô mì cho bữa tối."
       }
     ],
-    "audio": "https://dict.youdao.com/dictvoice?audio=bus&type=2",
-    "category": "Travel",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/84/LTZ1328-19-20241030-160332.jpg"
+    "audio": "https://dict.youdao.com/dictvoice?audio=noodles&type=2",
+    "category": "Food",
+    "image": "https://takestwoeggs.com/wp-content/uploads/2023/11/Soy-Sauce-Pan-Fried-Noodles-Takestwoeggs-sq.jpg"
   },
-  "train": {
-    "word": "train",
-    "ipa": "treɪn",
+  "cheese": {
+    "word": "cheese",
+    "ipa": "tʃiːz",
     "part_of_speech": "noun",
-    "definition": "A series of connected vehicles that run on tracks.",
-    "translation": "",
+    "definition": "A dairy product made from curdled or cultured milk.",
+    "translation": "phô mai",
     "examples": [
       {
-        "en": "I saw a train during my trip.",
-        "vi": "Tôi đã nhìn thấy một train trong chuyến đi của mình."
+        "en": "She added cheese to the sandwich.",
+        "vi": "Cô ấy đã thêm phô mai vào bánh sandwich."
       }
     ],
-    "audio": "https://dict.youdao.com/dictvoice?audio=train&type=2",
-    "category": "Travel",
-    "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1512787271.jpg?c=original"
+    "audio": "https://dict.youdao.com/dictvoice?audio=cheese&type=2",
+    "category": "Food",
+    "image": "https://www.huongnghiepaau.com/wp-content/uploads/2019/01/cheese-la-gi.jpg"
   },
-  "ticket": {
-    "word": "ticket",
-    "ipa": "ˈtɪk.ɪt",
+  "banana": {
+    "word": "banana",
+    "ipa": "bəˈnɑːnə",
     "part_of_speech": "noun",
-    "definition": "A piece of paper that gives the holder a certain right.",
-    "translation": "",
+    "definition": "A long curved fruit with a yellow skin and soft sweet flesh.",
+    "translation": "chuối",
     "examples": [
       {
-        "en": "I saw a ticket during my trip.",
-        "vi": "Tôi đã nhìn thấy một ticket trong chuyến đi của mình."
+        "en": "He eats a banana every morning.",
+        "vi": "Anh ấy ăn một quả chuối mỗi sáng."
       }
     ],
-    "audio": "https://dict.youdao.com/dictvoice?audio=ticket&type=2",
-    "category": "Travel",
-    "image": "https://media.istockphoto.com/id/1500283713/vector/cinema-ticket-on-white-background-movie-ticket-on-white-background.jpg?s=612x612&w=0&k=20&c=4J15lHFXyjEs6xBoagcZqq5GYHKk5sMwCJRP8pNM3Zg="
+    "audio": "https://dict.youdao.com/dictvoice?audio=banana&type=2",
+    "category": "Food",
+    "image": "https://www.rainforest-alliance.org/wp-content/uploads/2021/06/bananas-1-e1624909301641.jpg.optimal.jpg"
   },
-  "passport": {
-    "word": "passport",
-    "ipa": "ˈpæs.pɔːrt",
+  "fish": {
+    "word": "fish",
+    "ipa": "fɪʃ",
     "part_of_speech": "noun",
-    "definition": "An official document issued by a government.",
-    "translation": "",
+    "definition": "A limbless cold-blooded vertebrate animal with gills and fins, used as food.",
+    "translation": "cá",
     "examples": [
       {
-        "en": "I saw a passport during my trip.",
-        "vi": "Tôi đã nhìn thấy một passport trong chuyến đi của mình."
+        "en": "We had grilled fish for dinner.",
+        "vi": "Chúng tôi ăn cá nướng cho bữa tối."
       }
     ],
-    "audio": "https://dict.youdao.com/dictvoice?audio=passport&type=2",
-    "category": "Travel",
-    "image": "https://bankervn.com/wp-content/uploads/2017/07/h%E1%BB%99-chi%E1%BA%BFu-l%C3%A0-g%C3%AC.jpg"
+    "audio": "https://dict.youdao.com/dictvoice?audio=fish&type=2",
+    "category": "Food",
+    "image": "https://i.guim.co.uk/img/media/50a04370ec548b9909a1c925d3a5966aa5c142ac/3_0_2356_1414/master/2356.jpg?width=700&quality=85&auto=format&fit=max&s=b67084b8080fc2615c81143fad3bc01e"
   },
-  "luggage": {
-    "word": "luggage",
-    "ipa": "ˈlʌɡ.ɪdʒ",
+  "egg": {
+    "word": "egg",
+    "ipa": "ɛɡ",
     "part_of_speech": "noun",
-    "definition": "Suitcases or other bags for a traveler's belongings.",
-    "translation": "",
+    "definition": "An oval or round object laid by a female bird, often eaten as food.",
+    "translation": "trứng",
     "examples": [
       {
-        "en": "I saw a luggage during my trip.",
-        "vi": "Tôi đã nhìn thấy một luggage trong chuyến đi của mình."
+        "en": "She made scrambled eggs for breakfast.",
+        "vi": "Cô ấy làm trứng bác cho bữa sáng."
       }
     ],
-    "audio": "https://dict.youdao.com/dictvoice?audio=luggage&type=2",
-    "category": "Travel",
-    "image": "https://hips.hearstapps.com/hmg-prod/images/ghk-032024-indexteting-luggage-225-srgb-660daf9f03d7d.jpg?crop=0.670xw:1.00xh;0.162xw,0&resize=640:*"
+    "audio": "https://dict.youdao.com/dictvoice?audio=egg&type=2",
+    "category": "Food",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBF93R-AFe_Rp2eOtc-S-FJOPhqqYTNaR78Q&s"
   },
-  "happy": {
-    "word": "happy",
-    "ipa": "ˈhæp.i",
+  "milk": {
+    "word": "milk",
+    "ipa": "mɪlk",
+    "part_of_speech": "noun",
+    "definition": "A white liquid produced by the mammary glands of mammals, used as a drink or in cooking.",
+    "translation": "sữa",
+    "examples": [
+      {
+        "en": "Children should drink milk every day.",
+        "vi": "Trẻ em nên uống sữa mỗi ngày."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=milk&type=2",
+    "category": "Food",
+    "image": "https://static.toiimg.com/thumb/msid-114346974,width-1280,height-720,resizemode-4/114346974.jpg"
+  },
+  "planet": {
+    "word": "planet",
+    "ipa": "ˈplænɪt",
+    "part_of_speech": "noun",
+    "definition": "A large round object in space that moves around a star.",
+    "translation": "hành tinh",
+    "examples": [
+      {
+        "en": "Earth is the third planet from the Sun.",
+        "vi": "Trái Đất là hành tinh thứ ba tính từ Mặt Trời."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=planet&type=2",
+    "category": "Space",
+    "image": "https://i.natgeofe.com/k/d6f301e9-0c90-4379-9a64-1e1e9b048419/planetary-lineup_square.jpg"
+  },
+  "galaxy": {
+    "word": "galaxy",
+    "ipa": "ˈɡæləksi",
+    "part_of_speech": "noun",
+    "definition": "A system of millions or billions of stars held together by gravity.",
+    "translation": "thiên hà",
+    "examples": [
+      {
+        "en": "The Milky Way is the galaxy that contains our Solar System.",
+        "vi": "Dải Ngân Hà là thiên hà chứa Hệ Mặt Trời của chúng ta."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=galaxy&type=2",
+    "category": "Space",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Andromeda_Galaxy_%28with_h-alpha%29.jpg/960px-Andromeda_Galaxy_%28with_h-alpha%29.jpg"
+  },
+  "astronaut": {
+    "word": "astronaut",
+    "ipa": "ˈæstrənɔːt",
+    "part_of_speech": "noun",
+    "definition": "A person who is trained to travel in a spacecraft.",
+    "translation": "phi hành gia",
+    "examples": [
+      {
+        "en": "The astronaut spent six months on the International Space Station.",
+        "vi": "Phi hành gia đã ở trên Trạm Vũ trụ Quốc tế sáu tháng."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=astronaut&type=2",
+    "category": "Space",
+    "image": "https://www.clarionledger.com/gcdn/-mm-/d93ac37dd981d6a708e4551ca2a4350373acdcba/c=297-0-3554-3257/local/-/media/2018/05/03/JacksonMS/JacksonMS/636609475602101428-astronaut.jpg"
+  },
+  "telescope": {
+    "word": "telescope",
+    "ipa": "ˈtelɪskəʊp",
+    "part_of_speech": "noun",
+    "definition": "An instrument used to observe distant objects in space.",
+    "translation": "kính thiên văn",
+    "examples": [
+      {
+        "en": "He used a telescope to observe the stars.",
+        "vi": "Anh ấy đã dùng kính thiên văn để quan sát các ngôi sao."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=telescope&type=2",
+    "category": "Space",
+    "image": "https://cdn.mos.cms.futurecdn.net/VtkGQvZhCU3M7qtRnriPNZ.jpg"
+  },
+  "satellite": {
+    "word": "satellite",
+    "ipa": "ˈsætəlaɪt",
+    "part_of_speech": "noun",
+    "definition": "An object placed in orbit around a planet to collect information or for communication.",
+    "translation": "vệ tinh",
+    "examples": [
+      {
+        "en": "The satellite provides weather data to scientists.",
+        "vi": "Vệ tinh cung cấp dữ liệu thời tiết cho các nhà khoa học."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=satellite&type=2",
+    "category": "Space",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmxSWG6F8T7anx2MqeSBvDUQStrOuXT8HkWg&s"
+  },
+  "orbit": {
+    "word": "orbit",
+    "ipa": "ˈɔːbɪt",
+    "part_of_speech": "noun",
+    "definition": "The curved path of a celestial object around a star, planet, or moon.",
+    "translation": "quỹ đạo",
+    "examples": [
+      {
+        "en": "The satellite is now in orbit around the Earth.",
+        "vi": "Vệ tinh hiện đang ở trong quỹ đạo quanh Trái Đất."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=orbit&type=2",
+    "category": "Space",
+    "image": "https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/screenshot-2021-06-08-at-13.53.53_ver_1.png"
+  },
+  "comet": {
+    "word": "comet",
+    "ipa": "ˈkɒmɪt",
+    "part_of_speech": "noun",
+    "definition": "An icy small Solar System body that, when passing close to the Sun, warms and begins to release gases.",
+    "translation": "sao chổi",
+    "examples": [
+      {
+        "en": "The comet was visible to the naked eye.",
+        "vi": "Sao chổi có thể nhìn thấy bằng mắt thường."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=comet&type=2",
+    "category": "Space",
+    "image": "https://dictionary.cambridge.org/vi/images/thumb/comet_noun_002_07714.jpg?version=6.0.50"
+  },
+  "blackhole": {
+    "word": "black hole",
+    "ipa": "blæk həʊl",
+    "part_of_speech": "noun",
+    "definition": "A region of space having a gravitational field so intense that no matter or radiation can escape.",
+    "translation": "hố đen",
+    "examples": [
+      {
+        "en": "A black hole was discovered at the center of the galaxy.",
+        "vi": "Một hố đen đã được phát hiện ở trung tâm thiên hà."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=black+hole&type=2",
+    "category": "Space",
+    "image": "https://news.uchicago.edu/sites/default/files/images/2022-10/sgr%20A%2A%20ESO%20and%20M.%20Kornmesser%20690.jpg"
+  },
+  "moon": {
+    "word": "moon",
+    "ipa": "muːn",
+    "part_of_speech": "noun",
+    "definition": "A natural satellite that orbits a planet.",
+    "translation": "mặt trăng",
+    "examples": [
+      {
+        "en": "The full moon lit up the night sky.",
+        "vi": "Trăng tròn thắp sáng bầu trời đêm."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=moon&type=2",
+    "category": "Space",
+    "image": "https://cdn.mos.cms.futurecdn.net/xXp45gLeBTBt4jPuZcawUJ.jpg"
+  },
+  "rocket": {
+    "word": "rocket",
+    "ipa": "ˈrɒkɪt",
+    "part_of_speech": "noun",
+    "definition": "A vehicle designed to propel itself by ejecting exhaust gas from one end.",
+    "translation": "tên lửa",
+    "examples": [
+      {
+        "en": "The rocket launched successfully into space.",
+        "vi": "Tên lửa đã được phóng thành công vào không gian."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=rocket&type=2",
+    "category": "Space",
+    "image": "https://www.columbiatribune.com/gcdn/authoring/2018/04/24/NCDT/ghows-MO-6a9b386c-6154-2e7e-e053-0100007fa3e0-57eb1c5f.jpeg"
+  },
+  "lion": {
+    "word": "lion",
+    "ipa": "ˈlaɪən",
+    "part_of_speech": "noun",
+    "definition": "A large wild cat with a golden mane, known as the king of the jungle.",
+    "translation": "sư tử",
+    "examples": [
+      {
+        "en": "The lion roared loudly across the savanna.",
+        "vi": "Con sư tử gầm vang khắp thảo nguyên."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=lion&type=2",
+    "category": "Animal",
+    "image": "https://images.squarespace-cdn.com/content/v1/5f88cb4677ea8f6614fc65b9/053afba7-63cd-4c92-a3da-ce5c7d11595d/iStock-877369086%2C+GlobalP.jpg"
+  },
+  "elephant": {
+    "word": "elephant",
+    "ipa": "ˈɛlɪfənt",
+    "part_of_speech": "noun",
+    "definition": "The largest land animal with a trunk and big ears.",
+    "translation": "voi",
+    "examples": [
+      {
+        "en": "Elephants use their trunks to drink water.",
+        "vi": "Những con voi dùng vòi của mình để uống nước."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=elephant&type=2",
+    "category": "Animal",
+    "image": "https://www.safariltd.com/cdn/shop/files/6552a278baa8108376995d38cc3fdc462e7dc4b5_grande.jpg?v=1741269992"
+  },
+  "tiger": {
+    "word": "tiger",
+    "ipa": "ˈtaɪɡər",
+    "part_of_speech": "noun",
+    "definition": "A large wild cat with black stripes, known for its strength.",
+    "translation": "hổ",
+    "examples": [
+      {
+        "en": "The tiger moved silently through the jungle.",
+        "vi": "Con hổ di chuyển lặng lẽ trong rừng."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=tiger&type=2",
+    "category": "Animal",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/P.t.altaica_Tomak_Male.jpg/960px-P.t.altaica_Tomak_Male.jpg"
+  },
+  "monkey": {
+    "word": "monkey",
+    "ipa": "ˈmʌŋki",
+    "part_of_speech": "noun",
+    "definition": "A small to medium-sized primate that lives in trees.",
+    "translation": "khỉ",
+    "examples": [
+      {
+        "en": "The monkey swung from branch to branch.",
+        "vi": "Con khỉ đu từ cành cây này sang cành khác."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=monkey&type=2",
+    "category": "Animal",
+    "image": "https://shop.wwf.ca/cdn/shop/files/Macaque.jpg?v=1694022235"
+  },
+  "zebra": {
+    "word": "zebra",
+    "ipa": "ˈziːbrə",
+    "part_of_speech": "noun",
+    "definition": "An African wild horse with black-and-white stripes.",
+    "translation": "ngựa vằn",
+    "examples": [
+      {
+        "en": "Zebras often stay in groups to avoid predators.",
+        "vi": "Ngựa vằn thường sống theo bầy để tránh kẻ săn mồi."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=zebra&type=2",
+    "category": "Animal",
+    "image": "https://m.media-amazon.com/images/I/71yJXk3QJOL.jpg"
+  },
+  "dog": {
+    "word": "dog",
+    "ipa": "dɔːɡ",
+    "part_of_speech": "noun",
+    "definition": "A domesticated carnivorous mammal often kept as a pet or for work.",
+    "translation": "chó",
+    "examples": [
+      {
+        "en": "The dog barked loudly at the stranger.",
+        "vi": "Con chó sủa to vào người lạ."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=dog&type=2",
+    "category": "Animal",
+    "image": "https://i.guim.co.uk/img/media/fe1e34da640c5c56ed16f76ce6f994fa9343d09d/0_174_3408_2046/master/3408.jpg?width=1200&quality=85&auto=format&fit=max&s=1aaf31e276b20b5d12d4bee49c5a99e2"
+  },
+  "cat": {
+    "word": "cat",
+    "ipa": "kæt",
+    "part_of_speech": "noun",
+    "definition": "A small domesticated carnivorous mammal with soft fur and a short snout.",
+    "translation": "mèo",
+    "examples": [
+      {
+        "en": "The cat slept all day on the couch.",
+        "vi": "Con mèo ngủ cả ngày trên ghế sofa."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=cat&type=2",
+    "category": "Animal",
+    "image": "https://media.istockphoto.com/id/1443562748/vi/anh/m%C3%A8o-g%E1%BB%ABng-d%E1%BB%85-th%C6%B0%C6%A1ng.jpg?s=612x612&w=0&k=20&c=Kpdl_ss-GVIx-eLDRXqhuFI_e1TLXDhpPmj1_8eLWgA="
+  },
+  "giraffe": {
+    "word": "giraffe",
+    "ipa": "dʒəˈræf",
+    "part_of_speech": "noun",
+    "definition": "A tall African mammal with a very long neck and legs.",
+    "translation": "hươu cao cổ",
+    "examples": [
+      {
+        "en": "The giraffe used its long neck to reach the leaves.",
+        "vi": "Hươu cao cổ dùng cổ dài để với tới lá cây."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=giraffe&type=2",
+    "category": "Animal",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRezVC6XGekh0hWUcI_QQsqUXUn2uIGDMHkbA&s"
+  },
+  "bear": {
+    "word": "bear",
+    "ipa": "beə(r)",
+    "part_of_speech": "noun",
+    "definition": "A large, heavy mammal with thick fur and a short tail.",
+    "translation": "gấu",
+    "examples": [
+      {
+        "en": "The bear hibernates during the winter.",
+        "vi": "Con gấu ngủ đông trong suốt mùa đông."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=bear&type=2",
+    "category": "Animal",
+    "image": "https://images.squarespace-cdn.com/content/v1/59b9ecdabebafb8293096530/1506927343134-BY6BAAVX3U55PNBKV7T4/IMG_3984.jpg"
+  },
+  "kangaroo": {
+    "word": "kangaroo",
+    "ipa": "ˌkæŋɡəˈruː",
+    "part_of_speech": "noun",
+    "definition": "A large plant-eating marsupial with powerful hind legs and a long tail.",
+    "translation": "chuột túi",
+    "examples": [
+      {
+        "en": "The kangaroo hopped across the grassland.",
+        "vi": "Con chuột túi nhảy qua đồng cỏ."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=kangaroo&type=2",
+    "category": "Animal",
+    "image": "https://i.natgeofe.com/k/aa4c480f-89ec-4c21-97c3-4348a9c310bf/kangaroo-joey_4x3.jpg"
+  },
+  "cashier": {
+    "word": "cashier",
+    "ipa": "kæˈʃɪər",
+    "part_of_speech": "noun",
+    "definition": "A person handling payments and receipts in a store or bank.",
+    "translation": "nhân viên thu ngân",
+    "examples": [
+      {
+        "en": "The cashier gave me the receipt after I paid.",
+        "vi": "Nhân viên thu ngân đã đưa tôi hóa đơn sau khi tôi thanh toán."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=cashier&type=2",
+    "category": "Shopping",
+    "image": "https://tamlong.com.vn/wp-content/uploads/cashier-la-gi-cong-viec-chinh-cua-cashier-la-gi-1.jpg"
+  },
+  "discount": {
+    "word": "discount",
+    "ipa": "ˈdɪskaʊnt",
+    "part_of_speech": "noun",
+    "definition": "A reduction in the usual price of something.",
+    "translation": "giảm giá",
+    "examples": [
+      {
+        "en": "This store offers a 20% discount on all items.",
+        "vi": "Cửa hàng này giảm giá 20% cho tất cả sản phẩm."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=discount&type=2",
+    "category": "Shopping",
+    "image": "https://i.pinimg.com/736x/20/33/82/203382dd496fd81ece3ea88cbc9d9a8d.jpg"
+  },
+  "receipt": {
+    "word": "receipt",
+    "ipa": "rɪˈsiːt",
+    "part_of_speech": "noun",
+    "definition": "A document acknowledging that something has been received or paid for.",
+    "translation": "hóa đơn",
+    "examples": [
+      {
+        "en": "Keep the receipt in case you want to return the item.",
+        "vi": "Giữ lại hóa đơn phòng khi bạn muốn trả hàng."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=receipt&type=2",
+    "category": "Shopping",
+    "image": "https://img.freepik.com/free-vector/realistic-receipt-template_23-2147938550.jpg?semt=ais_hybrid&w=740"
+  },
+  "shoppingcart": {
+    "word": "shopping cart",
+    "ipa": "ˈʃɒpɪŋ kɑːt",
+    "part_of_speech": "noun",
+    "definition": "A trolley used by shoppers to carry items while shopping.",
+    "translation": "xe đẩy mua sắm",
+    "examples": [
+      {
+        "en": "She pushed the shopping cart through the supermarket aisles.",
+        "vi": "Cô ấy đẩy xe đẩy mua sắm qua các lối đi trong siêu thị."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=shopping+cart&type=2",
+    "category": "Shopping",
+    "image": "https://m.media-amazon.com/images/I/71geTSmUKIL._AC_SL1500_.jpg"
+  },
+  "price tag": {
+    "word": "price tag",
+    "ipa": "praɪs tæɡ",
+    "part_of_speech": "noun",
+    "definition": "A label on an item showing its price.",
+    "translation": "nhãn giá",
+    "examples": [
+      {
+        "en": "The price tag says this shirt costs $25.",
+        "vi": "Nhãn giá ghi rằng chiếc áo này có giá 25 đô."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=price+tag&type=2",
+    "category": "Shopping",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIcR6fC8JP36yYtRaWbFEHcF1gEQbsZzPZ61XrgrEHFiLCfR-CLn5DscmNtHhi4ArriEo&usqp=CAU"
+  },
+  "fittingroom": {
+    "word": "fitting room",
+    "ipa": "ˈfɪtɪŋ ruːm",
+    "part_of_speech": "noun",
+    "definition": "A room in a store where customers can try on clothes.",
+    "translation": "phòng thử đồ",
+    "examples": [
+      {
+        "en": "She went into the fitting room to try on the dress.",
+        "vi": "Cô ấy vào phòng thử đồ để thử chiếc váy."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=fitting+room&type=2",
+    "category": "Shopping",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZrPD2dKjl3TFsLRb8SR49vxhbrzjLivydmg&s"
+  },
+  "checkout": {
+    "word": "checkout",
+    "ipa": "ˈtʃɛkaʊt",
+    "part_of_speech": "noun",
+    "definition": "The place in a store where you pay for your items.",
+    "translation": "quầy thanh toán",
+    "examples": [
+      {
+        "en": "There was a long line at the checkout.",
+        "vi": "Có một hàng dài ở quầy thanh toán."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=checkout&type=2",
+    "category": "Shopping",
+    "image": "https://www.vib.com.vn/wps/wcm/connect/3401acd2-77d1-44b3-aab5-bb323d0a35e0/1+%281%29.jpg.webp?MOD=AJPERES&CACHEID=ROOTWORKSPACE-3401acd2-77d1-44b3-aab5-bb323d0a35e0-oDAjQf2"
+  },
+  "refund": {
+    "word": "refund",
+    "ipa": "ˈriːfʌnd",
+    "part_of_speech": "noun",
+    "definition": "A repayment of money, typically to a dissatisfied customer.",
+    "translation": "hoàn tiền",
+    "examples": [
+      {
+        "en": "They gave me a full refund for the damaged item.",
+        "vi": "Họ đã hoàn tiền đầy đủ cho món hàng bị hỏng."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=refund&type=2",
+    "category": "Shopping",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO6aWbWiQyT7tbgl1BoKsRDzqOVRTIjt2Tww&s"
+  },
+  "aisle": {
+    "word": "aisle",
+    "ipa": "aɪl",
+    "part_of_speech": "noun",
+    "definition": "A passage between rows of shelves in a store.",
+    "translation": "lối đi giữa các kệ hàng",
+    "examples": [
+      {
+        "en": "She walked down the aisle looking for cereal.",
+        "vi": "Cô ấy đi dọc lối đi tìm ngũ cốc."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=aisle&type=2",
+    "category": "Shopping",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIv-Oxzjsy8laPTrGhSFQcNSrr9l1TTJbsQw&s"
+  },
+  "shopaholic": {
+    "word": "shopaholic",
+    "ipa": "ˌʃɒpəˈhɒlɪk",
+    "part_of_speech": "noun",
+    "definition": "A person who enjoys shopping very much and does it a lot.",
+    "translation": "người nghiện mua sắm",
+    "examples": [
+      {
+        "en": "She's a real shopaholic—she shops every weekend!",
+        "vi": "Cô ấy là một người nghiện mua sắm – tuần nào cũng đi mua hàng!"
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=shopaholic&type=2",
+    "category": "Shopping",
+    "image": "https://m.media-amazon.com/images/M/MV5BZTk1YmU3OWItM2NjZC00YzRhLWFlZTEtY2ExZGY2MzBkNTYzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+  },
+  "rain": {
+    "word": "rain",
+    "ipa": "reɪn",
+    "part_of_speech": "noun",
+    "definition": "Water that falls from the clouds in drops.",
+    "translation": "mưa",
+    "examples": [
+      {
+        "en": "We stayed inside because of the heavy rain.",
+        "vi": "Chúng tôi ở trong nhà vì trời mưa to."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=rain&type=2",
+    "category": "Weather",
+    "image": "https://www.journee-mondiale.com/en/wp-content/uploads/2024/07/journee-2024-07-20T222808.138.jpg"
+  },
+  "sunny": {
+    "word": "sunny",
+    "ipa": "ˈsʌni",
     "part_of_speech": "adjective",
-    "definition": "Feeling or showing pleasure or contentment.",
-    "translation": "",
+    "definition": "Bright with sunlight.",
+    "translation": "nắng",
     "examples": [
       {
-        "en": "I saw a happy during my trip.",
-        "vi": "Tôi đã nhìn thấy một happy trong chuyến đi của mình."
+        "en": "It's a sunny day—perfect for a picnic.",
+        "vi": "Hôm nay trời nắng—rất hợp để đi dã ngoại."
       }
     ],
-    "audio": "https://dict.youdao.com/dictvoice?audio=happy&type=2",
-    "category": "Emotion",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/85/Smiley.svg"
+    "audio": "https://dict.youdao.com/dictvoice?audio=sunny&type=2",
+    "category": "Weather",
+    "image": "https://media.istockphoto.com/id/1007768414/photo/blue-sky-with-bright-sun-and-clouds.jpg?s=612x612&w=0&k=20&c=MGd2-v42lNF7Ie6TtsYoKnohdCfOPFSPQt5XOz4uOy4="
   },
-  "angry": {
-    "word": "angry",
-    "ipa": "ˈæŋ.ɡri",
+  "cloudy": {
+    "word": "cloudy",
+    "ipa": "ˈklaʊdi",
     "part_of_speech": "adjective",
-    "definition": "Feeling or showing strong annoyance.",
-    "translation": "",
+    "definition": "Covered with clouds; not clear.",
+    "translation": "nhiều mây",
     "examples": [
       {
-        "en": "I saw a angry during my trip.",
-        "vi": "Tôi đã nhìn thấy một angry trong chuyến đi của mình."
+        "en": "The sky looks cloudy today.",
+        "vi": "Hôm nay bầu trời trông có vẻ nhiều mây."
       }
     ],
-    "audio": "https://dict.youdao.com/dictvoice?audio=angry&type=2",
-    "category": "Emotion",
-    "image": "https://emojiisland.com/cdn/shop/products/Angry_Face_Emoji_Icon_ios10.png?v=1571606090"
+    "audio": "https://dict.youdao.com/dictvoice?audio=cloudy&type=2",
+    "category": "Weather",
+    "image": "https://s7d2.scene7.com/is/image/TWCNews/clouds_from_above"
   },
-  "sad": {
-    "word": "sad",
-    "ipa": "sæd",
+  "snow": {
+    "word": "snow",
+    "ipa": "snəʊ",
+    "part_of_speech": "noun",
+    "definition": "Soft white pieces of frozen water that fall from the sky.",
+    "translation": "tuyết",
+    "examples": [
+      {
+        "en": "Children were playing in the snow.",
+        "vi": "Lũ trẻ đang chơi trong tuyết."
+      }
+    ],
+    "audio": "https://dict.youdao.com/dictvoice?audio=snow&type=2",
+    "category": "Weather",
+    "image": "https://i.abcnewsfe.com/a/7f8980ec-b4c2-4ae1-b15b-e2d2e787464d/snow-rf-gty-ml-241129_1732917933880_hpMain_16x9.jpg?w=1600"
+  },
+  "windy": {
+    "word": "windy",
+    "ipa": "ˈwɪndi",
     "part_of_speech": "adjective",
-    "definition": "Feeling or showing sorrow.",
-    "translation": "",
+    "definition": "Having a lot of wind.",
+    "translation": "gió nhiều",
     "examples": [
       {
-        "en": "I saw a sad during my trip.",
-        "vi": "Tôi đã nhìn thấy một sad trong chuyến đi của mình."
+        "en": "It's too windy to ride a bike today.",
+        "vi": "Hôm nay quá nhiều gió để đi xe đạp."
       }
     ],
-    "audio": "https://dict.youdao.com/dictvoice?audio=sad&type=2",
-    "category": "Emotion",
-    "image": "https://emojiisland.com/cdn/shop/products/Sad_Face_Emoji_grande.png?v=1571606037"
+    "audio": "https://dict.youdao.com/dictvoice?audio=windy&type=2",
+    "category": "Weather",
+    "image": "https://ichef.bbci.co.uk/ace/standard/3840/cpsprodpb/cfca/live/b7406ce0-bd2f-11ef-bf47-953e7325b283.jpg"
   },
-  "excited": {
-    "word": "excited",
-    "ipa": "ɪkˈsaɪ.t̬ɪd",
-    "part_of_speech": "adjective",
-    "definition": "Very enthusiastic and eager.",
-    "translation": "",
-    "examples": [
-      {
-        "en": "I saw a excited during my trip.",
-        "vi": "Tôi đã nhìn thấy một excited trong chuyến đi của mình."
-      }
-    ],
-    "audio": "https://dict.youdao.com/dictvoice?audio=excited&type=2",
-    "category": "Emotion",
-    "image": "https://www.shutterstock.com/shutterstock/photos/2217047273/display_1500/stock-vector-starry-eyed-emoji-excited-emoticon-face-with-yellow-star-shaped-eyes-and-happy-wide-opened-mouth-2217047273.jpg"
-  },
-  "nervous": {
-    "word": "nervous",
-    "ipa": "ˈnɝː.vəs",
-    "part_of_speech": "adjective",
-    "definition": "Easily agitated or alarmed.",
-    "translation": "",
-    "examples": [
-      {
-        "en": "I saw a nervous during my trip.",
-        "vi": "Tôi đã nhìn thấy một nervous trong chuyến đi của mình."
-      }
-    ],
-    "audio": "https://dict.youdao.com/dictvoice?audio=nervous&type=2",
-    "category": "Emotion",
-    "image": "https://img.freepik.com/free-vector/hand-drawn-nervous-cartoon-illustration_52683-117810.jpg?w=360"
-  },
-  "computer": {
-    "word": "computer",
-    "ipa": "kəmˈpjuː.t̬ɚ",
+  "storm": {
+    "word": "storm",
+    "ipa": "stɔːm",
     "part_of_speech": "noun",
-    "definition": "An electronic device for storing and processing data.",
-    "translation": "",
+    "definition": "A violent disturbance of the atmosphere with strong winds and rain, thunder, lightning, or snow.",
+    "translation": "bão",
     "examples": [
       {
-        "en": "I saw a computer during my trip.",
-        "vi": "Tôi đã nhìn thấy một computer trong chuyến đi của mình."
+        "en": "The storm damaged several houses along the coast.",
+        "vi": "Cơn bão đã làm hư hỏng nhiều ngôi nhà dọc bờ biển."
       }
     ],
-    "audio": "https://dict.youdao.com/dictvoice?audio=computer&type=2",
-    "category": "Technology",
-    "image": "https://rukminim2.flixcart.com/image/850/1000/xif0q/desktop-computer/o/j/w/0-hs16-win-11-hasons-original-imah4ky38fubg6mq.jpeg?q=20&crop=false"
+    "audio": "https://dict.youdao.com/dictvoice?audio=storm&type=2",
+    "category": "Weather",
+    "image": "https://cdn.pixabay.com/photo/2016/11/18/13/47/storm-1839221_960_720.jpg"
   },
-  "internet": {
-    "word": "internet",
-    "ipa": "ˈɪntərˌnɛt",
+  "fog": {
+    "word": "fog",
+    "ipa": "fɒɡ",
     "part_of_speech": "noun",
-    "definition": "A global computer network.",
-    "translation": "",
+    "definition": "Thick cloud of tiny water droplets in the air that makes it difficult to see.",
+    "translation": "sương mù",
     "examples": [
       {
-        "en": "I saw a internet during my trip.",
-        "vi": "Tôi đã nhìn thấy một internet trong chuyến đi của mình."
+        "en": "The fog was so dense that we couldn’t see the road.",
+        "vi": "Sương mù dày đến mức chúng tôi không thấy đường."
       }
     ],
-    "audio": "https://dict.youdao.com/dictvoice?audio=internet&type=2",
-    "category": "Technology",
-    "image": "https://genk.mediacdn.vn/139269124445442048/2022/11/26/internet-la-gi-1-1669431543136-16694315439991480142292-1669449667933-16694496689631210456687.jpeg"
+    "audio": "https://dict.youdao.com/dictvoice?audio=fog&type=2",
+    "category": "Weather",
+    "image": "https://news.uchicago.edu/sites/default/files/styles/full_width/public/images/image/20161202/storm-sized.jpg?itok=R_UpDdkr"
   },
-  "smartphone": {
-    "word": "smartphone",
-    "ipa": "ˈsmɑːrt.foʊn",
+  "hail": {
+    "word": "hail",
+    "ipa": "heɪl",
     "part_of_speech": "noun",
-    "definition": "A mobile phone with advanced features.",
-    "translation": "",
+    "definition": "Small balls of ice that fall like rain from the sky.",
+    "translation": "mưa đá",
     "examples": [
       {
-        "en": "I saw a smartphone during my trip.",
-        "vi": "Tôi đã nhìn thấy một smartphone trong chuyến đi của mình."
+        "en": "The hail broke the windows during the storm.",
+        "vi": "Mưa đá làm vỡ cửa kính trong cơn bão."
       }
     ],
-    "audio": "https://dict.youdao.com/dictvoice?audio=smartphone&type=2",
-    "category": "Technology",
-    "image": "https://cdn.arttimes.vn/upload/1-2025/images/2025-01-27/1-1737991717-181-width740height495.jpg"
+    "audio": "https://dict.youdao.com/dictvoice?audio=hail&type=2",
+    "category": "Weather",
+    "image": "https://www.servpro.com/cs-images/b93ce6b9b37695399ae39c10394a37bd2f55c5ca_Hail_by_car_tire_shutterstock_189922937.jpg.webp"
   },
-  "keyboard": {
-    "word": "keyboard",
-    "ipa": "ˈkiː.bɔːrd",
+  "temperature": {
+    "word": "temperature",
+    "ipa": "ˈtɛmprətʃə",
     "part_of_speech": "noun",
-    "definition": "A panel of keys.",
-    "translation": "",
+    "definition": "The degree of hotness or coldness measured in degrees.",
+    "translation": "nhiệt độ",
     "examples": [
       {
-        "en": "I saw a keyboard during my trip.",
-        "vi": "Tôi đã nhìn thấy một keyboard trong chuyến đi của mình."
+        "en": "The temperature dropped below zero last night.",
+        "vi": "Nhiệt độ đã giảm xuống dưới 0 độ vào đêm qua."
       }
     ],
-    "audio": "https://dict.youdao.com/dictvoice?audio=keyboard&type=2",
-    "category": "Technology",
-    "image": "https://bizweb.dktcdn.net/100/438/322/products/paper80-milktea-wk-pvd-silver-1725534779693.jpg?v=1725534784800"
+    "audio": "https://dict.youdao.com/dictvoice?audio=temperature&type=2",
+    "category": "Weather",
+    "image": "https://cdn.mos.cms.futurecdn.net/jqkeHZrc7H2qJGzQkfkgnX-1200-80.jpg"
   },
-  "software": {
-    "word": "software",
-    "ipa": "ˈsɑːft.wer",
+  "lightning": {
+    "word": "lightning",
+    "ipa": "ˈlaɪtnɪŋ",
     "part_of_speech": "noun",
-    "definition": "The programs used by a computer.",
-    "translation": "",
+    "definition": "A flash of light in the sky caused by electricity during a storm.",
+    "translation": "sét",
     "examples": [
       {
-        "en": "I saw a software during my trip.",
-        "vi": "Tôi đã nhìn thấy một software trong chuyến đi của mình."
+        "en": "The lightning lit up the entire sky.",
+        "vi": "Sét làm sáng rực cả bầu trời."
       }
     ],
-    "audio": "https://dict.youdao.com/dictvoice?audio=software&type=2",
-    "category": "Technology",
-    "image": "https://www.coderus.com/wp-content/uploads/2020/11/different-types-of-software-coderus-branded-image.jpg"
+    "audio": "https://dict.youdao.com/dictvoice?audio=lightning&type=2",
+    "category": "Weather",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRSmTYTjiNlhNvYcUBNqjqBV4WQpIVnYNSbw&s"
   }
 }

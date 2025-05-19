@@ -16,7 +16,7 @@ class TextToSpeechViewModel(application: Application) : AndroidViewModel(applica
 
     override fun onInit(status: Int) {
         if (status == TextToSpeech.SUCCESS) {
-            textToSpeech?.language = Locale.US  // Thiết lập ngôn ngữ tiếng Anh
+            textToSpeech?.language = Locale.US
         } else {
             Log.e("TTS", "Khởi tạo TextToSpeech thất bại!")
         }

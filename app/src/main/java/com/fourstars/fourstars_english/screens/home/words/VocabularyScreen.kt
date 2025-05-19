@@ -1,5 +1,7 @@
 package com.fourstars.fourstars_english.screens.home.words
 
+import android.util.Log
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -44,6 +46,9 @@ import com.fourstars.fourstars_english.viewModel.VocabularyViewModel
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.fourstars.fourstars_english.card.NewWordCard
 import com.fourstars.fourstars_english.ui.theme.Nunito
+import com.google.gson.Gson
+import java.net.URLEncoder
+import java.nio.charset.StandardCharsets
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -155,7 +160,15 @@ fun VocabularyScreen(
             // Hiển thị danh sách từ vựng
             LazyColumn {
                 items(searchWord) { word ->
-                    NewWordCard(word)
+//                    NewWordCard(word)
+                    val json = Gson().toJson(word)
+                    val encoded = URLEncoder.encode(json, StandardCharsets.UTF_8.toString())
+
+                    NewWordCard(word = word, modifier = Modifier
+                        .clickable {
+                            Log.d("NewWordCard", "Clicked: ${word.word}")
+                            navController.navigate("vocab_detail/$encoded")
+                        })
                 }
             }
         }

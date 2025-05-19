@@ -1,5 +1,6 @@
 package com.fourstars.fourstars_english.screens.main
 
+import android.util.Log
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -76,6 +77,9 @@ import com.fourstars.fourstars_english.ui.theme.Nunito
 import com.fourstars.fourstars_english.viewModel.CategoryViewModel
 import com.fourstars.fourstars_english.viewModel.VideoViewModel
 import com.google.firebase.auth.FirebaseAuth
+import com.google.gson.Gson
+import java.net.URLEncoder
+import java.nio.charset.StandardCharsets
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -252,9 +256,18 @@ fun HomeScreen(navController: NavHostController, authRepo: AuthRepository,
                 }
 
                 // Danh sách từ vựng
-                items(vocabList.value) { vocab ->
-                    NewWordCard(vocab)
+                items(vocabList.value) { word ->
+//                    NewWordCard(vocab)
+                    val json = Gson().toJson(word)
+                    val encoded = URLEncoder.encode(json, StandardCharsets.UTF_8.toString())
+
+                    NewWordCard(word = word, modifier = Modifier
+                        .clickable {
+                            Log.d("NewWordCard", "Clicked: ${word.word}")
+                            navController.navigate("vocab_detail/$encoded")
+                        })
                 }
+
 
                 item {
                     Spacer(modifier = Modifier.height(20.dp))

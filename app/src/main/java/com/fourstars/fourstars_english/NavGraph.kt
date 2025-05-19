@@ -24,6 +24,7 @@ import com.fourstars.fourstars_english.screens.home.articles.ArticleDetailScreen
 import com.fourstars.fourstars_english.screens.home.articles.ArticlesScreen
 import com.fourstars.fourstars_english.screens.home.video.VideoScreen
 import com.fourstars.fourstars_english.screens.home.words.CategoryScreen
+import com.fourstars.fourstars_english.screens.home.words.VocabularyDetailScreen
 import com.fourstars.fourstars_english.screens.home.words.VocabularyScreen
 import com.fourstars.fourstars_english.screens.main.CommunityScreen
 import com.fourstars.fourstars_english.screens.main.HomeScreen
@@ -62,6 +63,13 @@ fun AppNavGraph(navController: NavHostController) {
         composable("vocabulary/{category}") { backStackEntry ->
             val category = backStackEntry.arguments?.getString("category") ?: ""
             VocabularyScreen(navController, category)
+        }
+        composable("vocab_detail/{vocabJson}") { backStackEntry ->
+            val encodedJson = backStackEntry.arguments?.getString("vocabJson") ?: ""
+            VocabularyDetailScreen(
+                navController = navController,
+                encodedJson = encodedJson
+            )
         }
         composable("articles") { ArticlesScreen(navController) }
         composable(
