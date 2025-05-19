@@ -1,5 +1,6 @@
 package com.fourstars.fourstars_english.screens.home
 
+import android.util.Log
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -14,6 +15,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.ExitToApp
 import androidx.compose.material.icons.filled.Lock
+import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -24,6 +26,7 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -35,7 +38,9 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
+import com.fourstars.fourstars_english.repository.UserRoleViewModel
 import com.fourstars.fourstars_english.ui.theme.Feather
 import com.google.firebase.auth.FirebaseAuth
 
@@ -43,9 +48,19 @@ import com.google.firebase.auth.FirebaseAuth
 @Composable
 fun SettingsScreen(
     navController: NavController,
-    onLogout: () -> Unit
+    onLogout: () -> Unit,
+    userRoleViewModel: UserRoleViewModel = viewModel()
 ) {
     val context = LocalContext.current
+    val user = FirebaseAuth.getInstance().currentUser
+
+    // Kiểm tra role khi Composable được tạo
+    LaunchedEffect(Unit) {
+        user?.uid?.let { userRoleViewModel.checkUserRole(it) }
+        Log.e("------ ROLE:", userRoleViewModel.isAdmin.toString())
+    }
+
+    val isAdmin = userRoleViewModel.isAdmin
 
     var showDialog = remember { mutableStateOf(false) }
 
@@ -83,12 +98,14 @@ fun SettingsScreen(
                 modifier = Modifier.padding(bottom = 18.dp)
             )
 
+            Spacer(modifier = Modifier.height(30.dp))
+
             // Đổi mật khẩu
             SettingItem(
                 icon = Icons.Default.Lock,
                 text = "Đổi mật khẩu"
             ) {
-                FirebaseAuth.getInstance().signOut()
+                showDialog.value = true
             }
 
             Spacer(modifier = Modifier.height(16.dp))
@@ -99,11 +116,24 @@ fun SettingsScreen(
                 text = "Đăng xuất"
             ) {
                 FirebaseAuth.getInstance().signOut()
-                onLogout() // Quay về màn hình đăng nhập
+                onLogout()
+            }
+
+            Spacer(modifier = Modifier.height(16.dp))
+
+            // 👉 Nút Quản trị nếu là admin
+            if (isAdmin) {
+                SettingItem(
+                    icon = Icons.Default.Settings,
+                    text = "Trang quản trị"
+                ) {
+                    navController.navigate("admin_dashboard")
+                }
             }
         }
     }
 }
+
 
 @Composable
 fun SettingItem(icon: ImageVector, text: String, onClick: () -> Unit) {

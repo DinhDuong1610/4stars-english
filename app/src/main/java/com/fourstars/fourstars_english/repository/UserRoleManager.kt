@@ -1,20 +1,28 @@
 package com.fourstars.fourstars_english.repository
 
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
+import androidx.lifecycle.ViewModel
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.coroutines.tasks.await
 
-class UserRoleManager {
-    private val firestore = FirebaseFirestore.getInstance()
-    private val auth = FirebaseAuth.getInstance()
+class UserRoleViewModel : ViewModel() {
+    var isAdmin by mutableStateOf(false)
+        private set
 
-    suspend fun getCurrentUserRole(): String {
-        val uid = auth.currentUser?.uid ?: return "unknown"
-        return try {
-            val doc = firestore.collection("users").document(uid).get().await()
-            doc.getString("role") ?: "user"
-        } catch (e: Exception) {
-            "user"
-        }
+    fun checkUserRole(uid: String) {
+        FirebaseFirestore.getInstance()
+            .collection("users")
+            .document(uid)
+            .get()
+            .addOnSuccessListener { doc ->
+                val role = doc.getString("role")
+                isAdmin = role == "admin"
+            }
+            .addOnFailureListener {
+                isAdmin = false
+            }
     }
 }

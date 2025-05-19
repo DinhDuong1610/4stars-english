@@ -12,6 +12,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.GoogleAuthProvider
 import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.firestore.SetOptions
 import kotlinx.coroutines.tasks.await
 
 class GoogleAuthRepository(private val context: Context) {
@@ -77,6 +78,8 @@ class GoogleAuthRepository(private val context: Context) {
      * Lưu thông tin người dùng vào Firestore
      */
     private fun saveUserToFirestore(user: FirebaseUser) {
+        val userRef = firestore.collection("users").document(user.uid)
+
         val userData = hashMapOf(
             "uid" to user.uid,
             "name" to (user.displayName ?: ""),
@@ -86,14 +89,12 @@ class GoogleAuthRepository(private val context: Context) {
             "role" to "user"
         )
 
-        firestore.collection("users")
-            .document(user.uid)
-            .set(userData)
+        userRef.set(userData, SetOptions.merge()) // ✅ Chỉ thêm các trường mới, không ghi đè nếu đã có
             .addOnSuccessListener {
-                Log.d("Firestore", "✅ User data saved successfully")
+                Log.d("Firestore", "User data saved/merged successfully")
             }
             .addOnFailureListener { e ->
-                Log.e("Firestore", "❌ Error saving user data", e)
+                Log.e("Firestore", "Error saving user data", e)
             }
     }
 

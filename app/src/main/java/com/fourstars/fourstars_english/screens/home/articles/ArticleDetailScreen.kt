@@ -73,7 +73,7 @@ import kotlinx.coroutines.delay
 fun ArticleDetailScreen(title: String, publishDate: String, content: String, imageUrl: String, audioUrl: String, navController: NavController,
                         viewModel: VocabularyViewModel = viewModel()) {
 
-    val article = Article(title, publishDate, content, imageUrl, audioUrl)
+    val article = Article("",title, publishDate, content, imageUrl, audioUrl)
 
     var clickedWord by remember { mutableStateOf<String?>(null) }
 

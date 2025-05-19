@@ -15,6 +15,9 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.fourstars.fourstars_english.repository.AuthRepository
 import com.fourstars.fourstars_english.repository.GoogleAuthRepository
+import com.fourstars.fourstars_english.screens.admin.AdminDashboardScreen
+import com.fourstars.fourstars_english.screens.admin.article.AdminArticleScreen
+import com.fourstars.fourstars_english.screens.admin.article.ArticleEditScreen
 import com.fourstars.fourstars_english.screens.auth.LoginScreen
 import com.fourstars.fourstars_english.screens.auth.RegisterScreen
 import com.fourstars.fourstars_english.screens.community.UserProfileScreen
@@ -133,5 +136,22 @@ fun AppNavGraph(navController: NavHostController) {
             )
         }
         composable("notification") { NotificationScreen(navController) }
+
+        // Admin
+        composable("admin_dashboard") {
+            AdminDashboardScreen(navController)
+        }
+        composable("manage_articles") {
+            AdminArticleScreen(navController = navController)
+        }
+        composable("article_edit?id={id}", arguments = listOf(
+            navArgument("id") {
+                type = NavType.StringType
+                defaultValue = ""
+            }
+        )) { backStackEntry ->
+            val id = backStackEntry.arguments?.getString("id") ?: ""
+            ArticleEditScreen(navController = navController, articleId = id)
+        }
     }
 }

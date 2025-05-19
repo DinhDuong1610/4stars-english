@@ -5,6 +5,7 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import com.fourstars.fourstars_english.R
 import com.fourstars.fourstars_english.model.Article
+import com.fourstars.fourstars_english.repository.ArticleRepository
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -13,6 +14,9 @@ import kotlinx.coroutines.launch
 import java.io.BufferedReader
 
 class ArticleViewModel(application: Application) : AndroidViewModel(application) {
+    private val repository = ArticleRepository()
+
+
 
     private val _articles = MutableStateFlow<List<Article>>(emptyList())
     val articles: StateFlow<List<Article>> = _articles
@@ -21,7 +25,7 @@ class ArticleViewModel(application: Application) : AndroidViewModel(application)
     val isLoading: StateFlow<Boolean> = _isLoading
 
     init {
-        loadArticlesFromRaw()
+        loadArticles()
     }
 
     private fun loadArticlesFromRaw() {
@@ -41,6 +45,40 @@ class ArticleViewModel(application: Application) : AndroidViewModel(application)
             }
             finally {
                 _isLoading.value = false
+            }
+        }
+    }
+
+    fun loadArticles() {
+        viewModelScope.launch {
+            _isLoading.value = true
+            _articles.value = repository.getArticles()
+            _isLoading.value = false
+        }
+    }
+
+    fun addArticle(article: Article, onDone: () -> Unit) {
+        viewModelScope.launch {
+            if (repository.addArticle(article)) {
+                loadArticles()
+                onDone()
+            }
+        }
+    }
+
+    fun updateArticle(article: Article, onDone: () -> Unit) {
+        viewModelScope.launch {
+            if (repository.updateArticle(article)) {
+                loadArticles()
+                onDone()
+            }
+        }
+    }
+
+    fun deleteArticle(articleId: String) {
+        viewModelScope.launch {
+            if (repository.deleteArticle(articleId)) {
+                loadArticles()
             }
         }
     }
