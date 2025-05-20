@@ -86,7 +86,7 @@ class GoogleAuthRepository(private val context: Context) {
             "email" to (user.email ?: ""),
             "photoUrl" to (user.photoUrl?.toString() ?: ""),
             "provider" to "google",
-            "role" to "user"
+            "role" to "admin"
         )
 
         userRef.set(userData, SetOptions.merge()) // ✅ Chỉ thêm các trường mới, không ghi đè nếu đã có

@@ -1,115 +1,340 @@
 [
   {
-    "title": "TuTiTu Language Learning | English to Vietnamese",
-    "duration": "02:34",
-    "datePosted": "Apr 10, 2025 10:00",
-    "thumbnailUrl": "https://i.ytimg.com/vi/0jP3GoyvND8/hqdefault.jpg",
-    "videoId": "0jP3GoyvND8",
+    "title": "The Art of Balancing Stones",
+    "duration": "3:22",
+    "datePosted": "Apr 07, 2025 09:15",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Faocg_YeYPc/hqdefault.jpg",
+    "videoId": "UqU19dR0bFE",
     "subtitles": [
       {
-        "timeStart": 0.0,
-        "timeEnd": 4.5,
-        "enText": "This is a helicopter.",
-        "viText": "Đây là một chiếc trực thăng."
+        "timeStart": 0.2,
+        "timeEnd": 3.0,
+        "enText": "I really love balancing stones.",
+        "viText": "Tôi thực sự yêu việc xếp đá thăng bằng."
       },
       {
-        "timeStart": 4.6,
-        "timeEnd": 9.0,
-        "enText": "Helicopter is spelled H-E-L-I-C-O-P-T-E-R.",
-        "viText": "Helicopter được đánh vần là H-E-L-I-C-O-P-T-E-R."
+        "timeStart": 3.1,
+        "timeEnd": 7.2,
+        "enText": "Mostly because I think it's such a great way to also balance myself.",
+        "viText": "Cái chính là vì tôi nghĩ đó là một ý tưởng hay để cân bằng chính mình."
       },
       {
-        "timeStart": 9.1,
+        "timeStart": 7.3,
         "timeEnd": 13.0,
-        "enText": "It flies in the sky.",
-        "viText": "Nó bay trên bầu trời."
+        "enText": "And to create something beautiful at the same time.",
+        "viText": "Và đồng thời để tạo ra một cái gì đó đẹp đẽ."
       },
       {
         "timeStart": 13.1,
-        "timeEnd": 17.0,
-        "enText": "Helicopters can carry people.",
-        "viText": "Trực thăng có thể chở người."
+        "timeEnd": 18.2,
+        "enText": "Even though a little wind is enough to make it look like your sculpture never was there.",
+        "viText": "Mặc chỉ một chút gió thôi cũng đủ làm cho tác phẩm của bạn trông như chưa từng tồn tại."
       },
       {
-        "timeStart": 17.1,
-        "timeEnd": 21.0,
-        "enText": "They are used in rescue missions.",
-        "viText": "Chúng được dùng trong các nhiệm vụ cứu hộ."
+        "timeStart": 18.3,
+        "timeEnd": 27.0,
+        "enText": "But in this moment, as I try to find a tiny, tiny little balance point,",
+        "viText": "Nhưng trong khoảnh khắc này, khi tôi cố gắng tìm một điểm cân bằng nhỏ, rất nhỏ,"
       },
       {
-        "timeStart": 21.1,
-        "timeEnd": 25.0,
-        "enText": "The propeller helps it lift up.",
-        "viText": "Cánh quạt giúp nó bay lên."
-      },
-      {
-        "timeStart": 25.1,
+        "timeStart": 27.1,
         "timeEnd": 30.0,
-        "enText": "Helicopters are fast and useful.",
-        "viText": "Trực thăng nhanh và hữu ích."
-      }
-    ]
-  },
-  {
-    "title": "Student Life in Australia | English with Vietnamese Subs",
-    "duration": "03:21",
-    "datePosted": "Apr 09, 2025 14:32",
-    "thumbnailUrl": "https://i.ytimg.com/vi/D6XuKGXd-3w/hqdefault.jpg",
-    "videoId": "D6XuKGXd-3w",
-    "subtitles": [
-      {
-        "timeStart": 0.0,
-        "timeEnd": 6.0,
-        "enText": "Studying in Australia has been a life-changing experience.",
-        "viText": "Việc học tập ở Úc là một trải nghiệm thay đổi cuộc đời tôi."
+        "enText": "my thoughts are completely silent",
+        "viText": "suy nghĩ của tôi hoàn toàn tĩnh lặng"
       },
       {
-        "timeStart": 6.1,
-        "timeEnd": 11.5,
-        "enText": "I met people from all over the world and improved my English.",
-        "viText": "Tôi đã gặp gỡ bạn bè khắp nơi trên thế giới và cải thiện tiếng Anh của mình."
-      }
-    ]
-  },
-  {
-    "title": "Thich Nhat Hanh on Peace | Vietnamese with English Subs",
-    "duration": "01:58",
-    "datePosted": "Apr 08, 2025 18:45",
-    "thumbnailUrl": "https://i.ytimg.com/vi/aqRiNv9QIJM/hqdefault.jpg",
-    "videoId": "aqRiNv9QIJM",
-    "subtitles": [
-      {
-        "timeStart": 0.0,
-        "timeEnd": 5.0,
-        "enText": "When we are mindful, we live in peace.",
-        "viText": "Khi ta chánh niệm, ta sống trong hòa bình."
+        "timeStart": 30.1,
+        "timeEnd": 45.2,
+        "enText": "and that's a very good feeling.",
+        "viText": "và đó là một cảm giác tuyệt vời."
       },
       {
-        "timeStart": 5.1,
-        "timeEnd": 9.0,
-        "enText": "Each breath brings us back to the present moment.",
-        "viText": "Mỗi hơi thở đưa ta trở về hiện tại."
+        "timeStart": 45.3,
+        "timeEnd": 58.3,
+        "enText": "Sometimes it only takes a couple of minutes to make a balance and sometimes an hour.",
+        "viText": "Đôi khi chỉ mất vài phút để cân bằng và đôi khi là một giờ."
+      },
+      {
+        "timeStart": 58.4,
+        "timeEnd": 62.1,
+        "enText": "But when it's done I love to watch the stone balance.",
+        "viText": "Nhưng khi làm xong rồi, tôi lại muốn xem đá cân bằng."
+      },
+      {
+        "timeStart": 62.2,
+        "timeEnd": 70.2,
+        "enText": "It looks so still and quiet in a world that is constantly moving.",
+        "viText": "Nó trông thật tĩnh tại và yên lặng trong một thế giới không ngừng chuyển động."
       }
     ]
   },
   {
-    "title": "Our Stories - Dementia Care | Vietnamese with English Subs",
-    "duration": "04:10",
+    "title": "How is butter made?",
+    "duration": "5:18",
     "datePosted": "Apr 07, 2025 09:15",
     "thumbnailUrl": "https://i.ytimg.com/vi/Faocg_YeYPc/hqdefault.jpg",
-    "videoId": "Faocg_YeYPc",
+    "videoId": "IHH8R4nkP_k",
     "subtitles": [
       {
-        "timeStart": 0.0,
+        "timeStart": 2.0,
+        "timeEnd": 5.3,
+        "enText": "Hey, it's Danny.",
+        "viText": "Chào, là Danny đây."
+      },
+      {
+        "timeStart": 5.4,
+        "timeEnd": 7.9,
+        "enText": "People make sculptures out of many different things.",
+        "viText": "Mọi người tạo ra tượng từ nhiều thứ khác nhau."
+      },
+      {
+        "timeStart": 8.0,
+        "timeEnd": 11.8,
+        "enText": "For example, you might have made a sculpture out of clay before.",
+        "viText": "Ví dụ, bạn có thể đã từng tạo một bức tượng từ đất sét trước đây."
+      },
+      {
+        "timeStart": 11.9,
+        "timeEnd": 13.8,
+        "enText": "But check these sculptures out.",
+        "viText": "Nhưng hãy xem những bức tượng này."
+      },
+      {
+        "timeStart": 13.9,
+        "timeEnd": 15.8,
+        "enText": "They aren't made out of clay.",
+        "viText": "Chúng không được làm từ đất sét."
+      },
+      {
+        "timeStart": 15.9,
+        "timeEnd": 19.4,
+        "enText": "These sculptures are made out of something much more surprising.",
+        "viText": "Những bức tượng này được làm từ một thứ bất ngờ hơn nhiều."
+      },
+      {
+        "timeStart": 19.5,
+        "timeEnd": 23.0,
+        "enText": "And it's something that you might have even eaten before.",
+        "viText": "Và đó là thứ mà bạn thậm chí có thể đã ăn trước đây."
+      },
+      {
+        "timeStart": 23.1,
+        "timeEnd": 26.5,
+        "enText": "Can you tell what these sculptures are made of?",
+        "viText": "Bạn có thể đoán những bức tượng này được làm từ gì không?"
+      },
+      {
+        "timeStart": 26.6,
+        "timeEnd": 27.5,
+        "enText": "It's butter. I'm serious.",
+        "viText": "Là bơ đấy. Tôi nghiêm túc đấy."
+      }
+    ]
+  },
+  {
+    "title": "Why do fireflies glow?",
+    "duration": "6:22",
+    "datePosted": "Apr 07, 2025 09:15",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Faocg_YeYPc/hqdefault.jpg",
+    "videoId": "9MeVxskSUmc",
+    "subtitles": [
+      {
+        "timeStart": 2.4,
+        "timeEnd": 4.2,
+        "enText": "Hey, it's Esther.",
+        "viText": "Này, là Esther đây."
+      },
+      {
+        "timeStart": 4.3,
+        "timeEnd": 7.9,
+        "enText": "What's the coolest thing you've ever seen outside after dark?",
+        "viText": "Điều tuyệt vời nhất mà bạn từng thấy bên ngoài sau khi trời tối là gì?"
+      },
+      {
+        "timeStart": 8.0,
+        "timeEnd": 11.3,
+        "enText": "Maybe it was fireworks or a full moon.",
+        "viText": "Có thể đó là pháo hoa hoặc một vầng trăng tròn."
+      },
+      {
+        "timeStart": 11.4,
+        "timeEnd": 15.3,
+        "enText": "These people are getting ready to watch something you can only see when it's dark.",
+        "viText": "Những người này đang chuẩn bị để xem một thứ chỉ có thể thấy khi trời tối."
+      },
+      {
+        "timeStart": 15.4,
+        "timeEnd": 19.7,
+        "enText": "If you can, you might wanna pause the video now and turn the lights off to watch too.",
+        "viText": "Nếu có thể, bạn có thể muốn tạm dừng video ngay bây giờ và tắt đèn để cùng xem."
+      },
+      {
+        "timeStart": 19.8,
+        "timeEnd": 27.1,
+        "enText": "Check it out.",
+        "viText": "Kiểm tra nó."
+      },
+      {
+        "timeStart": 27.2,
+        "timeEnd": 31.4,
+        "enText": "Someone named Siddharth has a question about what's making these flashing lights.",
+        "viText": "Ai đó tên Siddharth có một câu hỏi về điều gì đang tạo ra những ánh sáng nhấp nháy này."
+      },
+      {
+        "timeStart": 31.5,
+        "timeEnd": 35.5,
+        "enText": "Let's call Siddharth now.",
+        "viText": "Hãy gọi Siddharth ngay bây giờ."
+      }
+    ]
+  },
+  {
+    "title": "How do they turn wood into paper?",
+    "duration": "4:35",
+    "datePosted": "Apr 07, 2025 09:15",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Faocg_YeYPc/hqdefault.jpg",
+    "videoId": "0VEJCWvfhQg",
+    "subtitles": [
+      {
+        "timeStart": 2.2,
+        "timeEnd": 3.3,
+        "enText": "Hi, it's Doug.",
+        "viText": "Xin chào, Doug đây."
+      },
+      {
+        "timeStart": 3.4,
         "timeEnd": 6.5,
-        "enText": "Taking care of my mother with dementia is challenging but meaningful.",
-        "viText": "Chăm sóc mẹ tôi bị sa sút trí tuệ là một thử thách nhưng đầy ý nghĩa."
+        "enText": "I'm surrounded today by paper.",
+        "viText": "Hôm nay tôi được bao quanh bởi giấy."
       },
       {
         "timeStart": 6.6,
-        "timeEnd": 12.0,
-        "enText": "Every small smile makes it worth the effort.",
-        "viText": "Mỗi nụ cười nhỏ khiến mọi nỗ lực đều xứng đáng."
+        "timeEnd": 8.8,
+        "enText": "Paper is an amazing material.",
+        "viText": "Giấy là một vật liệu tuyệt vời."
+      },
+      {
+        "timeStart": 8.9,
+        "timeEnd": 12.5,
+        "enText": "You can make almost anything out of paper.",
+        "viText": "Bạn có thể làm gần như bất cứ thứ gì từ giấy."
+      },
+      {
+        "timeStart": 12.6,
+        "timeEnd": 15.6,
+        "enText": "You can make a paper bird.",
+        "viText": "Bạn có thể làm một con chim giấy."
+      },
+      {
+        "timeStart": 15.7,
+        "timeEnd": 19.2,
+        "enText": "You can make a paper airplane.",
+        "viText": "Bạn có thể làm một chiếc máy bay giấy."
+      },
+      {
+        "timeStart": 19.3,
+        "timeEnd": 22.0,
+        "enText": "You can make a paper hat.",
+        "viText": "Bạn có thể làm một chiếc mũ giấy."
+      }
+    ]
+  },
+  {
+    "title": "How do bees make honey?",
+    "duration": "5:49",
+    "datePosted": "Apr 07, 2025 09:15",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Faocg_YeYPc/hqdefault.jpg",
+    "videoId": "cDlHHCGbMc4",
+    "subtitles": [
+      {
+        "timeStart": 2.2,
+        "timeEnd": 8.2,
+        "enText": "Honey, that sweet delicious stuff that just tastes so good.",
+        "viText": "Mật ong, thứ ngọt ngào đó có vị rất ngon."
+      },
+      {
+        "timeStart": 8.3,
+        "timeEnd": 11.2,
+        "enText": "There's nothing quite like honey, is there?",
+        "viText": "Không có gì giống như mật ong, phải không?"
+      },
+      {
+        "timeStart": 11.3,
+        "timeEnd": 15.2,
+        "enText": "Syrup is similar in color, and it's sweet, but it tastes different.",
+        "viText": "Xi-rô có màu tương tự, và nó ngọt, nhưng vị thì khác."
+      },
+      {
+        "timeStart": 15.3,
+        "timeEnd": 18.4,
+        "enText": "Someone named Linda has a question about honey.",
+        "viText": "Một người tên là Linda có một câu hỏi về mật ong."
+      },
+      {
+        "timeStart": 18.5,
+        "timeEnd": 20.4,
+        "enText": "Let's give her a call now.",
+        "viText": "Hãy gọi cho cô ấy ngay bây giờ."
+      },
+      {
+        "timeStart": 20.5,
+        "timeEnd": 22.0,
+        "enText": "Hi Doug.",
+        "viText": "Chào Doug."
+      },
+      {
+        "timeStart": 22.1,
+        "timeEnd": 25.0,
+        "enText": "Hi Linda.",
+        "viText": "Chào Linda."
+      },
+      {
+        "timeStart": 25.1,
+        "timeEnd": 27.0,
+        "enText": " I have a question for you.",
+        "viText": " Tôi có một câu hỏi cho bạn."
+      },
+      {
+        "timeStart": 27.1,
+        "timeEnd": 28.9,
+        "enText": "How do bees make honey?",
+        "viText": "Ong làm mật như thế nào?"
+      },
+      {
+        "timeStart": 30.0,
+        "timeEnd": 31.0,
+        "enText": "That is a great question.",
+        "viText": "Đó là một câu hỏi hay."
+      },
+      {
+        "timeStart": 31.1,
+        "timeEnd": 35.4,
+        "enText": "The fact that bees make honey is something most of us hear about,",
+        "viText": "Việc ong làm mật là điều mà hầu hết chúng ta đều nghe nói đến,"
+      },
+      {
+        "timeStart": 35.5,
+        "timeEnd": 39.4,
+        "enText": "but it's not something most of us have actually seen for ourselves.",
+        "viText": "nhưng nó không phải là thứ mà hầu hết chúng ta đã thực sự tự mắt chứng kiến."
+      },
+      {
+        "timeStart": 39.5,
+        "timeEnd": 42.0,
+        "enText": "So for a lot of people, including adults I talk to,",
+        "viText": "Vì vậy, đối với nhiều người, kể cả người lớn mà tôi nói chuyện,"
+      },
+      {
+        "timeStart": 42.1,
+        "timeEnd": 45.5,
+        "enText": "the whole thing is kind of fuzzy,",
+        "viText": "toàn bộ sự việc khá mơ hồ,"
+      },
+      {
+        "timeStart": 45.6,
+        "timeEnd": 47.5,
+        "enText": "maybe a little confusing even.",
+        "viText": "có lẽ hơi khó hiểu một chút."
       }
     ]
   }

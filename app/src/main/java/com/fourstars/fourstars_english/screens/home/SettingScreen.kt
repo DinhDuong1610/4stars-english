@@ -100,12 +100,14 @@ fun SettingsScreen(
 
             Spacer(modifier = Modifier.height(30.dp))
 
-            // Đổi mật khẩu
-            SettingItem(
-                icon = Icons.Default.Lock,
-                text = "Đổi mật khẩu"
-            ) {
-                showDialog.value = true
+            // 👉 Nút Quản trị nếu là admin
+            if (isAdmin) {
+                SettingItem(
+                    icon = Icons.Default.Settings,
+                    text = "Admin dashboard"
+                ) {
+                    navController.navigate("admin_dashboard")
+                }
             }
 
             Spacer(modifier = Modifier.height(16.dp))
@@ -113,7 +115,7 @@ fun SettingsScreen(
             // Đăng xuất
             SettingItem(
                 icon = Icons.Default.ExitToApp,
-                text = "Đăng xuất"
+                text = "Logout"
             ) {
                 FirebaseAuth.getInstance().signOut()
                 onLogout()
@@ -121,15 +123,13 @@ fun SettingsScreen(
 
             Spacer(modifier = Modifier.height(16.dp))
 
-            // 👉 Nút Quản trị nếu là admin
-            if (isAdmin) {
-                SettingItem(
-                    icon = Icons.Default.Settings,
-                    text = "Trang quản trị"
-                ) {
-                    navController.navigate("admin_dashboard")
-                }
-            }
+            // Đổi mật khẩu
+//            SettingItem(
+//                icon = Icons.Default.Lock,
+//                text = "Đổi mật khẩu"
+//            ) {
+//                showDialog.value = true
+//            }
         }
     }
 }

@@ -18,6 +18,8 @@ import com.fourstars.fourstars_english.repository.GoogleAuthRepository
 import com.fourstars.fourstars_english.screens.admin.AdminDashboardScreen
 import com.fourstars.fourstars_english.screens.admin.article.AdminArticleScreen
 import com.fourstars.fourstars_english.screens.admin.article.ArticleEditScreen
+import com.fourstars.fourstars_english.screens.admin.video.AdminVideoScreen
+import com.fourstars.fourstars_english.screens.admin.video.VideoEditScreen
 import com.fourstars.fourstars_english.screens.auth.LoginScreen
 import com.fourstars.fourstars_english.screens.auth.RegisterScreen
 import com.fourstars.fourstars_english.screens.community.UserProfileScreen
@@ -152,6 +154,13 @@ fun AppNavGraph(navController: NavHostController) {
         )) { backStackEntry ->
             val id = backStackEntry.arguments?.getString("id") ?: ""
             ArticleEditScreen(navController = navController, articleId = id)
+        }
+        composable("manage_videos") {
+            AdminVideoScreen(navController = navController)
+        }
+        composable("video_edit?id={id}", arguments = listOf(navArgument("id") { defaultValue = ""; type = NavType.StringType })) { backStackEntry ->
+            val id = backStackEntry.arguments?.getString("id")
+            VideoEditScreen(navController = navController, videoId = id)
         }
     }
 }

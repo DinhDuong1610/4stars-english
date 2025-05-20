@@ -29,7 +29,7 @@ open class AuthRepository {
                     "name" to name,
                     "email" to email,
                     "authProvider" to "email",
-                    "role" to "admin"
+                    "role" to "user"
                 )
                 db.collection("users").document(user.uid).set(userData).await()
             }
