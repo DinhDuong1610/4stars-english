@@ -78,14 +78,12 @@ fun VideoScreen(navController: NavHostController, videoId: String, videoViewMode
     }
 
 
-    // Hide system UI when in landscape
     LaunchedEffect(isLandscape) {
         systemUiController.isSystemBarsVisible = !isLandscape
     }
 
     var selectedVideoId by rememberSaveable { mutableStateOf(videoId) }
 
-    // Cập nhật viewModel với video đang chọn
     viewModel.currentVideoId = selectedVideoId
 
     Column(modifier = Modifier.fillMaxSize()) {
@@ -131,7 +129,7 @@ fun VideoScreen(navController: NavHostController, videoId: String, videoViewMode
                 }
 
                 items (video.subtitles) { subtitle ->
-                    // Sửa lại cách kiểm tra highlight
+
                     val isHighlighted = remember(currentTime) {
                         currentTime in subtitle.timeStart..subtitle.timeEnd
                     }

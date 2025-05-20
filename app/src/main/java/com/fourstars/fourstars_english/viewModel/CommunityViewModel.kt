@@ -116,7 +116,7 @@ class CommunityViewModel : ViewModel() {
         db.collection("posts").document(postId).set(post)
     }
 
-    private fun loadPosts() {
+    fun loadPosts() {
         db.collection("posts")
             .orderBy("datePosted", Query.Direction.DESCENDING)
             .addSnapshotListener { snapshots, error ->
@@ -187,7 +187,7 @@ class CommunityViewModel : ViewModel() {
             userName = user.displayName ?: "Ẩn danh",
             content = text,
             timestamp = System.currentTimeMillis(),
-            userAvatar = user.photoUrl?.toString() ?: "" // ✅ Thêm avatar
+            userAvatar = user.photoUrl?.toString() ?: ""
         )
 
         db.collection("posts").document(postId)
@@ -197,7 +197,6 @@ class CommunityViewModel : ViewModel() {
                 onSuccess()
                 loadComments(postId)
 
-                // ✅ Hiển thị thông báo
                 db.collection("posts").document(postId).get().addOnSuccessListener { snapshot ->
                     val ownerName = snapshot.getString("userName") ?: "người dùng"
                     showCommentNotification(context, ownerName, text)

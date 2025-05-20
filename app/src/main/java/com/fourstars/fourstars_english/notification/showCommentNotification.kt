@@ -12,7 +12,6 @@ import androidx.core.content.ContextCompat
 import com.fourstars.fourstars_english.R
 
 fun showCommentNotification(context: Context, ownerName: String, commentText: String) {
-    // 🔐 Kiểm tra quyền trước
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
         if (ContextCompat.checkSelfPermission(context, Manifest.permission.POST_NOTIFICATIONS)
             != PackageManager.PERMISSION_GRANTED
@@ -37,7 +36,6 @@ fun showCommentNotification(context: Context, ownerName: String, commentText: St
         notificationManager.createNotificationChannel(channel)
     }
 
-    // 🔔 Tạo và gửi thông báo
     val builder = NotificationCompat.Builder(context, channelId)
         .setSmallIcon(R.drawable.notifications_active)
         .setContentTitle("Bình luận mới trên 4Stars")

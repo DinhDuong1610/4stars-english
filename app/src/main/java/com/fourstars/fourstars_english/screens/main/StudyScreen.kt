@@ -214,7 +214,7 @@ fun CreateNotebookDialog(
                         title = it
                         isTitleError = it.isEmpty()
                     },
-                    placeholder = { Text("Title: JLPT N5...", fontSize = 16.sp, fontFamily = Nunito) },
+                    placeholder = { Text("Title", fontSize = 16.sp, fontFamily = Nunito) },
                     isError = isTitleError,
                     modifier = Modifier.fillMaxWidth(),
                     shape = RoundedCornerShape(10.dp),

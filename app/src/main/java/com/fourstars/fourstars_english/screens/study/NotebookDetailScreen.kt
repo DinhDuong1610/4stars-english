@@ -280,7 +280,7 @@ fun AddVocabularyDialog(
                         expression = it
                         isExpressionError = it.isEmpty()
                     },
-                    placeholder = { Text("Word: 赤い, 秋,...", fontSize = 16.sp, fontFamily = NotoSansJP) },
+                    placeholder = { Text("Word", fontSize = 16.sp, fontFamily = NotoSansJP) },
                     isError = isExpressionError,
                     modifier = Modifier.fillMaxWidth(),
                     shape = RoundedCornerShape(10.dp),
@@ -305,7 +305,7 @@ fun AddVocabularyDialog(
                 OutlinedTextField(
                     value = reading,
                     onValueChange = { reading = it },
-                    placeholder = { Text("Reading: あかい, あき,...", fontSize = 16.sp, fontFamily = NotoSansJP) },
+                    placeholder = { Text("IPA", fontSize = 16.sp, fontFamily = NotoSansJP) },
                     modifier = Modifier.fillMaxWidth(),
                     shape = RoundedCornerShape(10.dp),
                     textStyle = TextStyle(
@@ -323,7 +323,7 @@ fun AddVocabularyDialog(
                         meaning = it
                         isMeaningError = it.isEmpty()
                     },
-                    placeholder = { Text("Meaning: Red, Autumn,...", fontSize = 16.sp, fontFamily = Nunito) },
+                    placeholder = { Text("Meaning", fontSize = 16.sp, fontFamily = Nunito) },
                     isError = isMeaningError,
                     modifier = Modifier.fillMaxWidth(),
                     shape = RoundedCornerShape(10.dp),

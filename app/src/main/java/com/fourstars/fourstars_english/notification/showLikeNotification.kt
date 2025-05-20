@@ -15,7 +15,6 @@ fun showLikeNotification(context: Context, postOwner: String) {
     val channelId = "like_channel_id"
     val notificationId = 1
 
-    // Nếu Android 13+ thì phải kiểm tra quyền trước khi hiển thị
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
         val hasPermission = ContextCompat.checkSelfPermission(
             context,
@@ -23,12 +22,10 @@ fun showLikeNotification(context: Context, postOwner: String) {
         ) == PackageManager.PERMISSION_GRANTED
 
         if (!hasPermission) {
-            // Không có quyền thì không gửi thông báo
             return
         }
     }
 
-    // Tạo Notification Channel nếu cần (Android 8+)
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
         val name = "Like Notifications"
         val descriptionText = "Thông báo khi bài viết được thích"
@@ -42,10 +39,9 @@ fun showLikeNotification(context: Context, postOwner: String) {
         notificationManager.createNotificationChannel(channel)
     }
 
-    // Tạo và hiển thị Notification
     val builder = NotificationCompat.Builder(context, channelId)
         .setSmallIcon(R.drawable.notifications_active) // Đảm bảo có icon trong drawable
-        .setContentTitle("Lượt thích mới trên Torii")
+        .setContentTitle("Lượt thích mới trên 4Stars")
         .setContentText("$postOwner đã bấm thích bài viết của bạn.")
         .setPriority(NotificationCompat.PRIORITY_DEFAULT)
         .setAutoCancel(true)

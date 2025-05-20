@@ -126,8 +126,6 @@ fun UserProfileScreen(navController: NavController, viewModel: CommunityViewMode
     }
 
     Column(modifier = Modifier.fillMaxSize()) {
-        // Header người dùng
-
 
         LazyColumn(modifier = Modifier.fillMaxSize()) {
             item {
@@ -177,8 +175,8 @@ fun UserProfileScreen(navController: NavController, viewModel: CommunityViewMode
 
                 Spacer(modifier = Modifier.height(10.dp))
 
-                val streak = remember { (1..50).random() }         // Ngẫu nhiên từ 1 đến 50 ngày
-                val xp = remember { (100..1000).random() }         // Ngẫu nhiên từ 100 đến 1000 XP
+                val streak = remember { (1..30).random() }
+                val xp = remember { (100..1000).random() }
                 val rank = "Silver"
 
                 Row(
@@ -294,7 +292,7 @@ fun PostCard(post: Post, viewModel: CommunityViewModel = viewModel()) {
             .document(post.userId)
             .get()
             .addOnSuccessListener { document ->
-                posterAvatar = document.getString("photoUrl") // or "photoUrl" tùy tên field bạn lưu
+                posterAvatar = document.getString("photoUrl")
             }
     }
 

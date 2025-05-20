@@ -102,6 +102,11 @@ fun CommunityScreen(
         }
     }
 
+    LaunchedEffect(Unit) {
+        viewModel.loadPosts()
+        viewModel.loadCommentCountForAllPosts()
+    }
+
     if (viewModel.isLoading) {
         AlertDialog(
             onDismissRequest = {},
@@ -213,10 +218,10 @@ fun CommunityScreen(
 
                         HorizontalDivider(
                             modifier = Modifier
-                                .fillMaxWidth()  // Make the line fill the width of the parent
-                                .padding(vertical = 8.dp),  // Add some vertical padding for spacing
-                            thickness = 1.dp, // Line thickness
-                            color = Color.LightGray  // Line color
+                                .fillMaxWidth()
+                                .padding(vertical = 8.dp),
+                            thickness = 1.dp,
+                            color = Color.LightGray
                         )
                     }
                 }

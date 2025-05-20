@@ -103,7 +103,6 @@ class NotebookViewModel(application: Application) : AndroidViewModel(application
     ) {
         val userId = auth.currentUser?.uid ?: return
 
-        // Tạo vocabulary mới
         val newVocabulary = NotebookVocabulary(
             id = UUID.randomUUID().toString(),
             notebookId = notebookId,
@@ -113,7 +112,6 @@ class NotebookViewModel(application: Application) : AndroidViewModel(application
             addedAt = System.currentTimeMillis()
         )
 
-        // Thêm từ vựng vào collection
         db.collection("notebookVocabulary")
             .document(newVocabulary.id)
             .set(newVocabulary)
@@ -133,12 +131,10 @@ class NotebookViewModel(application: Application) : AndroidViewModel(application
     }
 
     fun deleteNotebook(notebookId: String) {
-        // Xóa notebook
         db.collection("notebooks")
             .document(notebookId)
             .delete()
             .addOnSuccessListener {
-                // Xóa tất cả từ vựng trong notebook
                 db.collection("notebookVocabulary")
                     .whereEqualTo("notebookId", notebookId)
                     .get()

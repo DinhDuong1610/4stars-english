@@ -181,7 +181,6 @@ fun FlashcardScreen(navController: NavHostController, notebookId: String, viewMo
                             )
                         }
 
-                        // Nút Shuffle (giữ nguyên dạng text)
                         Button(
                             onClick = { viewModel.shuffleFlashcards() },
                             shape = RoundedCornerShape(10.dp),
@@ -192,7 +191,6 @@ fun FlashcardScreen(navController: NavHostController, notebookId: String, viewMo
                             Text("Shuffle", fontFamily = Feather, fontSize = 18.sp)
                         }
 
-                        // Nút Next với icon
                         IconButton(
                             onClick = { viewModel.nextCard() },
                             modifier = Modifier
